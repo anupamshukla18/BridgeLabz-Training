@@ -4,6 +4,8 @@ class DivisibilityCheck {
 		//Created a scanner Object and taking the user input
 		Scanner input = new Scanner(System.in);
 		int number = input.nextInt();
+
+		//Checking the conditions and displaying the result
 		if (number % 5 == 0) {
 			System.out.println("Is the number " + number + " divisible by 5? Yes");
 		} else {
