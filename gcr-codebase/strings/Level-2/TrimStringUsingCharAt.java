@@ -11,6 +11,7 @@ public class TrimStringUsingCharAt {
         }
 
         // Trim trailing spaces
+		
         while (end >= start && text.charAt(end) == ' ') {
             end--;
         }
