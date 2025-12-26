@@ -218,3 +218,37 @@ BridgeLabz-Training
 
 🔗 *Code Link:*  
 👉 [Day 8– Extras & Advanced Practice ](https://github.com/anupamshukla18/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/extras)
+## 📅 Day 9 – LeetCode – Arrays Practice
+**(Date: 26-Dec-2025)**
+**(Focused on Core Array Algorithms & Interview-Oriented Problems)**
+
+- Created an **`arrays`** section inside the **`leet-code-codebase`**.
+- Solved essential array-based questions to improve:
+  - Problem-Solving Logic
+  - Optimized Thinking
+  - In-place Operations Handling
+
+🔹 **Practiced Problems:**
+  - Remove Duplicates from Sorted Array
+  - Search Insert Position
+  - Remove Element (In-place)
+  - Longest Common Prefix
+  - Additional supporting array challenges
+## 📁 Updated Folder Structure
+
+```
+BridgeLabz-Training
+│
+├── core-java-practice
+│   │
+│   └── leet-code-codebase
+│       └── arrays
+│
+└── README.md
+
+```
+
+
+
+🔗 *Code Link:*  
+👉 [Day 9– LeetCode – Arrays Practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Arrays)
