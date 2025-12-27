@@ -25,5 +25,6 @@ public class Product {
     public static void displayTotalProducts() {
         System.out.println("Total Products Created: " + totalProducts);
         System.out.println("--------------------------------");
+        
     }
 }
