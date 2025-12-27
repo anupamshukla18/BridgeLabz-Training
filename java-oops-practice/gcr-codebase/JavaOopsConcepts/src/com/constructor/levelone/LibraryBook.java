@@ -39,5 +39,6 @@ public class LibraryBook {
         System.out.println("Price        : " + price);
         System.out.println("Available    : " + (available ? "Yes" : "No"));
         System.out.println("-----------------------------------");
+        
     }
 }
