@@ -27,5 +27,6 @@ public class Employee {
         System.out.println("Department  : " + department);
         System.out.println("Salary      : ₹" + salary);
         System.out.println("--------------------------------");
+        
     }
 }
