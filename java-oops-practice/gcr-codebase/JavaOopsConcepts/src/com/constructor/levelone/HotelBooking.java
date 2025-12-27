@@ -32,5 +32,6 @@ public class HotelBooking {
         System.out.println("Room Type  : " + roomType);
         System.out.println("Nights     : " + nights);
         System.out.println("---------------------------------");
+        
     }
 }
