@@ -26,5 +26,7 @@ public class Vehicle {
         registrationFee = newFee;
         System.out.println("Registration fee updated to: ₹" + registrationFee);
         System.out.println("----------------------------------");
+        
+        
     }
 }
