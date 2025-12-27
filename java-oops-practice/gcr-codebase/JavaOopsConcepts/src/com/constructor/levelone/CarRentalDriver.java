@@ -14,5 +14,6 @@ public class CarRentalDriver {
 
         System.out.println("Customer Rental:");
         r2.display();
+        
     }
 }
