@@ -29,5 +29,6 @@ public class Course {
         instituteName = newName;
         System.out.println("Institute name updated to: " + instituteName);
         System.out.println("---------------------------------");
+        
     }
 }
