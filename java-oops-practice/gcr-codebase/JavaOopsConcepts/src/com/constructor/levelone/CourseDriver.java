@@ -16,5 +16,6 @@ public class CourseDriver {
         System.out.println("After Updating Institute Name:");
         c1.displayCourseDetails();
         c2.displayCourseDetails();
+        
     }
 }
