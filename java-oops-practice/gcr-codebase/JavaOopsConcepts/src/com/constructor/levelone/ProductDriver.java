@@ -13,5 +13,6 @@ public class ProductDriver {
         p3.displayProductDetails();
 
         Product.displayTotalProducts();  // calling class method
+        
     }
 }
