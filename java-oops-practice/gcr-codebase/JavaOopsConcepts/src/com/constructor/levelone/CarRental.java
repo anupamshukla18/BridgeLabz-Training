@@ -47,5 +47,6 @@ public class CarRental {
         System.out.println("Rental Days   : " + rentalDays);
         System.out.println("Total Cost    : ₹" + calculateTotalCost());
         System.out.println("---------------------------------------");
+        
     }
 }
