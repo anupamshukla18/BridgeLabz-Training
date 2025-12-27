@@ -16,5 +16,6 @@ public class VehicleDriver {
         System.out.println("After Updating Registration Fee:");
         v1.displayVehicleDetails();
         v2.displayVehicleDetails();
+        
     }
 }
