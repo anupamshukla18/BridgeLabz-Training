@@ -16,5 +16,6 @@ public class Circle {
     // Optional: Display Method
     public void display() {
         System.out.println("Radius: " + radius);
+        
     }
 }
