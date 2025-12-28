@@ -242,7 +242,7 @@ BridgeLabz-Training
 ├── core-java-practice
 │   │
 │   └── leet-code-codebase
-│       └── arrays
+│       └── Arrays
 │
 └── README.md
 
