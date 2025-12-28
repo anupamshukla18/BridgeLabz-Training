@@ -252,3 +252,40 @@ BridgeLabz-Training
 
 🔗 *Code Link:*  
 👉 [Day 9– LeetCode – Arrays Practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Arrays)
+## 📅 Day 10 – LeetCode – Strings Practice
+**(Date: 28-Dec-2025)**
+**(Focused on Core String Algorithms & Interview-Oriented Problems)**
+
+- Created a dedicated **`strings`** section inside the **`leet-code-codebase`**.
+- Solved essential string-based questions to improve:
+  - String Manipulation Skills
+  - Logical & Analytical Thinking
+  - Problem Breaking & Optimized Approach Development
+
+🔹 **Practiced Problems:**
+  - Roman to Integer
+  - Integer to Roman
+  - Longest Substring Without Repeating Characters
+  - Longest Palindromic Substring
+  - Valid Parentheses
+## 📁 Updated Folder Structure
+
+```
+BridgeLabz-Training
+│
+├── core-java-practice
+│   │
+│   └── leet-code-codebase
+│       ├── Arrays
+│       └── Strings
+│
+└── README.md
+
+
+```
+
+
+
+🔗 *Code Link:*  
+👉 [Day 10– LeetCode – Strings Practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Strings)
+
