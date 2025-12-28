@@ -16,5 +16,6 @@ public class Manager extends Employee {
         System.out.println("Salary      : ₹" + getSalary());   // private → via getter
         System.out.println("Team Size   : " + teamSize);
         System.out.println("--------------------------------");
+        
     }
 }
