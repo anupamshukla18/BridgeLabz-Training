@@ -16,5 +16,6 @@ public class PostgraduateStudent extends Student {
         System.out.println("CGPA          : " + getCGPA());     // private -> accessed via getter
         System.out.println("Specialization: " + specialization);
         System.out.println("--------------------------------");
+        
     }
 }
