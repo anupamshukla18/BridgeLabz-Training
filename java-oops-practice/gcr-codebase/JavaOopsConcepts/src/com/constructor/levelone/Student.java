@@ -28,5 +28,6 @@ public class Student {
         System.out.println("Name        : " + name);
         System.out.println("CGPA        : " + CGPA);
         System.out.println("--------------------------------");
+        
     }
 }
