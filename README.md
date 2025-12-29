@@ -288,7 +288,7 @@ BridgeLabz-Training
 
 🔗 *Code Link:*  
 👉 [Day 10– LeetCode – Strings Practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Strings)
-## 📅 Day 10 – LeetCode + Core Java Scenario Practice
+## 📅 Day 11 – LeetCode + Core Java Scenario Practice
 **(Date: 29-Dec-2025)**
 **(Focused on Core Problem Solving & Practical Java Implementation)**
 
