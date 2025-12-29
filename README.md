@@ -288,4 +288,48 @@ BridgeLabz-Training
 
 🔗 *Code Link:*  
 👉 [Day 10– LeetCode – Strings Practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Strings)
+## 📅 Day 10 – LeetCode + Core Java Scenario Practice
+**(Date: 29-Dec-2025)**
+**(Focused on Core Problem Solving & Practical Java Implementation)**
 
+- Strengthened logical and analytical **`problem-solving skills`**.
+- Improved handling of strings, arrays, and conditions efficiently.
+- Enhanced understanding of real-world Java application scenarios.
+- Practiced optimized approaches instead of brute-force thinking.
+- Built consistency and confidence in coding and structured problem solving.
+  
+🔹 **LeetCode - Practiced Problems:**
+  - Container With Most Water
+  - Next Permutation
+  - 3Sum
+  - First Occurrence of Substring (strStr)
+  - Length of Last Word
+
+🔹 **Core Java Scenario Problems:**
+  - Parking Lot Gate System
+  - Number Guessing Game
+  - Shopkeeper’s Discount Dashboard
+  - School Bus Attendance System
+  - Phone Recharge Simulator
+## 📁 Updated Folder Structure
+
+```
+BridgeLabz-Training
+│
+├── core-java-practice
+│   │
+│   └── leet-code-codebase
+│   │      ├── Arrays
+│   │      └── Strings
+│   └── scenario-based   
+│      
+│
+└── README.md
+
+
+```
+
+
+
+🔗 *Code Link:*  
+👉 [Day 11– LeetCode + Core Java Scenario Practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Strings
