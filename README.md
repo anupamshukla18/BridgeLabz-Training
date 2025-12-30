@@ -333,3 +333,52 @@ BridgeLabz-Training
 
 🔗 *Code Link:*  
 👉 [Day 11– LeetCode + Core Java Scenario Practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase)
+## 📅 Day 12 – LeetCode & Scenario-Based Practice
+**(Date: 30-Dec-2025)**
+**(Focused on Core Array Problems, Logical Thinking & Real-World Java problems)**
+
+- Improved **`logical`** and **`analytical`** problem-solving thinking.
+- Built confidence in solving LeetCode problems and implementing Java solutions independently.
+- Enhanced understanding of real-world Java application scenarios.
+- Practiced real-world scenario-based applications to connect logic with practicality
+- Built consistency and confidence in coding and structured problem solving.
+  
+🔹 **LeetCode - Practiced Problems:**
+  - Intersection of Two Arrays (Unique)
+  - Find All Disappeared Numbers
+  - Assign Cookies (Greedy)
+  - Island Perimeter
+  - Max Consecutive Ones
+
+🔹 **Core Java Scenario Problems:**
+  - Temperature Logger
+  - Train Reservation Queue
+  - Sandeep’s Fitness Tracker
+  - Movie Ticket Booking App
+  - Rohan’s Library Reminder App
+## 📁 Updated Folder Structure
+
+```
+BridgeLabz-Training
+│
+├── core-java-practice   
+│   │
+│   ├── leet-code-codebase
+│   │   └── Arrays
+│   │
+│   └── scenario-based-programs
+│       ├── TemperatureLogger
+│       ├── TrainReservation
+│       ├── FitnessTracker
+│       ├── MovieTicketBooking
+│       └── LibraryReminder
+│
+└── README.md
+
+
+```
+
+
+
+🔗 *Code Link:*  
+👉 [Day 12 – LeetCode & Scenario-Based Practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/core-java-practice/scenario-based)
