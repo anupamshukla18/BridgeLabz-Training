@@ -34,7 +34,7 @@ class Company {
 		System.out.println("Delete all Departments and Employees (Composition Effect)");
 	}
 
-	// ================= Department (Inner Class) =================
+	// Department (Inner Class) 
 	class Department {
 
 		private String departmentName;
@@ -64,7 +64,7 @@ class Company {
 			}
 		}
 
-		// Employee class
+		// Employee (Inner class)
 		class Employee {
 
 			String employeeName;
