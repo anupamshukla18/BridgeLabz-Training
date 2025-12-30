@@ -366,7 +366,7 @@ BridgeLabz-Training
 │   ├── leet-code-codebase
 │   │   └── Arrays
 │   │
-│   └── scenario-based-programs
+│   └── scenario-based
 │       ├── TemperatureLogger
 │       ├── TrainReservation
 │       ├── FitnessTracker
