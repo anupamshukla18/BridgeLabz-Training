@@ -45,4 +45,20 @@
 
 🔗 *Code Link:*  
 👉 [Day 11– Java Keywords](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/javakeywords)
+## 📅 Day 12 – Java OOPS: Object Modeling & Relationships
+**(Date: 30-Dec-2025)**
+**(Focus: Association, Aggregation, Composition, Object Communication)**
+
+- Studied how real-world entities are modeled as Java objects to represent real-time scenarios.
+- Understood object relationships and how objects communicate in OOPS.
+- Learned Association to represent general relationships between independent objects.
+- Practiced Aggregation where the child object can exist independently even if the parent is deleted.
+- Implemented Composition to model strong “part-of” relationships where objects depend on the parent’s lifecycle.
+- Solved multiple real-world modeling problems like Library–Book, Bank–Customer, Company–Department–Employee, and School–Student–Course.
+- Focused on designing meaningful classes, clean structure, and readable OOPS-based Java programs.
+- Organized all object modeling programs systematically in the java-oops-practice branch.
+  
+
+🔗 *Code Link:*  
+👉 [12 – Java OOPS: Object Modeling & Relationships](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/objectmodeling)
 
