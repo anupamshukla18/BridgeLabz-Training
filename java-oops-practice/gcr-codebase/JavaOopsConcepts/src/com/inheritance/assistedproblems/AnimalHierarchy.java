@@ -65,6 +65,6 @@ public class AnimalHierarchy {
 		// calling overridden methods
 		dog.makeSound();
 		cat.makeSound();
-		bird.makeSound();
+		bird.makeSound(); 
 	}
 }
