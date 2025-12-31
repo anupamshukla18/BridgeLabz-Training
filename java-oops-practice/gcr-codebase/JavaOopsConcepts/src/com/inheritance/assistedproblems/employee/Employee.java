@@ -16,7 +16,7 @@ public class Employee {
 		// details display
 		void display() {
 			System.out.println(
-					"\nName of the employee: " + this.name + "\nEmployee ID: " + this.id + "\nEmployee salary: " + this.salary);
+					"\nName of the Employee: " + this.name + "\nEmployee ID: " + this.id + "\nEmployee salary: " + this.salary);
 		}
 	}
 
