@@ -61,4 +61,40 @@
 
 🔗 *Code Link:*  
 👉 [12 – Java OOPS: Object Modeling & Relationships](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/objectmodeling)
+## 📅 Day 13 – Java OOPS: Inheritance
+**(Date: 31-Dec-2025)**
+**(Focus: Inheritance & Code Reusability in OOPS)**
+
+- Learned the concept of **`inheritance`** in Java and how it enables code reusability.
+- Understood the relationship between superclass (parent) and subclass (child).
+- Practiced single inheritance to extend properties and behaviors of a base class.
+- Learned multilevel inheritance where a class inherits from another derived class.
+- Implemented hierarchical inheritance to model multiple subclasses inheriting from a common superclass.
+- Used the extends keyword to establish inheritance relationships.
+- Understood how method overriding works in inherited classes.
+- Focused on writing clean, readable, and well-structured OOPS-based code.
+- Organized all inheritance-based programs systematically in the java-oops-practice branch.
+  
+
+🔗 *Code Link:*  
+👉 [13 – Java OOPS: Inheritance](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/inheritance)
+## 📅 Day 14 – Java OOPS: Scenario-Based Problems & Core OOPS Concepts
+**(Date: 01-Jan-2026)**
+**(Focus: Encapsulation, Polymorphism, Abstract Classes & Interfaces)**
+
+- Solved 4 scenario-based OOPS problems by applying real-world object-oriented design principles.
+- Learned and implemented Encapsulation to protect data using private variables and controlled access methods.
+- Understood Polymorphism by using common method names with different implementations across classes.
+- Practiced using abstract classes to define shared behavior with partial implementation.
+- Implemented interfaces to define standard contracts followed by multiple classes.
+- Followed a structured scenario-solving approach, including:
+  - Applied inheritance, interfaces, and polymorphism wherever applicable.
+  - Used appropriate data structures based on scenario requirements.
+  - Focused on writing clean, modular, readable, and maintainable OOPS-based Java code.
+  - Followed consistent naming conventions, indentation, and logical structure.
+
+🔗 *Code Link:*  
+👉 [14 – Java OOPS: Core OOPS Concepts](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/oopspillars)
+🔗 *Code Link:*  
+👉 [14 – Java OOPS: Scenario-based Problems](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsScenarioBasedPractice/src/com)
 
