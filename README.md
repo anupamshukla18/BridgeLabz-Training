@@ -382,3 +382,41 @@ BridgeLabz-Training
 
 🔗 *Code Link:*  
 👉 [Day 12 – LeetCode & Scenario-Based Practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/core-java-practice/scenario-based)
+## 📅 Day 13 – Scenario-Based Practice
+**(Date: 31-Dec-2025)**
+**(Focused on Logical Thinking & Real-World Java problems)**
+
+- Improved **`logical`** and **`analytical`** problem-solving thinking.
+- Enhanced understanding of real-world Java application scenarios.
+- Practiced real-world scenario-based applications to connect logic with practicality
+- Built consistency and confidence in coding and structured problem solving.
+
+🔹 **Core Java Scenario Problems:**
+  - Digital Watch Simulation
+  - Online Quiz Application
+  - Calculated score Currency Exchange Kiosk
+  - Bus Route Distance Tracker 
+  - Festival Lucky Draw 
+## 📁 Updated Folder Structure
+
+```
+BridgeLabz-Training
+│
+├── core-java-practice   
+│   │
+│   └── scenario-based
+│       ├── Digital Watch Simulation
+│       ├── OnlineQuizApplication
+│       ├── CurrencyExchangeKiosk
+│       ├── BusDistanceTracker
+│       └── FestivalLuckyDraw
+│
+└── README.md
+
+
+```
+
+
+
+🔗 *Code Link:*  
+👉 [Day 13 – Scenario-Based Practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/core-java-practice/scenario-based)
