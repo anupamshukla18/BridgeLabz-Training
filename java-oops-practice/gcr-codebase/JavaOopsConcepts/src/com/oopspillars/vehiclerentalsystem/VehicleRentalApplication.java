@@ -3,9 +3,7 @@ package com.oopspillars.vehiclerentalsystem;
 import java.util.*;
 
 public class VehicleRentalApplication {
-
 	public static void main(String[] args) {
-
 		// Polymorphic list
 		List<Vehicle> vehicles = new ArrayList<>();
 
