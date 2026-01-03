@@ -5,47 +5,76 @@ import java.util.Scanner;
 public class MyBankApplication {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+		Account account = null;
 
-		// Savings Account Input
-		System.out.print("Enter Savings Account Number: ");
-		String sbNumber = sc.nextLine();
+		// Account creation using switch
+		System.out.println("Select Account Type:");
+		System.out.println("1. Savings Account");
+		System.out.println("2. Current Account");
+		System.out.print("Enter choice: ");
+		int type = sc.nextInt();
 
-		System.out.print("Enter Savings Account Opening Balance: ");
-		double sbBalance = sc.nextDouble();
-
-		Account savings = new SavingsAccount(sbNumber, sbBalance);
-
-		System.out.print("Enter amount to deposit in Savings: ");
-		savings.deposit(sc.nextDouble());
-
-		System.out.print("Enter amount to withdraw from Savings: ");
-		savings.withdraw(sc.nextDouble());
-
-		// Current Account Input
 		sc.nextLine(); // consume newline
 
-		System.out.print("\nEnter Current Account Number: ");
-		String caNumber = sc.nextLine();
+		System.out.print("Enter Account Number: ");
+		String accNumber = sc.nextLine();
 
-		System.out.print("Enter Current Account Opening Balance: ");
-		double caBalance = sc.nextDouble();
+		System.out.print("Enter Opening Balance: ");
+		double balance = sc.nextDouble();
 
-		Account current = new CurrentAccount(caNumber, caBalance);
+		switch (type) {
+		case 1:
+			account = new SavingsAccount(accNumber, balance);
+			break;
+		case 2:
+			account = new CurrentAccount(accNumber, balance);
+			break;
+		default:
+			System.out.println(""
+					+ "Invalid Account Type!");
+			System.exit(0);
+		}
 
-		System.out.print("Enter amount to deposit in Current: ");
-		current.deposit(sc.nextDouble());
+		int choice;
+		do {
+			System.out.println("\n--- BANK MENU ---");
+			System.out.println("1. Deposit");
+			System.out.println("2. Withdraw");
+			System.out.println("3. Check Balance");
+			System.out.println("4. Calculate Interest");
+			System.out.println("5. Exit");
+			System.out.print("Enter your choice: ");
+			choice = sc.nextInt();
 
-		System.out.print("Enter amount to withdraw from Current: ");
-		current.withdraw(sc.nextDouble());
+			switch (choice) {
 
-		// Final Output
-		System.out.println("\n--- ACCOUNT SUMMARY ---");
+			case 1:
+				System.out.print("Enter deposit amount: ");
+				account.deposit(sc.nextDouble());
+				break;
 
-		System.out.println("Savings Account Balance: ₹" + savings.checkBalance());
-		System.out.println("Savings Account Interest: ₹" + savings.calculateInterest());
+			case 2:
+				System.out.print("Enter withdrawal amount: ");
+				account.withdraw(sc.nextDouble());
+				break;
 
-		System.out.println("\nCurrent Account Balance: ₹" + current.checkBalance());
-		System.out.println("Current Account Interest: ₹" + current.calculateInterest());
+			case 3:
+				System.out.println("Current Balance: " + account.checkBalance());
+				break;
+
+			case 4:
+				System.out.println("Interest Earned: " + account.calculateInterest());
+				break;
+
+			case 5:
+				System.out.println("Thank you for using MyBank!");
+				break;
+
+			default:
+				System.out.println("Invalid choice!");
+			}
+
+		} while (choice != 5);
 
 		sc.close();
 	}
