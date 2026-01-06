@@ -99,3 +99,65 @@
 🔗 *Code Link:*  
 👉 [14 – Java OOPS: Scenario-based Problems](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsScenarioBasedPractice/src/com)
 
+## 📅 Day 15 – Java OOPS: Scenario-Based Problem Solving
+*(Date: 02-01-2026)*
+*(Focus: Applying OOPS Concepts through Real-World Scenarios)*
+-  Practiced real-world, story-driven Java problems to strengthen OOPS fundamentals.
+- Learned to break complex logic into helper methods such as validateUserInput(), checkLoanEligibility(), and calculateDiscount() for better readability and reuse.
+- Implemented Encapsulation by keeping sensitive data private and exposing behavior through public methods.
+- Applied Inheritance to model real hierarchies like InPatient/OutPatient, Car/Bike/Truck, and PersonalWallet/BusinessWallet.
+- Used Abstraction with interfaces such as Payable, Rentable, Graded, and Controllable to hide implementation details.
+- Demonstrated Polymorphism by overriding methods like calculateRent(), assignGrade(), and transferTo() with different behaviors.
+- Designed systems using constructors (default, parameterized, overloaded) for flexible object creation.
+- Used operators for calculations like billing totals, GPA, discounts, energy usage, and rent.
+- Built modular solutions for scenarios including Hospital Management, Vehicle Rental, University Enrollment, E-Wallet, and Smart Home Automation.
+- Focused on clean, modular, and reusable code, following proper naming conventions and OOPS best practices.
+  
+🔗 Code Link:
+👉 [Day 15 – Scenario-Based OOPS Practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsScenarioBasedPractice/src/com)
+
+## 📅 Day 16 – Java OOPS: Scenario-Based Problem Solving
+
+*(Date: 03-01-2026)*
+*(Focus: Applying OOPS Concepts through Real-World Scenarios)*
+
+- Practiced real-world, story-driven Java problems to strengthen advanced OOPS understanding.
+- Designed backend logic for a ride-hailing application (CabbyGo) involving vehicles, drivers, and ride booking workflows.
+- Implemented Encapsulation by keeping sensitive data like fare, location, and account balance private and exposing them through public methods.
+- Applied Inheritance to model real hierarchies such as Mini, Sedan, and SUV extending the Vehicle class, and SavingsAccount and CurrentAccount extending Account.
+- Used Abstraction with interfaces like IRideService and ITransaction to define common behaviors while hiding implementation details.
+- Demonstrated Polymorphism by overriding methods such as bookRide(), calculateFare(), and calculateInterest() with behavior varying by vehicle or account type.
+- Designed systems using constructors (default and parameterized) to initialize vehicles, drivers, and bank accounts with or without initial data.
+- Used operators to perform core calculations such as fare computation (baseFare + distance × rate) and interest calculation (balance × interestRate / 100).
+- Applied access modifiers carefully to protect critical data while exposing only required operations to users.
+- Focused on writing clean, modular, and reusable code following industry-standard naming conventions and OOPS best practices.
+
+🔗 Code Link:
+👉 [Day 16 – Scenario-Based OOPS Practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsScenarioBasedPractice/src/com)
+
+## 📅 Day 17 – Java OOPS: Scenario-Based Problem Solving
+*(Date: 05-01-2026)*
+*(Focus: Applying OOPS Concepts through Academic & E-Commerce Scenarios)*
+
+- >Practiced real-world, story-driven Java problems to deepen understanding of advanced OOPS concepts.
+
+- >Designed an academic management module (CampusConnect) to manage students, faculty, courses, and enrollments.
+
+- >Applied Inheritance by extending a common Person class into Student and Faculty to model real-world relationships.
+
+- >Used Abstraction through interfaces like ICourseActions and ICheckout to define core behaviors while hiding implementation details.
+
+- >Implemented Encapsulation by keeping sensitive data such as student grades and cart price calculations private.
+
+- >Applied Polymorphism by overriding methods like printDetails() for Student and Faculty, and discount logic for different product types.
+
+- >Designed systems using constructors to initialize students, courses, carts, and products with flexible configurations.
+
+- >Used operators to perform calculations such as GPA computation, total cart price, and discount application.
+
+- >Modeled inheritance hierarchies like PerishableProduct and NonPerishableProduct extending Product.
+
+- >Focused on writing clean, modular, and reusable code following OOPS principles and proper access control.
+
+🔗 Code Link:
+👉 [Day 17 – Scenario-Based OOPS Practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsScenarioBasedPractice/src/com)
