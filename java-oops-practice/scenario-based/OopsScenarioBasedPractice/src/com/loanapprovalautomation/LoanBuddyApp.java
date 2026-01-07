@@ -8,7 +8,7 @@ public class LoanBuddyApp {
 
         System.out.println("===== Welcome to LoanBuddy =====");
 
-        // ---------- Applicant Input ----------
+        // Applicant Input
         System.out.print("Enter Applicant Name: ");
         String name = sc.nextLine();
 
@@ -21,14 +21,14 @@ public class LoanBuddyApp {
         System.out.print("Enter Loan Amount: ");
         double loanAmount = sc.nextDouble();
 
-        // ---------- Loan Period ----------
+        // Loan Period 
         System.out.print("Enter Loan Period (in months): ");
         int period = sc.nextInt();
 
         Applicant applicant =
                 new Applicant(name, creditScore, income, loanAmount);
 
-        // ---------- Loan Selection ----------
+        // Loan Selection 
         System.out.println("\nSelect Loan Type:");
         System.out.println("1. Home Loan");
         System.out.println("2. Auto Loan");
@@ -52,7 +52,7 @@ public class LoanBuddyApp {
                 return;
         }
 
-        // ---------- Loan Processing ----------
+        // Loan Processing
         System.out.println("\nProcessing Loan Application...");
 
         if (loan.approveLoan()) {

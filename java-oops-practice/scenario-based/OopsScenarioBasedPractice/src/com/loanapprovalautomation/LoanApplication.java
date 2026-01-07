@@ -21,7 +21,7 @@ public abstract class LoanApplication implements IApprovable {
         return approved;
     }
 
-    // ✅ MUST be protected (NOT private)
+    // MUST be protected (NOT private)
     protected double emiFormula(double rateMultiplier) {
 
         double P = applicant.getLoanAmount();
