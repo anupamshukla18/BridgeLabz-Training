@@ -363,6 +363,7 @@ BridgeLabz-Training
   
 🔗 Code Link:
 👉 [Day 15 – Scenario-Based OOPS Practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsScenarioBasedPractice/src/com)
+
 ## Data Structures & Algorithms: Linked List
 - **Singly Linked List** – traversal in one direction using next reference.
 
