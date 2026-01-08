@@ -1,172 +1,147 @@
-# BridgeLabz-Training
-## 📅 Day 1 – Git & GitHub Setup  
-*(Date: 15-Dec-2025)*
+# BridgeLabz Training Journey
 
-- Installed and configured Git.
-- Set up **`GitHub`** repository.
+> A comprehensive Java programming training repository covering Core Java fundamentals to Object-Oriented Programming concepts.
 
-📁 *Project Folder Structure*
+##  Training Overview
+
+This repository documents my learning journey at BridgeLabz, spanning from **December 15, 2025** to present. The training is organized into structured branches covering different aspects of Java development.
+
+---
+
+##  Repository Branches
+
+### 🔹 [core-java-practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/core-java-practice)
+**Week 1** : Fundamentals of Java Programming
+
+### 🔹 [java-oops-practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java-oops-practice)
+**Week 2** : Object-Oriented Programming
+
+### 🔹 [java-dsa-practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/dsa-practice)
+**Week 3** : Data Structures & Algorithms
+
+---
+
+## 📂 Project Structure
 
 ```
-BridgeLabz-Training
+BridgeLabz-Training/
 │
-├── core-java-practice
-│   │
-│   ├── gcr-codebase
-│   │   ├── programming-elements
-│   │   ├── control-flow
-│   │   ├── arrays
-│   │   └── program-prerequisite
-│   │
-│   ├── scenario-based
-│   │
-│   └── leet-code-codebase
+├── 📁 core-java-practice/
+│   ├── 📁 gcr-codebase/
+│   │   ├── 📁 prerequisites/          # Basic Java programs 
+│   │   ├── 📁 programming-elements/   # Java programming elements 
+│   │   ├── 📁 control-flows/          # If-else, loops, switch 
+│   │   ├── 📁 arrays/                 # Array operations
+│   │   ├── 📁 methods/                # Method practices
+│   │   ├── 📁 strings/                # String manipulation 
+│   │   └── 📁 Extras/                 # Built-in methods
+│   ├── 📁 leet-code-codebase/         # LeetCode solutions
+│   └── 📁 scenario-based-codebase/    # Real-world problems
 │
+└── 📁 java-oops-practice/
+│   └── 📁 gcr-codebase/
+│   │  └── 📁 JavaOopsConcepts/
+│   │       └── 📁 src/
+│   │           └── 📁 com/
+│   │               ├── 📁 classandobject/    # Procedural vs OOP, fundamentals
+│   │               └── 📁 constructor/       # Constructor, access modifiers
+│   │               └── 📁 finalandstatic/    # Java Keywords, instance vs class members
+│   │               └── 📁 objectmodeling/    # Diagrams, relationships, communication
+│   │               └── 📁 inheritance/       # Types, method overriding, & access modifiers
+│   │               └── 📁 encapsulation/     # Abstract class, interface, & polymorphism
+│   ├── 📁 leet-code-codebase/                # LeetCode solutions
+│   └── 📁 scenario-based-codebase/           # Real-world problems
+|
+└── 📁 dsa-practice/
+│   └── 📁 gcr-codebase/
+│   │  └── 📁 JavaDsaConcepts/
+│   │       └── 📁 src/
+│   │           └── 📁 com/
+│   │               ├── 📁 linkedlist/        # singly, doubly & circular
+│   │               └── 📁 stacks/            # Last-In-First-Out (LIFO)
+│   │               └── 📁 queues/            # First-In-First-Out (FIFO)
+│   │               └── 📁 hashmaps/          # Key-Value pairs
+│   │               └── 📁 sorting/           # Sorting algorithms
+│   │               └── 📁 searching/         # Searching algorithms
+│   │               └── 📁 analysis/          # Runtime Analysis & Big-O Notation
+│   ├── 📁 leet-code-codebase/                # LeetCode solutions
+│   └── 📁 scenario-based-codebase/           # Real-world problems
+|
 └── README.md
 ```
-- Learned basic Git commands (**`init`**, **`branch`**, **`checkout`**, **`add`**, **`commit`**, **`push`**).
-- Successfully pushed files to the remote repository.
-## 📅 Day 2 – Git Practice & Basic Java Programs   
-*(Date: 16-Dec-2025)*
-*(Focus: Writing Clean & Professional Java Code)*
 
-- Practiced Git workflow to understand commits and version control.
-- Solved very basic Java programs to understand syntax and structure.
-- Practiced adding, committing, and pushing Java files to GitHub.
+---
 
-- Started writing Java code in a *professional and industry-standard manner*, following:
-  - Proper *naming conventions* (class names, variables, methods)
-  - Clean and readable *indentation*
-  - Meaningful *comments* for better understanding
-  - Structured and consistent *code formatting*
+##  Learning Milestones
 
-- Gained hands-on experience in organizing programs for better *maintainability and readability*.
-- All practice programs were stored systematically under the **`program-prerequisite`** module.
+### **Week 1 : Core Java Programming**
 
-🔗 Code Link:  
-👉 [Day 2 – Basic Java Programs](https://github.com/anupamshukla18/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/programming-prerequisites)
-## 📅 Day 3 – Java Programming Elements
-*(Date: 17-Dec-2025)*
-- Studied Java programming elements:
-  - Variables and data types
-  - Operators
-  - User input and output
-- Solved practice problems based on programming elements.
-- Committed and pushed solutions to the repository.
+| Day |     Date    | Topic                           | Coverage                              |
+|-----|-------------|---------------------------------|---------------------------------------|
+|   1 | 15-Dec      | Git & GitHub Setup              | Repository setup, Git workflow        |
+|   2 | 16-Dec      | Java Basics                     | Basic syntax, prerequisites           |
+|   3 | 17-Dec      | Programming Elements            | Data types, operators, input handling |
+|   4 | 18-Dec      | Control Flow                    | Conditions, loops, logical problems   |
+|   5 | 19-Dec      | Arrays                          | 1D & 2D arrays, traversal             |
+|   6 | 20-Dec      | Methods                         | Method declaration, parameters        |
+|   7 | 22-Dec      | Strings                         | String creation, methods              |
+|   8 | 23-Dec      | Built-in Functions & Exceptions | Math, Random, Date-Time, exceptions   |
 
-  🔗 Code Link:  
-👉 [Day 3 – Java Programming Elements](https://github.com/anupamshukla18/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/programming-element)
-## 📅 Day 4 – Control Flows  
-*(Date: 18-Dec-2025)*
-*(Logic Building with Conditional & Looping Constructs)*
+### **Week 2 : Object-Oriented Programming**
 
-- Worked on *Java Control Flow statements* to strengthen logical thinking.
-- Practice problems were categorized into *three levels*:
-  - *Level 1*: Basic conditional statements (**`if`**, **`if-else`**)
-  - *Level 2*: Looping constructs (**`for`**, **`while`**, **`do-while`**)
-  - *Level 3*: Combined logic-based and pattern-oriented problems
+| Day |     Date    | Topic                          | Coverage                               |
+|-----|-------------|--------------------------------|----------------------------------------|
+|   9 | 26-Dec      | OOP Basics                     | Procedural vs OOP, fundamentals        |
+|  10 | 27-Dec      | Constructors & Static Concepts | Constructors, access modifiers, static |
+|  11 | 29-Dec      | `this`, `final`, `static`      | Keywords, instance vs class members    |
+|  12 | 30-Dec      | Object Modeling                | Diagrams, relationships, communication |
+|  13 | 31-Dec      | Inheritance & Types            | Inheritance types and  access modifiers|
+|  14 | 01-Jan      | Encapsulation & Polymorphism   | Data hiding, polymorphism, interfaces  |
 
-- Emphasized writing *clean, readable, and structured code*.
-- All programs were organized under the **`control-flow`** folder in **`gcr-codebase`**.
+### **Week 3 : Data Structures & Algorithms**
 
-🔗 Code Link:  
-👉 [Day 4 – Java Control Flow](https://github.com/anupamshukla18/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/arrays)
-## 📅 Day 5 – Java Arrays 
-*(Date:19-Dec-2025)*
-*(Data Storage & Manipulation Techniques)*
+| Day |     Date    | Topic                          | Coverage                               |
+|-----|-------------|--------------------------------|----------------------------------------|
+|  15 | 02-Jan      | DSA Basics & LinkedList        | DSA concepts, LinkedList and its types |
+|  16 | 03-Jan      | Stack, Queue & HashMap         | Core operations and basic use cases    |
+|  17 | 05-Jan      | Sorting Algorithms             | Sorting algorithms & comparison logic  |
+|  18 | 06-Jan      | Searching & I/O utilities      | Linear & Binary Search and FileReader  |
+|  19 | 07-Jan      | Runtime Analysis & Big-O       | Time & space complexity analysis       |
 
-- Learned and practiced *Java Arrays* for handling collections of data.
-- Problems were divided into *two levels*:
-  - *Level 1*: Basic array creation, traversal, and input/output
-  - *Level 2*: Logical problems such as searching, counting, and data manipulation
+---
 
-- Followed proper *coding standards* with consistent indentation and naming conventions.
-- Programs were stored under the **`arrays folder`** in **`gcr-codebase`**.
+##  Key Concepts Covered
 
- 🔗 Code Link:  
-👉 [Day 5 –Java Arrays](https://github.com/anupamshukla18/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/arrays)
-## 📅 Day 6 – Java Methods 
-*(Date: 20-Dec-2025)*
+### Core Java (core-java-practice)
+-  **Fundamentals**: Variables, data types, operators
+-  **Control Structures**: If-else, loops, switch-case
+-  **Arrays**: Single & multi-dimensional arrays
+-  **Methods**: Parameters, return types, overloading
+-  **Strings**: Manipulation, comparisons, exceptions
+-  **Problem Solving**: LeetCode challenges, real-world scenarios
 
-- Practiced *Java Methods* to understand modular and reusable code design.
-- Problems were categorized into *three levels*:
-  - *Level 1*: Simple method creation and invocation
-  - *Level 2*: Methods with parameters and return values
-  - *Level 3*: Logical problems using multiple methods
+### Object-Oriented Programming (java-oops-practice)
+-  **Classes & Objects**: Creating and instantiating objects
+-  **Encapsulation**: Data hiding and access modifiers
+-  **Constructors**: Default, parameterized, overloading
+-  **Abstraction**: Interface-based design patterns
+-  **Inheritance**: Parent and Chlid relations
+-  **Polymorphism**: Method overloading and method overriding
+-  **Problem Solving**: LeetCode challenges, real-world scenarios
 
-- Added a new ***`methods`*** folder inside **`gcr-codebase`**.
-
-📁 *Updated Directory Structure*
-```
-
-BridgeLabz-Training
-│
-├── core-java-practice
-│   │
-│   ├── gcr-codebase
-│   │   ├── programming-elements
-│   │   ├── control-flow
-│   │   ├── arrays
-│   │   ├── methods
-│   │   └── program-prerequisite
-│   │
-│   ├── scenario-based
-│   │
-│   └── leet-code-codebase
-│
-└── README.md
-
-```
-🔗 Code Link:  
-👉 [Day 6 – Java Methods](https://github.com/anupamshukla18/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/methods)
-## 📅 Day 7– Java Strings 
-*(Date: 22-Dec-2025)*
-
-- Worked on *Java String concepts* and operations.
-- Practice problems were divided into *three levels*, focusing on:
-  - String creation and comparison
-  - Character-level operations
-  - Logical string-based problems
-
-- Added a new ***`strings`*** folder inside **`gcr-codebase`**.
-
-## 📁 Updated Directory Structure
-
-```
-BridgeLabz-Training
-│
-├── core-java-practice
-│   │
-│   ├── gcr-codebase
-│   │   ├── programming-elements
-│   │   ├── control-flow
-│   │   ├── arrays
-│   │   ├── methods
-│   │   ├── strings
-│   │   └── program-prerequisite
-│   │
-│   ├── scenario-based
-│   │
-│   └── leet-code-codebase
-│
-└── README.md
-
-```
-🔗 Code Link:  
-👉 [Day 7 – Java Strings](https://github.com/anupamshukla18/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/strings)
-## 📅 Day 8 – Extras & Advanced Practice  
-*(Date: 23-Dec-2025)*
-*(Extended Java Concepts & Built-in Features)*
-
-- Worked on *additional Java practice programs* beyond core concepts.
-- Created a new **`*extras*`** folder inside **`gcr-codebase`**.
-- Practiced problems related to:
-  - *String Handling* (advanced string operations)
-  - *Date & Time* (using Java Date-Time API)
-  - *Built-in Functions* (Java utility and helper methods)
-
-- Organized advanced programs into well-structured subfolders under **`extras`** for better maintainability.
+### Data Structures & Algorithms (java-dsa-practice)
+- **DSA Fundamentals**: Time & space complexity, basic problem analysis
+- **Linked Lists**: Singly, doubly, and circular linked lists
+- **Stacks**: LIFO principle, push/pop operations, stack applications
+- **Queues**: FIFO principle, enqueue/dequeue operations, queue variants
+- **HashMaps**: Key-value storage, hashing concept, basic operations
+- **Sorting**: Basic sorting algorithms and comparison-based sorting concepts
+- **Searching**: Linear Search and Binary Search algorithms
+- **String Utilities**: `StringBuilder` and `StringBuffer` for mutable strings
+- **File Handling**: Reading input using `FileReader` and `InputStreamReader`
+- **Algorithm Analysis**: Big-O notation, time complexity, space complexity, best, worst, and average case evaluation.
   
+<<<<<<< HEAD
 ## 📁 Updated Folder Structure
 ```
 
@@ -479,4 +454,47 @@ BridgeLabz-Training
 - >Focused on writing clean, optimized, and well-structured code following DSA best practices.
 
 🔗 Code Link:
-[👉 Day 17 – Data Structures & Algorithms: Sorting Techniques](https://github.com/anupamshukla18/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDSAConcepts/src/com)
+[👉 Day 17 – Data Structures 
+=======
+---
+
+## 🔗 Quick Links
+
+### `core-java-practice` :
+- 📌 [Prerequisites](https://github.com/anupamshukla18/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/programming-prerequisites)
+- 📌 [Control Flows](https://github.com/anupamshukla18/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/control-flow)
+- 📌 [Programming Elements](https://github.com/anupamshukla18/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/programming-element)
+- 📌 [Arrays](https://github.com/anupamshukla18/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/arrays)
+- 📌 [Methods](https://github.com/anupamshukla18/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/methods)
+- 📌 [Strings](https://github.com/anupamshukla18/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/strings)
+- 📌 [Built-In Functions](https://github.com/anupamshukla18/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/extras)
+- 📌 [LeetCode Solutions](https://github.com/anupamshukla18/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase)
+- 📌 [Scenario-Based Solutions](https://github.com/anupamshukla18/BridgeLabz-Training/tree/core-java-practice/scenario-based)
+
+### `java-oops-practice` :
+- 📌 [Classes and Objects](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/classandobject)
+- 📌 [Constructors ](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/constructor/levelone)
+- 📌 [this, final, static, instanceof](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/javakeywords)
+- 📌 [Object Modeling & Relations](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/objectmodeling)
+- 📌 [Inheritance & Types](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/inheritance)
+- 📌 [Encapsulation & Polymorphism](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/oopspillars)
+- 📌 [Scenario-Based Solutions](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsScenarioBasedPractice/src/com)
+
+### `dsa-practice` :
+- 📌 [Linked Lists](https://github.com/anupamshukla18/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDSAConcepts/src/com/linkedlist)
+- 📌 [Stacks & Queues](https://github.com/anupamshukla18/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDSAConcepts/src/com/stackandqueue)
+- 📌 [HashMaps](https://github.com/anupamshukla18/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDSAConcepts/src/com/hashmapandhashingfunction)
+- 📌 [Sorting Algorithms](https://github.com/anupamshukla18/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDSAConcepts/src/com/sortingalgorithms)
+- 📌 [Searching Algorithms, String & I/O utilities](https://github.com/anupamshukla18/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDSAConcepts/src/com/searching)
+
+---
+
+## 🎓 Learnings & Best Practices
+
+-  **Code Organization**: Following industrial standards
+-  **Naming Conventions**: Camel case, Pascal case and meaningful names
+-  **Version Control**: Regular commits with descriptive messages
+-  **Problem-Solving**: Breaking complex problems into smaller tasks
+-  **Documentation**: Clear comments and README files
+---
+>>>>>>> 313167561abe824d1889bb525f50913f7a01f1f8
