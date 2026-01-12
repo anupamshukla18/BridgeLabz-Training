@@ -178,3 +178,30 @@
 
 🔗 Code Link:
 👉 [Day 11 – Scenario-Based OOPS Practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsScenarioBasedPractice/src/com)
+## 📅 Day 12 – Java OOPS: Advanced Scenario-Based Practice
+**(Date: 08-01-2026)**
+**(Focus: Complex Domain Modeling & Business Logic)**
+
+- >Implemented advanced real-world Java scenarios: MediStore (Pharmacy Management) and TourMate (Travel Planner).
+- >Applied Inheritance and Polymorphism to handle diverse categories like Tablet/Syrup (Medicine) and International/Domestic (Trips).
+- >Utilized Interfaces (ISellable, IBookable) to standardize sales, booking, and expiry tracking workflows.
+- >Used Operators for complex calculations: medicine stock adjustments, discount applications, and total trip budget aggregation (Transport + Hotel + Activities).
+- >Maintained strict Encapsulation to secure sensitive data like internal cost breakdowns and pricing logic.
+
+🔗 Code Link:
+👉 [Day 12 – Scenario-Based OOPS Practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsScenarioBasedPractice/src/com)
+
+
+## 📅 Day 13 – Java OOPS: Scenario-Based Practice
+**(Date: 09-01-2026)**
+**(Focus: Digital Platforms, Commerce & Learning Systems)**
+
+- >Implemented real-world Java scenarios including Artify (Digital Art Marketplace), FoodLoop (Restaurant Ordering System), and SkillForge (Online Learning Portal).
+- >Applied Inheritance and Polymorphism to model variations such as DigitalArt/PrintArt, VegItem/NonVegItem, and Student/Instructor roles.
+- >Utilized Interfaces (IPurchasable, IOrderable, ICertifiable) to standardize purchasing, ordering, cancellation, and certification workflows.
+- >Used Operators for critical business calculations like wallet balance deduction, order total computation with discounts, and progress/grading evaluation.
+- >Maintained strong Encapsulation to protect sensitive data such as licensing terms, item stock levels, course ratings, and internal reviews.
+- >Focused on clean, modular, and scalable OOPS-based design following real-world business logic and best coding practices.
+
+🔗 Code Link:
+[👉 Day 13 – Scenario-Based OOPS Practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsScenarioBasedPractice/src/com)
