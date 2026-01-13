@@ -1,4 +1,4 @@
-package com.filehandling.inputstreamreader;
+package com.inputstreamreader;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
