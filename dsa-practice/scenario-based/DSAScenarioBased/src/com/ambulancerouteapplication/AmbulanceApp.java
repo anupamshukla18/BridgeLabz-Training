@@ -1,8 +1,9 @@
-package com.ambulanceroute;
+package com.ambulancerouteapplication;
+
 
 import java.util.Scanner;
 
-public class AmbulanceRouteDriver {
+public class AmbulanceApp {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

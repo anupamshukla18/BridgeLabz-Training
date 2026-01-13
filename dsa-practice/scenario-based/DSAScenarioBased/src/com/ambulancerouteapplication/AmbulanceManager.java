@@ -1,4 +1,4 @@
-package com.ambulanceroute;
+package com.ambulancerouteapplication;
 
 class AmbulanceManager {
 	private CircularRoute route;
