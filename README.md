@@ -97,7 +97,7 @@ Circular Linked List – last node links back to the first node forming a loop.
 - > Simulated AmbulanceRoute using Circular Linked List for emergency navigation.
 
 🔗 Code Link:
-[👉 Day 6 – DSA Scenario-Based Practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DSAConcepts/src/com)
+[👉 Day 6 – DSA Scenario-Based Practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DSAScenarioBased/src/com)
 ## 📅 Day 7 – Data Structures: Scenario-Based Practice
 **(Date: 11-01-2026)**
 **(Focus: Real-World Queue, Linked List & Stack Applications)**
@@ -109,7 +109,7 @@ Circular Linked List – last node links back to the first node forming a loop.
 - > TrafficManager simulates a smart city roundabout using a Circular Linked List for vehicle flow and a Queue to manage waiting vehicles.
 
 🔗 Code Link:
-[👉 Day 7 – DSA Scenario-Based Practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DSAConcepts/src/com)
+[👉 Day 7 – DSA Scenario-Based Practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DSAScenarioBased/src/com)
 
 ## 📅 Day 8 – Data Structures: Scenario-Based Practice
 **(Date: 13-01-2026)**
@@ -121,4 +121,4 @@ Circular Linked List – last node links back to the first node forming a loop.
 - > Built ExamProctor using Stack and HashMap to record question navigation and evaluate answers using functions.
 
 🔗 Code Link:
-[👉 Day 8 – DSA Scenario-Based Practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DSAConcepts/src/com)
+[👉 Day 8 – DSA Scenario-Based Practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DSAScenarioBased/src/com)
