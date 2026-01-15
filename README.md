@@ -98,3 +98,27 @@ Circular Linked List – last node links back to the first node forming a loop.
 
 🔗 Code Link:
 [👉 Day 6 – DSA Scenario-Based Practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DSAConcepts/src/com)
+## 📅 Day 7 – Data Structures: Scenario-Based Practice
+**(Date: 11-01-2026)**
+**(Focus: Real-World Queue, Linked List & Stack Applications)**
+
+- > Worked on real-world DSA scenarios using Queues, HashMaps, Doubly Linked Lists, and Stacks.
+- > Implemented CallCenter using Queue, Priority Queue, and HashMap to manage customer calls and VIP handling.
+- > Designed TrainCompanion with a Doubly Linked List to navigate, insert, and remove train compartments dynamically.
+- > Built TextEditor functionality using Stacks to support undo and redo operations efficiently.
+- > TrafficManager simulates a smart city roundabout using a Circular Linked List for vehicle flow and a Queue to manage waiting vehicles.
+
+🔗 Code Link:
+[👉 Day 7 – DSA Scenario-Based Practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DSAConcepts/src/com)
+
+## 📅 Day 8 – Data Structures: Scenario-Based Practice
+**(Date: 13-01-2026)**
+**(Focus: Applying Queues, Linked Lists, Stacks & HashMaps)**
+
+- > Worked on real-world DSA scenarios using Queue, HashMap, Stack, and Singly Linked List.
+- > Implemented SmartCheckout using Queue and HashMap for customer billing, price lookup, and stock updates.
+- > Designed ParcelTracker with a Singly Linked List to track parcel movement through delivery stages.
+- > Built ExamProctor using Stack and HashMap to record question navigation and evaluate answers using functions.
+
+🔗 Code Link:
+[👉 Day 8 – DSA Scenario-Based Practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DSAConcepts/src/com)
