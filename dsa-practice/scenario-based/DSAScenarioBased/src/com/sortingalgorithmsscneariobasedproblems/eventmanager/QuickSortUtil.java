@@ -1,6 +1,7 @@
 package com.sortingalgorithmsscneariobasedproblems.eventmanager;
 
 public class QuickSortUtil {
+	// Quick sort method
 	public static void quickSort(int[] arr, int low, int high) {
 		if (low < high) {
 			int pivotIndex = partition(arr, low, high);
@@ -9,6 +10,7 @@ public class QuickSortUtil {
 		}
 	}
 
+	// Partition method
 	private static int partition(int[] arr, int low, int high) {
 		int pivot = arr[high];
 		int i = low - 1;

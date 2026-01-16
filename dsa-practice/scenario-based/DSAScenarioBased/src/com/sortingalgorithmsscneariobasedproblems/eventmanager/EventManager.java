@@ -9,9 +9,11 @@ public class EventManager {
 		System.out.print("Enter number of tickets: ");
 		int n = sc.nextInt();
 
+		// Creating an array to store prices of the ticket 
 		int[] prices = new int[n];
 
 		System.out.println("Enter the ticket prices: ");
+		// Taking the prices of the ticket
 		for (int i = 0; i < n; i++) {
 			prices[i] = sc.nextInt();
 		}
