@@ -24,3 +24,4 @@ public class FrequencyCounter {
 		System.out.println(result);
 	}
 }
+
