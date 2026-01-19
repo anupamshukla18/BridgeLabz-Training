@@ -205,3 +205,27 @@
 
 🔗 Code Link:
 [👉 Day 13 – Scenario-Based OOPS Practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsScenarioBasedPractice/src/com)
+
+## 📅 Day 14 – Java OOPS: Scenario-Based Practice
+**(Date: 12-01-2026)**
+**(Focus: Real-World System Design Using OOPS)**
+
+- >Worked on OOPS-based scenarios including HomeNest, BudgetWise, and GameBox.
+- >Applied Encapsulation, Inheritance, Abstraction, and Polymorphism to model smart devices, finance tracking, and game platforms.
+- >Used interfaces and operators for device control, financial analysis, and discount logic.
+- >Focused on clean, modular, and reusable code following OOPS best practices.
+
+🔗 Code Link:
+[👉 Day 14 – Scenario-Based OOPS Practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsScenarioBasedPractice/src/com)
+
+## 📅 Day 15 – Java OOPS: Scenario-Based Practice
+**(Date: 13-01-2026)**
+**(Focus: Real-World System Design Using OOPS)**
+
+- >Worked on OOPS-based scenarios including PayXpress (Utility Bill Payment System) and Bird Sanctuary Management System.
+- >Applied Encapsulation, Inheritance, Abstraction, and Polymorphism to model bill payments, reminders, and diverse bird behaviors.
+- >Used interfaces and operators for payment processing, late fee calculation, and behavioral capabilities like flying and swimming.
+- >Focused on clean, modular, and reusable code following core Java OOPS best practices.
+  
+🔗 Code Link:
+[👉 Day 15 – Scenario-Based OOPS Practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsScenarioBasedPractice/src/com)
