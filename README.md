@@ -19,7 +19,7 @@ This repository documents my learning journey at BridgeLabz, spanning from **Dec
 ### 🔹 [dsa-practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/dsa-practice)
 **Week 3** : Data Structures & Algorithms
 
-### 🔹 [java-collection-practice](https://github.com/Abhishek-Puri-Goswami/BridgeLabz-Training/tree/java-collections-practice)
+### 🔹 [java-collection-practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java-collection-practice)
 **Week 4** : Collection Framework in Java
 ---
 
@@ -118,9 +118,12 @@ BridgeLabz-Training/
 
 ### **Week 4 : Collection Framework in Java**
 
-| Day |     Date    | Topic                          | Coverage                               |
-|-----|-------------|--------------------------------|----------------------------------------|
-|     |             |                                |                                        |
+| Day |     Date    | Topic                          | Coverage                                                            |
+|-----|-------------|--------------------------------|---------------------------------------------------------------------|
+| 22  | 16-Jan      | Java Generics                  | Generic classes, methods, type parameters, bounded types, wildcards |
+| 23  | 17-Jan      | Collections Framework          | Collection hierarchy, List, Set, Queue, Map, implementations        |
+| 24  | 19-Jan      | Java I/O Streams               | Byte, character, buffered, object & bridge streams                  |
+| 25  | 20-Jan      | Exception Handling             | Checked, unchecked, custom exceptions, try(resources) & nested      |
 
 ---
 
@@ -152,11 +155,20 @@ BridgeLabz-Training/
 - **Sorting**: Basic sorting algorithms and comparison-based sorting concepts
 - **Searching**: Linear Search and Binary Search algorithms
 - **String Utilities**: `StringBuilder` and `StringBuffer` for mutable strings
-- **File Handling**: Reading input using `FileReader` and `InputStreamReader`
+- **File Handling**: Reading input using `FileReader` and `InputStreamReader.`
 - **Algorithm Analysis**: Big-O notation, time complexity, space complexity, best, worst, and average case evaluation.
 
  ### Collection Framework (java-collection-practice)
-
+- **Generics**: Type-safe collections, generic classes and methods, type parameters, bounded types, wildcards, type erasure
+- **Collections Overview**: Purpose and benefits of Java Collections Framework
+- **Hierarchy**: `Iterable`, `Collection`, `List`, `Set`, `Queue`, and `Map`
+- **List Implementations**: `ArrayList`, `LinkedList`, `Vector`
+- **Set Implementations**: `HashSet`, `LinkedHashSet`, `TreeSet`
+- **Map Implementations**: `HashMap`, `LinkedHashMap`, `TreeMap`, `Hashtable`
+- **Queue & Deque**: `PriorityQueue`, `ArrayDeque`
+- **Hands-on Practice**: CRUD, iteration, ordering, and performance examples
+- **I/O Streams**: Byte & character streams, buffering, object serialization, and efficient file handling
+- **Exception Handling**: Checked vs unchecked exceptions, `try-catch-finally`, multiple and nested catch blocks, `throw` vs `throws`, custom exceptions, try-with-resources
 ---
 
 ## 🔗 Quick Links
@@ -191,7 +203,13 @@ BridgeLabz-Training/
 - 📌 [Scenario-Based Solutions](https://github.com/anupamshukla18/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DSAScenarioBased/src/com)
 
 ### `java-collections-practice` :
-
+- 📌 [Generics](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java-collection-practice/java-collection-practice/gcr-codebase/JavaCollectionsPractice/src/com/generics)
+- 📌 [List Interface](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java-collection-practice/java-collection-practice/gcr-codebase/JavaCollectionsPractice/src/com/collections/listinterface)
+- 📌 [Set Interface](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java-collection-practice/java-collection-practice/gcr-codebase/JavaCollectionsPractice/src/com/collections/setinterface)
+- 📌 [Queue Interface](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java-collection-practice/java-collection-practice/gcr-codebase/JavaCollectionsPractice/src/com/collections/queueinterface)
+- 📌 [Map Interface](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java-collection-practice/java-collection-practice/gcr-codebase/JavaCollectionsPractice/src/com/collections/mapinterface)
+- 📌 [I/O Streams](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java-collection-practice/java-collection-practice/gcr-codebase/JavaCollectionsPractice/src/com)
+- 📌 [Exception Handling](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java-collection-practice/java-collection-practice/gcr-codebase/JavaCollectionsPractice/src/com)
 ---
 
 ## 🎓 Learnings & Best Practices
