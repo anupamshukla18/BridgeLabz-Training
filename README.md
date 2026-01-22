@@ -39,3 +39,16 @@
 
 🔗 Code Link: 
 [👉 Day 3 – Java File Handling & Streams Practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java-collection-practice/java-collection-practice/gcr-codebase/JavaCollectionsPractice/src/com)
+
+## 📅 Day 4 – Java: Exception Handling
+**(Date: 20-01-2026)**
+**(Focus: Handling Runtime Errors and Building Robust Applications)**
+
+- > Studied Java Exception Handling to manage runtime errors and prevent abnormal program termination.
+- > Learned the use of try, catch, finally, throw, and throws keywords for controlled error handling.
+- > Explored checked vs unchecked exceptions and common exceptions like NullPointerException, ArithmeticException, and IOException.
+- > Practiced creating and using custom exceptions for application-specific error scenarios.
+- > Focused on writing robust, readable, and maintainable code with proper exception-handling best practices.
+
+🔗 Code Link:
+[👉 Day 4 – Exception Handling Practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java-collection-practice/java-collection-practice/gcr-codebase/JavaCollectionsPractice/src/com)
