@@ -200,3 +200,17 @@ Circular Linked List – last node links back to the first node forming a loop.
 
 🔗 Code Link:
 [👉 Day 13 – DSA Scenario-Based Practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DSAScenarioBased/src/com/sortingalgorithmsscneariobasedproblems)
+
+## 📅 Day 14 – Data Structures & Algorithms: Scenario-Based Practice
+**(Date: 21-01-2026)**
+**(Focus: Sorting Algorithms for Time-Sensitive Data)**
+
+- > Implemented Insertion Sort in TailorShop to insert new clothing orders into a nearly sorted list based on delivery deadlines.
+- > Applied Merge Sort in MedWarehouse to merge branch-wise, expiry-sorted medicine records into a unified list.
+- > Handled real-time order updates efficiently using deadline-based sorting.
+- > Ensured time-sensitive inventory tracking to prevent medicine wastage.
+- > Strengthened understanding of algorithm selection for sorted and critical datasets.
+
+
+🔗 Code Link:
+[👉 Day 14 – DSA Scenario-Based Practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DSAScenarioBased/src/com/sortingalgorithmsscneariobasedproblems)
