@@ -10,6 +10,6 @@ public class Main {
 
 		System.out.println("Top: " + stack.top()); // 3
 		System.out.println("Pop: " + stack.pop()); // 3
-		System.out.println("Top after pop: " + stack.top()); // 2
+		System.out.println("Top after pop: " + stack.top()); // 2 
 	}
 }
