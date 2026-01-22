@@ -1,4 +1,4 @@
-package com.collections.queueinterface.stackusingqueues;
+package com.collections.queueinterface;
 
 import java.util.LinkedList;
 import java.util.Queue;
