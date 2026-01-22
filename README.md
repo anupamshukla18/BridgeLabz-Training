@@ -148,3 +148,16 @@ Circular Linked List – last node links back to the first node forming a loop.
 
 🔗 Code Link:
 [👉 Day 10 – DSA Scenario-Based Practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DSAScenarioBased/src/com/sortingalgorithmsscneariobasedproblems)
+
+## 📅 Day 11 – Data Structures & Algorithms: Scenario-Based Practice
+**(Date: 17-01-2026)**
+**(Focus: Practical Use of Sorting Algorithms in Real-Time Systems)**
+
+- > Practiced real-world DSA scenarios focusing on selecting the right sorting algorithm based on data size and behavior.
+- > Used Bubble Sort in IceCreamRush for sorting a small list of ice cream flavors by sales.
+- > Applied Insertion Sort in SmartLibrary and ArtExpo for dynamic, nearly sorted data with real-time insertions.
+- > Implemented Merge Sort in FleetManager to merge sorted vehicle mileage lists from multiple depots efficiently.
+- > Focused on applying sorting techniques according to practical constraints and performance needs.
+
+🔗 Code Link:
+[👉 Day 11 – DSA Scenario-Based Practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DSAScenarioBased/src/com/sortingalgorithmsscneariobasedproblems)
