@@ -161,3 +161,28 @@ Circular Linked List – last node links back to the first node forming a loop.
 
 🔗 Code Link:
 [👉 Day 11 – DSA Scenario-Based Practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DSAScenarioBased/src/com/sortingalgorithmsscneariobasedproblems)
+
+## 📅 Day 12 – DSA: Tree Data Structure
+**(Date: 19-01-2026)**
+**(Focus: Hierarchical Data Representation and Tree Traversal Techniques)**
+
+- > Studied the Tree data structure to understand hierarchical data representation and non-linear data organization.
+- > Learned the fundamentals of Binary Trees and Binary Search Trees (BST), including node relationships such as parent, child, and subtree.
+- > Explored BST operations like insertion, searching, and traversal to maintain ordered data efficiently.
+- > Practiced implementing real-world tree-based models, such as company hierarchy representation and file system traversal.
+- > Focused on strengthening recursive thinking and depth-first traversal (DFS) concepts for efficient tree processing.
+
+🔗 Code Link: 
+[👉Day 12- Tree Data Structure Practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDSAConcepts/src/com/trees)
+
+**📅Scenario-Based Practice**
+**(Focus: Sorting Algorithms for Real-World Data Processing)**
+
+- > Worked on DSA-based scenarios using Merge Sort, Quick Sort, and Bubble Sort to handle datasets of varying sizes.
+- > Applied Merge Sort in EduResults to merge pre-sorted district-wise student records into a stable state-level rank list.
+- > Used Quick Sort in FlashDealz to efficiently sort large, unsorted product data by discount during flash sales.
+- > Implemented Bubble Sort in FitnessTracker for small, frequently updated datasets requiring real-time ranking.
+- > Focused on selecting the appropriate sorting algorithm based on data size, stability, and performance needs.
+
+🔗 Code Link:
+[👉 Day 12 – DSA Scenario-Based Practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DSAScenarioBased/src/com/sortingalgorithmsscneariobasedproblems)
