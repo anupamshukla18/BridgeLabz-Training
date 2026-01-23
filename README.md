@@ -38,7 +38,7 @@
 - > Worked with ByteArray streams, data streams, piped streams, and large-file processing to handle real-world I/O scenarios efficiently.
 
 🔗 Code Link: 
-[👉 Day 3 – Java File Handling & Streams Practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java-collection-practice/java-collection-practice/gcr-codebase/JavaCollectionsPractice/src/com)
+[👉 Day 3 – Java File Handling & Streams Practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java-collection-practice/java-collection-practice/gcr-codebase/JavaCollectionsPractice/src/com/streams)
 
 ## 📅 Day 4 – Java: Exception Handling
 **(Date: 20-01-2026)**
@@ -51,4 +51,20 @@
 - > Focused on writing robust, readable, and maintainable code with proper exception-handling best practices.
 
 🔗 Code Link:
-[👉 Day 4 – Exception Handling Practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java-collection-practice/java-collection-practice/gcr-codebase/JavaCollectionsPractice/src/com)
+[👉 Day 4 – Exception Handling Practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java-collection-practice/java-collection-practice/gcr-codebase/JavaCollectionsPractice/src/com/exceptionhandling)
+
+## 📅 Day 5 – Java Fundamentals: Regex & JUnit
+**(Date: 21-01-2026)**
+**Focus: Regular Expressions & Unit Testing**
+
+- > Studied Regex basics including metacharacters and quantifiers for building effective patterns.
+- > Implemented common regex use cases such as email validation, password strength checks, and phone number formatting.
+- > Worked with the Java Regex API, using Pattern and Matcher classes for pattern matching.
+- > Practiced important regex methods: find(), matches(), and replaceAll() for string validation and manipulation.
+- > Learned JUnit fundamentals including annotations, test case writing, test class structure, and assertions for validating logic.
+
+🔗 Code Link: 
+[👉 Day 5 – Regex Practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java-collection-practice/java-collection-practice/gcr-codebase/JavaCollectionsPractice/src/com/regex)
+
+[👉 Day 5 – JUnit Practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java-collection-practice/java-collection-practice/gcr-codebase/JavaCollectionsPractice/src/com/junittesting)
+
