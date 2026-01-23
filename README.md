@@ -227,3 +227,17 @@ Circular Linked List – last node links back to the first node forming a loop.
 
 🔗 Code Link:
 [👉 Day 15 – DSA Scenario-Based Practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DSAScenarioBased/src/com/trees/binarysearchtree)
+
+## 📅 Day 16 – Data Structures & Algorithms: Scenario-Based Practice
+**(Date: 23-01-2026)**
+**Focus: AVL Tree (Self-Balancing Binary Search Tree)**
+
+- > Implemented AVL Tree for a Gaming App Leaderboard to handle real-time player insertions, updates, deletions, and fast top-rank retrieval.
+- > Applied AVL Tree in an Online Ticket Booking System to maintain events sorted by start time with efficient insert and cancel operations.
+- > Used AVL Tree for Hospital Queue Management to manage patient records with quick registration, discharge, and ordered display.
+- > Ensured self-balancing through rotations to maintain optimal search, insert, and delete performance.
+- > Strengthened understanding of height balancing and real-time data handling using AVL Trees.
+
+
+🔗 Code Link:
+[👉 Day 16 – DSA Scenario-Based Practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DSAScenarioBased/src/com/trees/avltree)
