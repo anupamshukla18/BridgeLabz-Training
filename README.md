@@ -214,3 +214,16 @@ Circular Linked List – last node links back to the first node forming a loop.
 
 🔗 Code Link:
 [👉 Day 14 – DSA Scenario-Based Practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DSAScenarioBased/src/com/sortingalgorithmsscneariobasedproblems)
+
+## 📅 Day 15 – Data Structures & Algorithms: Scenario-Based Practice
+**(Date: 22-01-2026)**
+**Focus: Binary Search Tree (BST) for Structured Data Management**
+
+- > Implemented Binary Search Tree (BST) for a University Digital Record System to handle student insertion, deletion, and sorted roll number display.
+- > Used BST in an E-Commerce Product Inventory to efficiently search, update, and list products based on SKU numbers.
+- > Applied BST in a Music Streaming App to manage tracks with fast search and insertion using track IDs.
+- > Utilized in-order traversal to display records in sorted order (roll numbers, SKUs, song titles).
+- > Strengthened understanding of BST operations: insert, delete, search, and traversal for real-world datasets.
+
+🔗 Code Link:
+[👉 Day 15 – DSA Scenario-Based Practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DSAScenarioBased/src/com/trees/binarysearchtree)
