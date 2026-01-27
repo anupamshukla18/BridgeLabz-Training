@@ -1,6 +1,6 @@
 package com.junittesting.exception;
 
-public class Calculator {
+public class Exception {
 
 	// divide numbers
 	public int divide(int firstNumber, int secondNumber) {
