@@ -3,11 +3,11 @@ package com.junittesting.exception;
 import static org.junit.Assert.*;
 import org.junit.Test;
 
-public class CalculatorTest {
+public class ExceptionTest {
 
 	@Test(expected = ArithmeticException.class)
 	public void testDivideByZero() {
-		Calculator calculator = new Calculator();
+		Exception calculator = new Exception();
 		calculator.divide(10, 0);
 	}
 }
