@@ -22,6 +22,12 @@ This repository documents my learning journey at BridgeLabz, spanning from **Dec
 ### 🔹 [java-collection-practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java-collection-practice)
 **Week 4** : Collection Framework in Java
 
+### 🔹 [java-iostreams-practice](https://github.com/Abhishek-Puri-Goswami/BridgeLabz-Training/tree/java-iostreams-practice)
+**Week 5** : Java I/O Streams
+
+### 🔹 [java8-programming-practice](https://github.com/Abhishek-Puri-Goswami/BridgeLabz-Training/tree/java8-programming-practice)
+**Week 6** : Java 8 Features
+
 ---
 
 ## 📂 Project Structure
@@ -70,10 +76,49 @@ BridgeLabz-Training/
 │   ├── 📁 leet-code-codebase/                # LeetCode solutions
 │   └── 📁 scenario-based/                    # Real-world problems
 |
-└── 📁 java-collection-practice/
+├── 📁 java-collections-practice/
 │   ├── 📁 gcr-codebase/
-│   ├── 📁 leet-code-codebase/
-│   └── 📁 scenario-based/
+│   │  └── 📁 CollectionsConcepts/
+│   │       └── 📁 src/
+│   │           └── 📁 com/
+│   │               ├── 📁 generics/          # Generic classes, methods, wildcards
+│   │               ├── 📁 listinterface/     # List interface and implementations
+│   │               ├── 📁 setinterface/      # Set interface and implementations
+│   │               ├── 📁 queueinterface/    # Queue & Deque interface examples
+│   │               ├── 📁 mapinterface/      # Map interface and implementations
+│   │               ├── 📁 examples/          # Hands-on example programs
+│   │               ├── 📁 streams/           # I/O streams, buffering, and serialization
+│   │               ├── 📁 exceptionhandling/ # Checked, unchecked, custom exceptions, try-with-resources
+│   │               ├── 📁 regex/             # Pattern matching, validation rules, groups & quantifiers
+│   │               ├── 📁 junit/             # Unit testing, assertions, test lifecycle, test cases
+│   │               ├── 📁 reflection/        # Runtime inspection, dynamic invocation, proxies
+│   │               └── 📁 annotations/       # Built-in & custom annotations, processors
+|   |
+│   └── 📁 scenario-based-codebase/           # Real-world problems
+|
+├── 📁 java-iostreams-practice/
+│   ├── 📁 gcr-codebase/
+│   │  └── 📁 IOStreamsConcepts/
+│   │       └── 📁 src/
+│   │           └── 📁 com/
+│   │               ├── 📁 iostreams/         # CSV reading/writing, validation, and large-file handling
+│   │               └── 📁 json/          # JSON parsing, schema validation, mapping, conversions
+|   |
+│   └── 📁 scenario-based-codebase/           # Real-world problems
+|
+├── 📁 java8-programming-practice/
+│   ├── 📁 gcr-codebase/
+│   │  └── 📁 Java8Concepts/
+│   │       └── 📁 src/
+│   │           └── 📁 com/
+│   │               ├── 📁 lambdaexpression/  # Lambda expressions, functional interfaces, syntax
+│   │               └── 📁 methodreference/   # Static, instance, constructor references
+│   │               └── 📁 interfaces/        # Default methods, static methods, functional interfaces
+│   │               └── 📁 streams/           # Stream API, intermediate & terminal operations
+│   │               └── 📁 collectors/        # Grouping, partitioning, summarizing collectors
+│   │               └── 📁 workshop/          # Mini projects & real-world stream problems        
+|   |
+│   └── 📁 scenario-based-codebase/           # Real-world problems
 |
 └── README.md
 ```
@@ -116,15 +161,27 @@ BridgeLabz-Training/
 |  18 | 06-Jan      | Searching & I/O utilities      | Linear & Binary Search and FileReader  |
 |  19 | 07-Jan      | Runtime Analysis & Big-O       | Time & space complexity analysis       |
 
-
-### **Week 4 : Collection Framework in Java**
-
+### **Week 4 : Collections Framework in Java**
 | Day |     Date    | Topic                          | Coverage                                                            |
 |-----|-------------|--------------------------------|---------------------------------------------------------------------|
 | 22  | 16-Jan      | Java Generics                  | Generic classes, methods, type parameters, bounded types, wildcards |
 | 23  | 17-Jan      | Collections Framework          | Collection hierarchy, List, Set, Queue, Map, implementations        |
 | 24  | 19-Jan      | Java I/O Streams               | Byte, character, buffered, object & bridge streams                  |
 | 25  | 20-Jan      | Exception Handling             | Checked, unchecked, custom exceptions, try(resources) & nested      |
+| 26  | 21-Jan      | Regex & JUnit Testing          | Pattern matching, validations, groups, unit testing, assertions     |
+| 27  | 22-Jan      | Annotations & Reflection       | Built-in & custom annotations, runtime inspection, proxies          |
+
+### **Week 5 : Java I/O Streams**
+| Day |     Date    | Topic                          | Coverage                                                            |
+|-----|-------------|--------------------------------|---------------------------------------------------------------------|
+| 28  | 23-Jan      | CSV Data Handling in Java      | Read/write CSV, validation, large-file processing, dataset merging  |
+| 29  | 24-Jan      | JSON Data Handling in Java     | JSON parsing, POJO mapping, schema validation, CSV to JSON, etc.    |
+
+### **Week 6 : Java 8 Features**
+| Day |     Date    | Topic                          | Coverage                                                            |
+|-----|-------------|--------------------------------|---------------------------------------------------------------------|
+| 30  | 27-Jan      | Lambdas & Interfaces           | Lambdas, functional interfaces, method references                   |
+| 31  | 28-Jan      | Streams & Collectors           | Stream API, intermediate, terminal, collectors, parallel streams    |
 
 ---
 
@@ -159,7 +216,7 @@ BridgeLabz-Training/
 - **File Handling**: Reading input using `FileReader` and `InputStreamReader.`
 - **Algorithm Analysis**: Big-O notation, time complexity, space complexity, best, worst, and average case evaluation.
 
- ### Collection Framework (java-collection-practice)
+ ### Collections Framework (java-collections-practice)
 - **Generics**: Type-safe collections, generic classes and methods, type parameters, bounded types, wildcards, type erasure
 - **Collections Overview**: Purpose and benefits of Java Collections Framework
 - **Hierarchy**: `Iterable`, `Collection`, `List`, `Set`, `Queue`, and `Map`
@@ -170,6 +227,24 @@ BridgeLabz-Training/
 - **Hands-on Practice**: CRUD, iteration, ordering, and performance examples
 - **I/O Streams**: Byte & character streams, buffering, object serialization, and efficient file handling
 - **Exception Handling**: Checked vs unchecked exceptions, `try-catch-finally`, multiple and nested catch blocks, `throw` vs `throws`, custom exceptions, try-with-resources
+- **Regex & JUnit Testing**: Pattern matching, validation rules, groups, quantifiers, unit tests, assertions, test lifecycle
+- **Reflection**: Runtime class inspection, private member access, dynamic invocation, constructors, proxies, annotation processing 
+- **Annotations**: Built-in annotations, meta-annotations, custom annotations, retention policies, processors, framework usage 
+  **Problem Solving**: LeetCode challenges, real-world scenarios
+
+### Java I/O Streams (java-iostreams-practice)
+- **CSV Data Handling**: Reading/writing CSV files, OpenCSV usage, data validation, object mapping, and large-file handling
+- **JSON Data Handling**: JSON creation, parsing, POJO mapping, schema validation, merging datasets, CSV to JSON conversion
+
+### Java 8 Features (java8-programming-practice)
+- **Lambda Expressions**: Functional programming syntax and usage
+- **Functional Interfaces**: `Predicate`, `Function`, `Consumer`, `Supplier`
+- **Method References**: Static, instance, and constructor references
+- **Interface Enhancements**: Default and static methods
+- **Streams API**: Lazy evaluation, pipelines, parallel streams
+- **Collectors**: Grouping, partitioning, summarization, joining
+- **Workshop**: Real-world data processing using streams
+- **Clean Code Practices**: Object Calisthenics, interface-driven design
 ---
 
 ## 🔗 Quick Links
@@ -211,6 +286,19 @@ BridgeLabz-Training/
 - 📌 [Map Interface](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java-collection-practice/java-collection-practice/gcr-codebase/JavaCollectionsPractice/src/com/collections/mapinterface)
 - 📌 [I/O Streams](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java-collection-practice/java-collection-practice/gcr-codebase/JavaCollectionsPractice/src/com)
 - 📌 [Exception Handling](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java-collection-practice/java-collection-practice/gcr-codebase/JavaCollectionsPractice/src/com)
+
+### `java-iostreams-practice` :
+- 📌 [CSV Data Handling](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/JavaIOStreamsConcepts/src/main/java/com/iostreams)
+- 📌 [JSON Data Handling](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/JavaIOStreamsConcepts/src/main/java/com/json)
+
+### `java8-programming-practice` :
+- 📌 [Lambda Expressions](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8ProgrammingConcepts/src/com/lambdaexpression)
+- 📌 [Method References](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8ProgrammingConcepts/src/com/methodreference)
+- 📌 [Interfaces](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8ProgrammingConcepts/src/com)
+- 📌 [Streams](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8ProgrammingConcepts/src/com)
+- 📌 [Collectors](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8ProgrammingConcepts/src/com)
+- 📌 [Workshop](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8ProgrammingConcepts/src/com)
+
 ---
 
 ## 🎓 Learnings & Best Practices
