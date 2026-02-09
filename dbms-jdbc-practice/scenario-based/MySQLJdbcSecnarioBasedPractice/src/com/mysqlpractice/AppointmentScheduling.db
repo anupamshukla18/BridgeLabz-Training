@@ -169,5 +169,5 @@ Flow: Execute multi-table JOIN (appointments, patients, doctors) filtered by dat
 		    -> JOIN as_doctors d ON a.doctor_id = d.doctor_id
 		    -> WHERE a.appointment_date = '2026-03-01'
 		    -> ORDER BY a.appointment_time;
-		Empty set (0.00 sec)
+		Empty set (0.00 sec) 
 			
