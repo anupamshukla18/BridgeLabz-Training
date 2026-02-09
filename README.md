@@ -22,12 +22,17 @@ This repository documents my learning journey at BridgeLabz, spanning from **Dec
 ### 🔹 [java-collection-practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java-collection-practice)
 **Week 4** : Collection Framework in Java
 
-### 🔹 [java-iostreams-practice](https://github.com/Abhishek-Puri-Goswami/BridgeLabz-Training/tree/java-iostreams-practice)
+### 🔹 [java-iostreams-practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java-iostreams-practice)
 **Week 5** : Java I/O Streams
 
-### 🔹 [java8-programming-practice](https://github.com/Abhishek-Puri-Goswami/BridgeLabz-Training/tree/java8-programming-practice)
+### 🔹 [java8-programming-practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java8-programming-practice)
 **Week 6** : Java 8 Features
 
+### 🔹 [java-design-pattern-practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java-design-pattern-practice)
+**Week 7** : Java Design Principles & Design Patterns
+
+### 🔹 [dbms-jdbc-practice](https://github.com/anupamshukla18/BridgeLabz-Training/tree/dbms-jdbc-practice)
+**Week 8** : DBMS, SQL & JDBC Fundamentals
 ---
 
 ## 📂 Project Structure
@@ -102,7 +107,7 @@ BridgeLabz-Training/
 │   │       └── 📁 src/
 │   │           └── 📁 com/
 │   │               ├── 📁 iostreams/         # CSV reading/writing, validation, and large-file handling
-│   │               └── 📁 json/          # JSON parsing, schema validation, mapping, conversions
+│   │               └── 📁 json/              # JSON parsing, schema validation, mapping, conversions
 |   |
 │   └── 📁 scenario-based-codebase/           # Real-world problems
 |
@@ -118,6 +123,17 @@ BridgeLabz-Training/
 │   │               └── 📁 collectors/        # Grouping, partitioning, summarizing collectors
 │   │               └── 📁 workshop/          # Mini projects & real-world stream problems        
 |   |
+│   └── 📁 scenario-based-codebase/           # Real-world problems
+|
+├── 📁 java-design-pattern-practice/
+│   ├── 📁 gcr-codebase/
+│   │   └── 📁 DesignConcepts/
+│   │       └── 📁 src/
+│   │           └── 📁 com/
+│   │               ├── 📁 designprinciples/  # SOLID principles and design patterns
+│   │               └── 📁 multithreading/    # Thread lifecycle, synchronization, concurrency examples 
+|   |
+│   ├── 📁 leet-code-codebase/                # LeetCode solutions
 │   └── 📁 scenario-based-codebase/           # Real-world problems
 |
 └── README.md
@@ -183,6 +199,16 @@ BridgeLabz-Training/
 | 30  | 27-Jan      | Lambdas & Interfaces           | Lambdas, functional interfaces, method references                   |
 | 31  | 28-Jan      | Streams & Collectors           | Stream API, intermediate, terminal, collectors, parallel streams    |
 
+### **Week 7 : Java Design Principles & Design Patterns**
+| Day |     Date    | Topic                          | Coverage                                                            |
+|-----|-------------|--------------------------------|---------------------------------------------------------------------|
+| 32  | 31-Jan      | Design Principles & Patterns   | SOLID, DRY, YAGNI, KISS, GoF patterns, clean code principles        |
+| 33  | 02-Feb      | Multithreading in Java         | Thread lifecycle, synchronization, concurrency use cases            |
+
+### **Week 8 : DBMS, SQL & JDBC Fundamentals**
+| Day |     Date    | Topic                          | Coverage                                                            |
+|-----|-------------|--------------------------------|---------------------------------------------------------------------|
+| 34  | 06-Feb      | DBMS & SQL Optimization        | Normalization, joins, transactions, indexes, tuning & EXPLAIN       |
 ---
 
 ##  Key Concepts Covered
@@ -245,6 +271,15 @@ BridgeLabz-Training/
 - **Collectors**: Grouping, partitioning, summarization, joining
 - **Workshop**: Real-world data processing using streams
 - **Clean Code Practices**: Object Calisthenics, interface-driven design
+
+### Java Design Principles & Design Patterns (java-design-pattern-practice)
+- **Design Principles**: SOLID, DRY, KISS, YAGNI, composition over inheritance
+- **Design Patterns**: Singleton, Factory, Observer, Builder
+- **Clean Code Practices**: Object Calisthenics, interface-driven design
+- **Multithreading**: Thread lifecycle, creation using Thread & Runnable, priorities, daemon threads
+- **Synchronization**: Locks, shared resource handling, race-condition prevention
+- **Concurrency Testing**: JUnit validation, timing logs, performance comparison
+-  **Problem Solving**: LeetCode challenges, real-world scenarios
 ---
 
 ## 🔗 Quick Links
@@ -299,6 +334,13 @@ BridgeLabz-Training/
 - 📌 [Collectors](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8ProgrammingConcepts/src/com)
 - 📌 [Workshop](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8ProgrammingConcepts/src/com)
 
+### `java-design-pattern-practice` :
+- 📌 [Design Principles & Patterns](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java-design-pattern-practice/java-designpattern-practice/gcr-codebase/JavaDesignPatternConcepts/src/com/casestudy/studentlibrarymanagementsystem)
+- 📌 [Multithreading](https://github.com/anupamshukla18/BridgeLabz-Training/tree/java-design-pattern-practice/java-multithreading-practice/gcr-codebase/JavaMultithreadingConcepts/src/com)
+
+### `dbms-jdbc-practice` :
+- 📌 [DBMS, MySQL & SQL](https://github.com/anupamshukla18/BridgeLabz-Training/tree/dbms-jdbc-practice/dbms-jdbc-practice/gcr-codebase/MySQLConcepts/src/com/mysqlpractice)
+- 📌 [Scenario-Based Solutions](https://github.com/anupamshukla18/BridgeLabz-Training/tree/dbms-jdbc-practice/dbms-jdbc-practice/scenario-based/MySQLJdbcSecnarioBasedPractice/src/com/mysqlpractice)
 ---
 
 ## 🎓 Learnings & Best Practices
