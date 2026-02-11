@@ -29,7 +29,7 @@ public class InsertDemo {
 	}
 
 	public static void main(String[] args) {
-		insertStudent("Anupam", "anupamshukla1811@gmail.com", 22, "AB+");
+		insertStudent("Anupam", "anupamshukla1811@gmail.com", 22, "B+");
 		insertStudent("Anuj", "a9uzzdwivedi@gmail.com", 22, "A+");
 	}
 }
