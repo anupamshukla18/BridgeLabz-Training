@@ -2,7 +2,7 @@ package day1;
 
 import java.util.*;
 
-class Result {
+class LeftRotationResult {
 
 	/*
 	 * Complete the 'rotLeft' function below.
@@ -45,7 +45,7 @@ public class LeftRotation {
 			a.add(sc.nextInt());
 		}
 
-		List<Integer> result = Result.rotLeft(a, d);
+		List<Integer> result = LeftRotationResult.rotLeft(a, d);
 
 		for (int i = 0; i < result.size(); i++) {
 			System.out.print(result.get(i));
