@@ -1,38 +1,29 @@
 package day1;
 
-import java.util.*;
-
-class CamelCaseResult {
-
-    /*
-     * Complete the 'camelcase' function below.
-     *
-     * The function is expected to return an INTEGER.
-     * The function accepts STRING s as parameter.
-     */
-
-    public static int camelcase(String s) {
-        // Write your code here
-        char[] chars = s.toCharArray();
-        int count = 1;
-        for (char c : chars) {
-            if ((int) c >= 65 && c <= 90) count++;
-            continue;
-        }
-        return count;
-    }
-}
+import java.util.Scanner;
 
 public class CamelCase {
 	public static void main(String[] args) {
-
+		// Scanner input
 	    Scanner sc = new Scanner(System.in);
 	    String s = sc.nextLine();
 
-	    int result = CamelCaseResult.camelcase(s);
+	    // Storing the result
+	    int result = camelcase(s);
 	    
+	    // Printing the result
 	    System.out.println(result);
 
 	    sc.close();
 	}
+	public static int camelcase(String s) {
+		// Splitting the array
+		String[] arr = s.split("[A-Z]");
+		
+		// Counting the words
+		int count = arr.length;
+        
+		// returning the result
+        return count;
+    }
 }
