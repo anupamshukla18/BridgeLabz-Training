@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class ArraySum {
 	public static void main(String[] args) {
 		// Scanner input 
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in); 
         int arCount = sc.nextInt();
 
         List<Integer> ar = new ArrayList<>();
