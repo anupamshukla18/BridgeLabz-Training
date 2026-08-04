@@ -23,7 +23,7 @@ public class CamelCase {
 		// Counting the words
 		int count = arr.length;
         
-		// returning the result
+		// returning the result 
         return count;
     }
 }
