@@ -1,4 +1,4 @@
-package day1;
+package day1.hackerrankproblems;
 
 import java.util.Scanner;
 import java.util.List;
