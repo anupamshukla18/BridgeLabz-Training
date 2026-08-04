@@ -1,0 +1,12 @@
+package day3.classproblems.trees.recursion;
+
+class Node {
+	int data;
+	Node left, right;
+
+	Node(int data) {
+		this.data = data;
+		left = null;
+		right = null;
+	}
+}

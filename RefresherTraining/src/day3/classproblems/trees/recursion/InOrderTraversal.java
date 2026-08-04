@@ -15,7 +15,7 @@ public class InOrderTraversal {
 
         return root;
     }
-
+ 
     // Inorder Traversal
     static void inOrder(Node root) {
         if (root == null)
