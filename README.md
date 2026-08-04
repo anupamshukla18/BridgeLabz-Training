@@ -2,68 +2,199 @@
 
 ## 📚 Topics Covered
 
-Today focused on building a strong foundation in Data Structures and understanding the basics of Arrays and Strings in Java before solving HackerRank problems.
+Today's focus was on building a strong foundation in Data Structures, Arrays, and Strings in Java while solving a complete HackerRank Arrays & Strings practice set.
 
 ### ✅ Data Structures
-
 - What is a Data Structure?
 - Primitive vs Non-Primitive Data Structures
-- Importance of choosing the right data structure
+- Importance of choosing the right Data Structure
 
 ### ✅ Arrays
-
 - Array Traversal
 - Insertion
 - Deletion
-- Left & Right Rotation
+- Rotation
 - Frequency Count
-- Time Complexity of common array operations
+- Prefix Sum
+- Range Updates
+- Time Complexity Analysis
 
 ### ✅ Strings in Java
-
 - String Immutability
 - `indexOf()`
 - `substring()`
 - `split()`
 - `charAt()`
-- Basic string manipulation techniques
+- String Traversal
+- Anagram Detection
+- HashMap-based String Processing
 
 ### ✅ HackerRank Orientation
-
-- Understanding the HackerRank interface
-- Reading problem statements
+- Understanding the HackerRank Interface
+- Problem Statement Analysis
 - Sample Input & Output
-- Difference between **Run Code** and **Submit Code**
-- Understanding the default Java template
-- Input handling using `Scanner` and `BufferedReader`
+- Run vs Submit
+- Java Template Basics
+- Input Handling using `Scanner` and `BufferedReader`
+
+---
+
+# 💻 HackerRank Problems Solved
+
+| # | Problem | Difficulty | Concepts |
+|---|---------|------------|----------|
+| ✅ 01 | Simple Array Sum | 🟢 Easy | Array Traversal, Loops |
+| ✅ 02 | Plus Minus | 🟢 Easy | Frequency Count, Arrays |
+| ✅ 03 | Birthday Cake Candles | 🟢 Easy | Maximum Element, Frequency Count |
+| ✅ 04 | CamelCase | 🟢 Easy | String Traversal, `charAt()` |
+| ✅ 05 | Arrays - DS | 🟡 Medium | Array Traversal, Reverse Logic |
+| ✅ 06 | Left Rotation | 🟡 Medium | Array Rotation, Index Manipulation |
+| ✅ 07 | Java String Tokens | 🟡 Medium | `split()`, String Manipulation |
+| ✅ 08 | Java Anagrams | 🟡 Medium | Strings, Frequency Count |
+| ✅ 09 | Array Manipulation | 🔴 Hard | Prefix Sum, Difference Array, Range Updates |
+| ✅ 10 | Sherlock and Anagrams | 🔴 Hard | HashMap, Substrings, Sorting, String Processing |
 
 ---
 
 ## 🎯 Key Learnings
 
-- Understood the difference between Primitive and Non-Primitive Data Structures.
-- Learned common array operations and their complexities.
-- Explored important Java String methods frequently used in coding interviews.
-- Became familiar with the HackerRank environment and submission process.
-- Prepared the foundation required for solving Array and String problems efficiently.
+- Built a strong understanding of Primitive and Non-Primitive Data Structures.
+- Mastered common Array operations and their time complexities.
+- Explored essential Java String methods for coding interviews.
+- Learned efficient problem-solving techniques using Prefix Sum, Difference Arrays, Sorting, and HashMaps.
+- Improved understanding of algorithm optimization by comparing brute-force and optimized approaches.
+- Successfully solved problems across Easy, Medium, and Hard difficulty levels.
 
 ---
 
-## 🛠️ Concepts Practiced
+## 🛠️ Skills Practiced
 
+- Java
 - Arrays
 - Strings
-- Java Basics
-- Input Handling
-- Time Complexity
-- Problem Solving Fundamentals
+- HashMap
+- Prefix Sum
+- Difference Array
+- Sorting
+- Time Complexity Analysis
+- Problem Solving
 
 ---
 
-## 🚀 Next Goal
+## 📈 Progress
 
-Start solving HackerRank Array & String problems and apply these concepts to improve problem-solving skills.
+- ✅ Data Structures Fundamentals
+- ✅ Arrays Fundamentals
+- ✅ Java Strings Fundamentals
+- ✅ HackerRank Orientation
+- ✅ Easy Problems: **4 / 4**
+- ✅ Medium Problems: **4 / 4**
+- ✅ Hard Problems: **2 / 2**
+
+### 🎉 Total Problems Solved: **10 / 10**
 
 ---
 
-⭐ Day 1 completed successfully.
+## 🚀 Outcome
+
+Completed the entire **Arrays & Strings HackerRank Practice Set**, covering concepts from basic array traversal to advanced optimization techniques like Prefix Sum and HashMap-based substring processing. This day strengthened my Java fundamentals and laid a solid foundation for tackling more complex Data Structures and Algorithms problems.
+
+---
+
+⭐ **Day 1 Completed Successfully!**
+
+# 📅 Day 2 – Stacks & Queues Fundamentals
+
+## 📚 Topics Covered
+
+Today's focus was on understanding the fundamental linear data structures **Stacks** and **Queues**, their implementations, real-world applications, and solving HackerRank problems based on these concepts.
+
+### ✅ Stacks
+- LIFO (Last In, First Out) Principle
+- Push Operation
+- Pop Operation
+- Peek Operation
+- Stack Implementation using Arrays
+- Stack Implementation using Linked Lists
+
+### ✅ Queues
+- FIFO (First In, First Out) Principle
+- Enqueue Operation
+- Dequeue Operation
+- Circular Queue
+- Queue Implementation
+
+### ✅ Real-World Applications
+- Undo Operations
+- Backtracking Algorithms
+- Task Scheduling
+- Breadth-First Search (BFS)
+
+### ✅ Stack Applications
+- Balanced Parentheses Checker
+- Infix to Postfix Conversion
+- Expression Evaluation
+- Maximum Element Tracking
+- Undo Mechanism using Stack
+
+---
+
+# 💻 HackerRank Problems Solved
+
+| # | Problem | Difficulty | Concepts |
+|---|---------|------------|----------|
+| ✅ 01 | Maximum Element | 🟢 Easy | Stack, Auxiliary Stack, Maximum Tracking |
+| ✅ 02 | Equal Stacks | 🟢 Easy | Stack, Prefix Sum, Greedy |
+| ✅ 03 | Simple Text Editor | 🟡 Medium | Stack, Undo Operations, String Manipulation |
+| ✅ 04 | Balanced Brackets | 🟡 Medium | Stack, Parentheses Matching |
+| ✅ 05 | Queue using Two Stacks | 🟡 Easy-Medium | Queue, Two Stacks, FIFO |
+| ✅ 06 | Truck Tour | 🟡 Medium | Queue, Circular Traversal, Greedy |
+
+---
+
+## 🎯 Key Learnings
+
+- Understood the working principles of Stack (LIFO) and Queue (FIFO).
+- Learned different implementations of Stacks and Queues.
+- Explored Circular Queue and its advantages over Linear Queue.
+- Implemented Stack-based solutions for undo operations and balanced bracket validation.
+- Understood how a Queue can be implemented using two Stacks.
+- Applied Greedy techniques and efficient data structure usage to solve real-world-inspired problems.
+
+---
+
+## 🛠️ Skills Practiced
+
+- Java
+- Stack
+- Queue
+- Circular Queue
+- Linked List
+- Greedy Algorithms
+- String Manipulation
+- Problem Solving
+- Time Complexity Analysis
+
+---
+
+## 📈 Progress
+
+- ✅ Stack Fundamentals
+- ✅ Queue Fundamentals
+- ✅ Circular Queue
+- ✅ Stack Applications
+- ✅ Queue Applications
+- ✅ Easy Problems: **2 / 2**
+- ✅ Medium Problems: **4 / 4**
+
+### 🎉 Total Problems Solved: **6 / 6**
+
+---
+
+## 🚀 Outcome
+
+Successfully completed the **Stacks & Queues HackerRank Practice Set**, strengthening my understanding of LIFO/FIFO data structures, Stack-based algorithms, Queue implementations, Circular Queues, Greedy techniques, and practical applications like text editors, balanced brackets, and task scheduling.
+
+---
+
+⭐ **Day 2 Completed Successfully!**
