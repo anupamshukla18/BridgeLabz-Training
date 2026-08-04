@@ -198,3 +198,115 @@ Successfully completed the **Stacks & Queues HackerRank Practice Set**, strength
 ---
 
 ⭐ **Day 2 Completed Successfully!**
+
+# 📅 Day 3 – Linked Lists, Trees & Graphs Fundamentals
+
+## 📚 Topics Covered
+
+Today's focus was on understanding Linked Lists, Binary Trees, Graph fundamentals, and the basics of Algorithm Analysis while solving HackerRank problems based on these concepts.
+
+### ✅ Linked Lists
+- Singly Linked List
+- Doubly Linked List
+- Circular Linked List
+- Insertion (Head, Tail, Specific Position)
+- Deletion
+- Traversal
+- Reversal
+
+### ✅ Trees
+- Tree Terminology
+  - Root
+  - Parent
+  - Child
+  - Leaf Node
+  - Height
+  - Depth
+- Binary Tree Traversals
+  - Inorder Traversal
+  - Preorder Traversal
+  - Postorder Traversal
+- Recursive & Iterative Traversals using Stack
+
+### ✅ Graphs
+- Vertex
+- Edge
+- Directed Graph
+- Undirected Graph
+- Adjacency List Representation
+- Breadth-First Search (BFS)
+
+### ✅ Analysis of Algorithms
+- Introduction to Asymptotic Analysis
+- Big-O Notation
+- Big-Omega (Ω)
+- Big-Theta (Θ)
+- Best, Average & Worst Case Time Complexity
+
+---
+
+# 💻 HackerRank Problems Solved
+
+| # | Problem | Difficulty | Concepts |
+|---|---------|------------|----------|
+| ✅ 01 | Print the Elements of a Linked List | 🟢 Easy | Linked List Traversal |
+| ✅ 02 | Insert a Node at the Head of a Linked List | 🟢 Easy | Head Insertion |
+| ✅ 03 | Insert a Node at the Tail of a Linked List | 🟢 Easy | Tail Insertion |
+| ✅ 04 | Reverse a Linked List | 🟡 Easy-Medium | Pointer Manipulation, Reversal |
+| ✅ 05 | Tree: Preorder Traversal | 🟢 Easy | DFS, Preorder Traversal |
+| ✅ 06 | Tree: Inorder Traversal | 🟢 Easy | DFS, Inorder Traversal |
+| ✅ 07 | Tree: Postorder Traversal | 🟢 Easy | DFS, Postorder Traversal |
+| ✅ 08 | BFS: Shortest Reach in a Graph | 🟡 Medium | Graph, BFS, Adjacency List, Queue |
+
+---
+
+## 🎯 Key Learnings
+
+- Understood the structure and operations of Singly, Doubly, and Circular Linked Lists.
+- Learned different insertion, deletion, traversal, and reversal techniques.
+- Explored Binary Tree terminology and recursive tree traversals.
+- Implemented tree traversals using both recursion and stacks.
+- Learned Graph representation using Adjacency Lists.
+- Applied Breadth-First Search (BFS) to solve shortest path problems.
+- Gained an understanding of Big-O, Big-Omega, and Big-Theta notation for algorithm analysis.
+
+---
+
+## 🛠️ Skills Practiced
+
+- Java
+- Linked Lists
+- Binary Trees
+- Graphs
+- BFS
+- DFS
+- Queue
+- Stack
+- Recursion
+- Pointer Manipulation
+- Adjacency List
+- Time Complexity Analysis
+
+---
+
+## 📈 Progress
+
+- ✅ Linked List Fundamentals
+- ✅ Binary Tree Fundamentals
+- ✅ Graph Fundamentals
+- ✅ BFS Traversal
+- ✅ Algorithm Analysis Basics
+- ✅ Easy Problems: **7 / 7**
+- ✅ Medium Problems: **1 / 1**
+
+### 🎉 Total Problems Solved: **8 / 8**
+
+---
+
+## 🚀 Outcome
+
+Successfully completed the **Linked Lists, Trees & Graphs HackerRank Practice Set**, strengthening my understanding of pointer-based data structures, binary tree traversals, graph representation using adjacency lists, Breadth-First Search (BFS), and the fundamentals of algorithm analysis. This day laid the foundation for advanced tree, graph, and algorithmic problem-solving.
+
+---
+
+⭐ **Day 3 Completed Successfully!**
