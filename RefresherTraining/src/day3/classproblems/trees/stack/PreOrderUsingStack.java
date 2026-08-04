@@ -15,7 +15,7 @@ public class PreOrderUsingStack {
 
 		return root;
 	}
-
+ 
 	// PreOrder using Stack
 	static void preOrder(Node root) {
 		if (root == null)

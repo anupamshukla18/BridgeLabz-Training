@@ -33,7 +33,7 @@ public class InOrderUsingStack {
 			System.out.print(curr.data + " ");
 			curr = curr.right;
 		}
-	}
+	} 
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

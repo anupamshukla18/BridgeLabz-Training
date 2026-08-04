@@ -39,7 +39,7 @@ public class PostOrderUsingStack {
 		while (!s2.isEmpty())
 			System.out.print(s2.pop().data + " ");
 	}
-
+ 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
