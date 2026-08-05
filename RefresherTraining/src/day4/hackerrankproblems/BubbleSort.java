@@ -18,7 +18,7 @@ public class BubbleSort {
 					int temp = a.get(j + 1);
 					a.set(j + 1, a.get(j));
 					a.set(j, temp);
-
+ 
 					swapped = true;
 					countSwaps++;
 				}
