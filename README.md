@@ -5,11 +5,13 @@
 Today's focus was on building a strong foundation in Data Structures, Arrays, and Strings in Java while solving a complete HackerRank Arrays & Strings practice set.
 
 ### ✅ Data Structures
+
 - What is a Data Structure?
 - Primitive vs Non-Primitive Data Structures
 - Importance of choosing the right Data Structure
 
 ### ✅ Arrays
+
 - Array Traversal
 - Insertion
 - Deletion
@@ -20,6 +22,7 @@ Today's focus was on building a strong foundation in Data Structures, Arrays, an
 - Time Complexity Analysis
 
 ### ✅ Strings in Java
+
 - String Immutability
 - `indexOf()`
 - `substring()`
@@ -30,6 +33,7 @@ Today's focus was on building a strong foundation in Data Structures, Arrays, an
 - HashMap-based String Processing
 
 ### ✅ HackerRank Orientation
+
 - Understanding the HackerRank Interface
 - Problem Statement Analysis
 - Sample Input & Output
@@ -41,18 +45,18 @@ Today's focus was on building a strong foundation in Data Structures, Arrays, an
 
 # 💻 HackerRank Problems Solved
 
-| # | Problem | Difficulty | Concepts |
-|---|---------|------------|----------|
-| ✅ 01 | Simple Array Sum | 🟢 Easy | Array Traversal, Loops |
-| ✅ 02 | Plus Minus | 🟢 Easy | Frequency Count, Arrays |
-| ✅ 03 | Birthday Cake Candles | 🟢 Easy | Maximum Element, Frequency Count |
-| ✅ 04 | CamelCase | 🟢 Easy | String Traversal, `charAt()` |
-| ✅ 05 | Arrays - DS | 🟡 Medium | Array Traversal, Reverse Logic |
-| ✅ 06 | Left Rotation | 🟡 Medium | Array Rotation, Index Manipulation |
-| ✅ 07 | Java String Tokens | 🟡 Medium | `split()`, String Manipulation |
-| ✅ 08 | Java Anagrams | 🟡 Medium | Strings, Frequency Count |
-| ✅ 09 | Array Manipulation | 🔴 Hard | Prefix Sum, Difference Array, Range Updates |
-| ✅ 10 | Sherlock and Anagrams | 🔴 Hard | HashMap, Substrings, Sorting, String Processing |
+| #     | Problem               | Difficulty | Concepts                                        |
+| ----- | --------------------- | ---------- | ----------------------------------------------- |
+| ✅ 01 | Simple Array Sum      | 🟢 Easy    | Array Traversal, Loops                          |
+| ✅ 02 | Plus Minus            | 🟢 Easy    | Frequency Count, Arrays                         |
+| ✅ 03 | Birthday Cake Candles | 🟢 Easy    | Maximum Element, Frequency Count                |
+| ✅ 04 | CamelCase             | 🟢 Easy    | String Traversal, `charAt()`                    |
+| ✅ 05 | Arrays - DS           | 🟡 Medium  | Array Traversal, Reverse Logic                  |
+| ✅ 06 | Left Rotation         | 🟡 Medium  | Array Rotation, Index Manipulation              |
+| ✅ 07 | Java String Tokens    | 🟡 Medium  | `split()`, String Manipulation                  |
+| ✅ 08 | Java Anagrams         | 🟡 Medium  | Strings, Frequency Count                        |
+| ✅ 09 | Array Manipulation    | 🔴 Hard    | Prefix Sum, Difference Array, Range Updates     |
+| ✅ 10 | Sherlock and Anagrams | 🔴 Hard    | HashMap, Substrings, Sorting, String Processing |
 
 ---
 
@@ -110,6 +114,7 @@ Completed the entire **Arrays & Strings HackerRank Practice Set**, covering conc
 Today's focus was on understanding the fundamental linear data structures **Stacks** and **Queues**, their implementations, real-world applications, and solving HackerRank problems based on these concepts.
 
 ### ✅ Stacks
+
 - LIFO (Last In, First Out) Principle
 - Push Operation
 - Pop Operation
@@ -118,6 +123,7 @@ Today's focus was on understanding the fundamental linear data structures **Stac
 - Stack Implementation using Linked Lists
 
 ### ✅ Queues
+
 - FIFO (First In, First Out) Principle
 - Enqueue Operation
 - Dequeue Operation
@@ -125,12 +131,14 @@ Today's focus was on understanding the fundamental linear data structures **Stac
 - Queue Implementation
 
 ### ✅ Real-World Applications
+
 - Undo Operations
 - Backtracking Algorithms
 - Task Scheduling
 - Breadth-First Search (BFS)
 
 ### ✅ Stack Applications
+
 - Balanced Parentheses Checker
 - Infix to Postfix Conversion
 - Expression Evaluation
@@ -141,14 +149,14 @@ Today's focus was on understanding the fundamental linear data structures **Stac
 
 # 💻 HackerRank Problems Solved
 
-| # | Problem | Difficulty | Concepts |
-|---|---------|------------|----------|
-| ✅ 01 | Maximum Element | 🟢 Easy | Stack, Auxiliary Stack, Maximum Tracking |
-| ✅ 02 | Equal Stacks | 🟢 Easy | Stack, Prefix Sum, Greedy |
-| ✅ 03 | Simple Text Editor | 🟡 Medium | Stack, Undo Operations, String Manipulation |
-| ✅ 04 | Balanced Brackets | 🟡 Medium | Stack, Parentheses Matching |
-| ✅ 05 | Queue using Two Stacks | 🟡 Easy-Medium | Queue, Two Stacks, FIFO |
-| ✅ 06 | Truck Tour | 🟡 Medium | Queue, Circular Traversal, Greedy |
+| #     | Problem                | Difficulty     | Concepts                                    |
+| ----- | ---------------------- | -------------- | ------------------------------------------- |
+| ✅ 01 | Maximum Element        | 🟢 Easy        | Stack, Auxiliary Stack, Maximum Tracking    |
+| ✅ 02 | Equal Stacks           | 🟢 Easy        | Stack, Prefix Sum, Greedy                   |
+| ✅ 03 | Simple Text Editor     | 🟡 Medium      | Stack, Undo Operations, String Manipulation |
+| ✅ 04 | Balanced Brackets      | 🟡 Medium      | Stack, Parentheses Matching                 |
+| ✅ 05 | Queue using Two Stacks | 🟡 Easy-Medium | Queue, Two Stacks, FIFO                     |
+| ✅ 06 | Truck Tour             | 🟡 Medium      | Queue, Circular Traversal, Greedy           |
 
 ---
 
@@ -206,6 +214,7 @@ Successfully completed the **Stacks & Queues HackerRank Practice Set**, strength
 Today's focus was on understanding Linked Lists, Binary Trees, Graph fundamentals, and the basics of Algorithm Analysis while solving HackerRank problems based on these concepts.
 
 ### ✅ Linked Lists
+
 - Singly Linked List
 - Doubly Linked List
 - Circular Linked List
@@ -215,6 +224,7 @@ Today's focus was on understanding Linked Lists, Binary Trees, Graph fundamental
 - Reversal
 
 ### ✅ Trees
+
 - Tree Terminology
   - Root
   - Parent
@@ -229,6 +239,7 @@ Today's focus was on understanding Linked Lists, Binary Trees, Graph fundamental
 - Recursive & Iterative Traversals using Stack
 
 ### ✅ Graphs
+
 - Vertex
 - Edge
 - Directed Graph
@@ -237,6 +248,7 @@ Today's focus was on understanding Linked Lists, Binary Trees, Graph fundamental
 - Breadth-First Search (BFS)
 
 ### ✅ Analysis of Algorithms
+
 - Introduction to Asymptotic Analysis
 - Big-O Notation
 - Big-Omega (Ω)
@@ -247,16 +259,16 @@ Today's focus was on understanding Linked Lists, Binary Trees, Graph fundamental
 
 # 💻 HackerRank Problems Solved
 
-| # | Problem | Difficulty | Concepts |
-|---|---------|------------|----------|
-| ✅ 01 | Print the Elements of a Linked List | 🟢 Easy | Linked List Traversal |
-| ✅ 02 | Insert a Node at the Head of a Linked List | 🟢 Easy | Head Insertion |
-| ✅ 03 | Insert a Node at the Tail of a Linked List | 🟢 Easy | Tail Insertion |
-| ✅ 04 | Reverse a Linked List | 🟡 Easy-Medium | Pointer Manipulation, Reversal |
-| ✅ 05 | Tree: Preorder Traversal | 🟢 Easy | DFS, Preorder Traversal |
-| ✅ 06 | Tree: Inorder Traversal | 🟢 Easy | DFS, Inorder Traversal |
-| ✅ 07 | Tree: Postorder Traversal | 🟢 Easy | DFS, Postorder Traversal |
-| ✅ 08 | BFS: Shortest Reach in a Graph | 🟡 Medium | Graph, BFS, Adjacency List, Queue |
+| #     | Problem                                    | Difficulty     | Concepts                          |
+| ----- | ------------------------------------------ | -------------- | --------------------------------- |
+| ✅ 01 | Print the Elements of a Linked List        | 🟢 Easy        | Linked List Traversal             |
+| ✅ 02 | Insert a Node at the Head of a Linked List | 🟢 Easy        | Head Insertion                    |
+| ✅ 03 | Insert a Node at the Tail of a Linked List | 🟢 Easy        | Tail Insertion                    |
+| ✅ 04 | Reverse a Linked List                      | 🟡 Easy-Medium | Pointer Manipulation, Reversal    |
+| ✅ 05 | Tree: Preorder Traversal                   | 🟢 Easy        | DFS, Preorder Traversal           |
+| ✅ 06 | Tree: Inorder Traversal                    | 🟢 Easy        | DFS, Inorder Traversal            |
+| ✅ 07 | Tree: Postorder Traversal                  | 🟢 Easy        | DFS, Postorder Traversal          |
+| ✅ 08 | BFS: Shortest Reach in a Graph             | 🟡 Medium      | Graph, BFS, Adjacency List, Queue |
 
 ---
 
@@ -310,3 +322,103 @@ Successfully completed the **Linked Lists, Trees & Graphs HackerRank Practice Se
 ---
 
 ⭐ **Day 3 Completed Successfully!**
+
+# 📅 Day 4 – Sorting Algorithms Fundamentals
+
+## 📚 Topics Covered
+
+Today's focus was on understanding the fundamentals of Sorting Algorithms, tracing their execution, analyzing their time complexities, and comparing their characteristics while solving HackerRank problems based on these concepts.
+
+### ✅ Selection Sort
+
+- Selection Sort Concept
+- Step-by-Step Trace
+- Time Complexity Analysis
+- In-Place Sorting
+- Stability Analysis
+
+### ✅ Insertion Sort
+
+- Insertion Sort Concept
+- Key & Shift Technique
+- Step-by-Step Trace
+- Time Complexity Analysis
+- Best, Average & Worst Case
+
+### ✅ Bubble Sort
+
+- Bubble Sort Concept
+- Adjacent Comparison & Swapping
+- Step-by-Step Trace
+- Swap Counting
+- Time Complexity Analysis
+
+### ✅ Comparison of Sorting Algorithms
+
+- Stable vs Unstable Sorting
+- In-Place vs Non In-Place Algorithms
+- Best Case Complexity
+- Average Case Complexity
+- Worst Case Complexity
+- Choosing the Appropriate Sorting Algorithm
+
+---
+
+# 💻 HackerRank Problems Solved
+
+| #     | Problem                            | Difficulty | Concepts                               |
+| ----- | ---------------------------------- | ---------- | -------------------------------------- |
+| ✅ 01 | Insertion Sort - Part 1            | 🟢 Easy    | Key & Shift Logic, Insertion Sort      |
+| ✅ 02 | Insertion Sort - Part 2            | 🟢 Easy    | Complete Insertion Sort                |
+| ✅ 03 | Correctness and the Loop Invariant | 🟢 Easy    | Loop Invariants, Algorithm Correctness |
+| ✅ 04 | Running Time of Algorithms         | 🟢 Easy    | Shift Counting, Time Complexity        |
+| ✅ 05 | Sorting: Bubble Sort               | 🟢 Easy    | Bubble Sort, Swap Counting             |
+
+---
+
+## 🎯 Key Learnings
+
+- Understood the working principles of Selection Sort, Insertion Sort, and Bubble Sort.
+- Learned how Insertion Sort inserts elements using the key-and-shift approach.
+- Understood Bubble Sort through adjacent comparisons and swap operations.
+- Compared sorting algorithms based on stability, in-place behavior, and time complexity.
+- Learned the importance of loop invariants in proving algorithm correctness.
+- Understood how the number of shifts and swaps reflects algorithm efficiency.
+
+---
+
+## 🛠️ Skills Practiced
+
+- Java
+- Sorting Algorithms
+- Selection Sort
+- Insertion Sort
+- Bubble Sort
+- Algorithm Analysis
+- Loop Invariants
+- Time Complexity Analysis
+- Problem Solving
+
+---
+
+## 📈 Progress
+
+- ✅ Selection Sort Fundamentals
+- ✅ Insertion Sort Fundamentals
+- ✅ Bubble Sort Fundamentals
+- ✅ Sorting Algorithm Comparison
+- ✅ Algorithm Correctness
+- ✅ Time Complexity Analysis
+- ✅ Easy Problems: **5 / 5**
+
+### 🎉 Total Problems Solved: **5 / 5**
+
+---
+
+## 🚀 Outcome
+
+Successfully completed the **Sorting Algorithms I HackerRank Practice Set**, strengthening my understanding of Selection Sort, Insertion Sort, Bubble Sort, algorithm correctness using loop invariants, and time complexity analysis. This day established a solid foundation in elementary sorting techniques and prepared me for more advanced sorting algorithms.
+
+---
+
+⭐ **Day 4 Completed Successfully!**
