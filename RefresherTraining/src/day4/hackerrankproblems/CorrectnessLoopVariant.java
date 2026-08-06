@@ -4,7 +4,6 @@ import java.util.Scanner;
 public class CorrectnessLoopVariant {
     // Insertion Sort
     static void insertionSort(int[] ar) {
-
         for (int i = 1; i < ar.length; i++) {
             int value = ar[i];
             int j = i - 1;
