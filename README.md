@@ -422,3 +422,112 @@ Successfully completed the **Sorting Algorithms I HackerRank Practice Set**, str
 ---
 
 ⭐ **Day 4 Completed Successfully!**
+
+# 📅 Day 5 – Advanced Sorting Algorithms
+
+## 📚 Topics Covered
+
+Today's focus was on understanding advanced sorting algorithms including Shell Sort, Merge Sort, and Quick Sort. Learned divide-and-conquer techniques, recursive sorting, partitioning methods, and algorithm optimization while solving HackerRank problems based on these concepts.
+
+### ✅ Shell Sort
+
+- Shell Sort Concept
+- Gap Sequences
+- Gap Reduction Strategy
+- Insertion Sort with Gaps
+- Time Complexity Analysis
+- Advantages & Limitations
+
+### ✅ Merge Sort
+
+- Divide and Conquer Technique
+- Recursive Merge Sort
+- Merge Procedure
+- Counting Inversions
+- Time Complexity Analysis
+- Stable Sorting Algorithm
+
+### ✅ Quick Sort
+
+- Divide and Conquer Technique
+- Pivot Selection
+- Partitioning
+- Lomuto Partition Scheme
+- Hoare Partition Scheme
+- Recursive Quick Sort
+- Best, Average & Worst Case Analysis
+
+### ✅ Comparison of Advanced Sorting Algorithms
+
+- Stable vs Unstable Sorting
+- In-Place vs Non In-Place Algorithms
+- Recursive vs Iterative Approaches
+- Time Complexity Comparison
+- Choosing the Appropriate Sorting Algorithm
+
+---
+
+# 💻 HackerRank Problems Solved
+
+| #     | Problem                          | Difficulty | Concepts                                            |
+| ----- | -------------------------------- | ---------- | --------------------------------------------------- |
+| ✅ 01 | Quicksort 1 - Partition          | 🟢 Easy    | Partitioning, Pivot Selection                       |
+| ✅ 02 | Quicksort 2 - Sorting            | 🟢 Easy    | Recursive Quick Sort, Divide & Conquer              |
+| ✅ 03 | Running Time of Quicksort        | 🟡 Medium  | Quick Sort, Lomuto Partition, Complexity Comparison |
+| ✅ 04 | Insertion Sort Advanced Analysis | 🔴 Hard    | Merge Sort, Inversion Count, Divide & Conquer       |
+
+---
+
+## 🎯 Key Learnings
+
+- Understood the working principles of Shell Sort, Merge Sort, and Quick Sort.
+- Learned divide-and-conquer as an efficient problem-solving paradigm.
+- Explored Quick Sort partitioning using Lomuto and Hoare schemes.
+- Understood Merge Sort through recursive division and merging.
+- Learned inversion counting using Merge Sort to optimize algorithm performance.
+- Compared advanced sorting algorithms based on stability, in-place behavior, recursion, and time complexity.
+- Improved understanding of optimization techniques for large datasets.
+
+---
+
+## 🛠️ Skills Practiced
+
+- Java
+- Shell Sort
+- Merge Sort
+- Quick Sort
+- Divide & Conquer
+- Recursion
+- Partitioning Algorithms
+- Lomuto Partition
+- Hoare Partition
+- Inversion Counting
+- Algorithm Analysis
+- Time Complexity Analysis
+- Problem Solving
+
+---
+
+## 📈 Progress
+
+- ✅ Shell Sort Fundamentals
+- ✅ Merge Sort Fundamentals
+- ✅ Quick Sort Fundamentals
+- ✅ Divide & Conquer
+- ✅ Partitioning Techniques
+- ✅ Advanced Sorting Algorithms
+- ✅ Easy Problems: **2 / 2**
+- ✅ Medium Problems: **1 / 1**
+- ✅ Hard Problems: **1 / 1**
+
+### 🎉 Total Problems Solved: **4 / 4**
+
+---
+
+## 🚀 Outcome
+
+Successfully completed the **Sorting Algorithms II HackerRank Practice Set**, strengthening my understanding of advanced sorting algorithms including Shell Sort, Merge Sort, and Quick Sort. Learned divide-and-conquer strategies, recursive algorithms, partitioning techniques, inversion counting, and algorithm optimization, building a strong foundation for solving complex sorting and performance-critical problems.
+
+---
+
+⭐ **Day 5 Completed Successfully!**
