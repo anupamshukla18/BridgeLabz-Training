@@ -2,51 +2,81 @@ package day6.hackerrankproblems;
 
 import java.util.*;
 
+import java.util.*;
+
 public class IceCreamParlor {
-	public static List<Integer> icecreamParlor(int m, List<Integer> arr) {
-		// Stores (cost, index)
-		HashMap<Integer, Integer> map = new HashMap<>();
+    public static List<Integer> icecreamParlor(int m, List<Integer> cost) {
+        int n = cost.size();
 
-		for (int i = 0; i < arr.size(); i++) {
+        // Store cost and original index
+        int[][] arr = new int[n][2];
 
-			int current = arr.get(i);
-			int complement = m - current;
+        for (int i = 0; i < n; i++) {
+            arr[i][0] = cost.get(i);
+            arr[i][1] = i + 1;
+        }
 
-			// Found the required pair
-			if (map.containsKey(complement)) {
-				return Arrays.asList(map.get(complement) + 1, i + 1);
-			}
+        // Sort according to cost
+        Arrays.sort(arr, (a, b) -> Integer.compare(a[0], b[0]));
 
-			map.put(current, i);
-		}
+        // Binary Search
+        for (int i = 0; i < n - 1; i++) {
 
-		return new ArrayList<>();
-	}
+            int target = m - arr[i][0];
 
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
+            int low = i + 1;
+            int high = n - 1;
 
-		int t = sc.nextInt();
+            while (low <= high) {
 
-		while (t-- > 0) {
+                int mid = low + (high - low) / 2;
 
-			int m = sc.nextInt();
-			int n = sc.nextInt();
+                if (arr[mid][0] == target) {
 
-			List<Integer> arr = new ArrayList<>();
+                    int idx1 = arr[i][1];
+                    int idx2 = arr[mid][1];
 
-			for (int i = 0; i < n; i++) {
-				arr.add(sc.nextInt());
-			}
+                    if (idx1 < idx2)
+                        return Arrays.asList(idx1, idx2);
+                    else
+                        return Arrays.asList(idx2, idx1);
 
-			List<Integer> result = icecreamParlor(m, arr);
+                } else if (arr[mid][0] < target) {
+                    low = mid + 1;
+                } else {
+                    high = mid - 1;
+                }
+            }
+        }
 
-			for (int num : result) {
-				System.out.print(num + " ");
-			}
-			System.out.println();
-		}
+        return new ArrayList<>();
+    }
 
-		sc.close();
-	}
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int t = sc.nextInt();
+
+        while (t-- > 0) {
+
+            int m = sc.nextInt();
+            int n = sc.nextInt();
+
+            List<Integer> cost = new ArrayList<>();
+
+            for (int i = 0; i < n; i++) {
+                cost.add(sc.nextInt());
+            }
+
+            List<Integer> result = icecreamParlor(m, cost);
+
+            for (int x : result) {
+                System.out.print(x + " ");
+            }
+
+            System.out.println();
+        }
+
+        sc.close();
+    }
 }
