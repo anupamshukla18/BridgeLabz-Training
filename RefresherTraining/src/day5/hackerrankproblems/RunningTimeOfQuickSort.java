@@ -1,4 +1,5 @@
 package day5.hackerrankproblems;
+
 import java.util.Scanner;
 
 /*
@@ -19,116 +20,111 @@ import java.util.Scanner;
  */
 
 public class RunningTimeOfQuickSort {
+	// Stores total swaps performed by QuickSort
+	static int quickSwaps = 0;
 
-    // Stores total swaps performed by QuickSort
-    static int quickSwaps = 0;
+	// Counts shifts in Insertion Sort
+	static int insertionSortShifts(int[] arr) {
 
-    // Counts shifts in Insertion Sort
-    static int insertionSortShifts(int[] arr) {
+		int shifts = 0;
 
-        int shifts = 0;
+		// Traverse from second element
+		for (int i = 1; i < arr.length; i++) {
 
-        // Traverse from second element
-        for (int i = 1; i < arr.length; i++) {
+			int key = arr[i];
+			int j = i - 1;
 
-            int key = arr[i];
-            int j = i - 1;
+			// Shift larger elements to the right
+			while (j >= 0 && arr[j] > key) {
 
-            // Shift larger elements to the right
-            while (j >= 0 && arr[j] > key) {
+				arr[j + 1] = arr[j];
+				shifts++;
+				j--;
+			}
 
-                arr[j + 1] = arr[j];
-                shifts++;
-                j--;
-            }
+			// Insert the current element
+			arr[j + 1] = key;
+		}
 
-            // Insert the current element
-            arr[j + 1] = key;
-        }
+		return shifts;
+	}
 
-        return shifts;
-    }
+	// Recursive QuickSort
+	static void quickSort(int[] arr, int low, int high) {
+		if (low < high) {
 
-    // Recursive QuickSort
-    static void quickSort(int[] arr, int low, int high) {
+			// Partition the array
+			int pivotIndex = partition(arr, low, high);
 
-        if (low < high) {
+			// Sort left sub-array
+			quickSort(arr, low, pivotIndex - 1);
 
-            // Partition the array
-            int pivotIndex = partition(arr, low, high);
+			// Sort right sub-array
+			quickSort(arr, pivotIndex + 1, high);
+		}
+	}
 
-            // Sort left sub-array
-            quickSort(arr, low, pivotIndex - 1);
+	// Lomuto Partition
+	static int partition(int[] arr, int low, int high) {
+		// Last element is the pivot
+		int pivot = arr[high];
 
-            // Sort right sub-array
-            quickSort(arr, pivotIndex + 1, high);
-        }
-    }
+		// Index of smaller element
+		int i = low;
 
-    // Lomuto Partition
-    static int partition(int[] arr, int low, int high) {
+		// Rearrange elements
+		for (int j = low; j < high; j++) {
 
-        // Last element is the pivot
-        int pivot = arr[high];
+			if (arr[j] < pivot) {
 
-        // Index of smaller element
-        int i = low;
+				// Count every swap, even if i == j
+				swap(arr, i, j);
+				quickSwaps++;
+				i++;
+			}
+		}
 
-        // Rearrange elements
-        for (int j = low; j < high; j++) {
+		// Place pivot at its correct position
+		swap(arr, i, high);
+		quickSwaps++;
 
-            if (arr[j] < pivot) {
+		return i;
+	}
 
-                // Count every swap, even if i == j
-                swap(arr, i, j);
-                quickSwaps++;
-                i++;
-            }
-        }
+	// Swaps two elements
+	static void swap(int[] arr, int i, int j) {
+		int temp = arr[i];
+		arr[i] = arr[j];
+		arr[j] = temp;
+	}
 
-        // Place pivot at its correct position
-        swap(arr, i, high);
-        quickSwaps++;
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
 
-        return i;
-    }
+		// Read array size
+		int n = sc.nextInt();
 
-    // Swaps two elements
-    static void swap(int[] arr, int i, int j) {
+		int[] insertionArray = new int[n];
+		int[] quickArray = new int[n];
 
-        int temp = arr[i];
-        arr[i] = arr[j];
-        arr[j] = temp;
-    }
+		// Read input into both arrays
+		for (int i = 0; i < n; i++) {
 
-    public static void main(String[] args) {
+			int value = sc.nextInt();
 
-        Scanner sc = new Scanner(System.in);
+			insertionArray[i] = value;
+			quickArray[i] = value;
+		}
 
-        // Read array size
-        int n = sc.nextInt();
+		// Count insertion sort shifts
+		int insertionShifts = insertionSortShifts(insertionArray);
 
-        int[] insertionArray = new int[n];
-        int[] quickArray = new int[n];
+		// Count QuickSort swaps
+		quickSort(quickArray, 0, n - 1);
 
-        // Read input into both arrays
-        for (int i = 0; i < n; i++) {
+		// Print the required difference
+		System.out.println(insertionShifts - quickSwaps);
 
-            int value = sc.nextInt();
-
-            insertionArray[i] = value;
-            quickArray[i] = value;
-        }
-
-        // Count insertion sort shifts
-        int insertionShifts = insertionSortShifts(insertionArray);
-
-        // Count QuickSort swaps
-        quickSort(quickArray, 0, n - 1);
-
-        // Print the required difference
-        System.out.println(insertionShifts - quickSwaps);
-
-        sc.close();
-    }
+		sc.close();
+	}
 }
