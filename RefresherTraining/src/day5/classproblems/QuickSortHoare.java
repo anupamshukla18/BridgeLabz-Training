@@ -1,94 +1,90 @@
 package day5.classproblems;
+
 import java.util.Scanner;
 
 public class QuickSortHoare {
+	// Recursive Quick Sort
+	static void quickSort(int[] arr, int low, int high) {
 
-    // Recursive Quick Sort
-    static void quickSort(int[] arr, int low, int high) {
+		// Base case
+		if (low < high) {
 
-        // Base case
-        if (low < high) {
+			// Partition the array
+			int pivotIndex = partition(arr, low, high);
 
-            // Partition the array
-            int pivotIndex = partition(arr, low, high);
+			// Sort left sub-array
+			quickSort(arr, low, pivotIndex);
 
-            // Sort left sub-array
-            quickSort(arr, low, pivotIndex);
+			// Sort right sub-array
+			quickSort(arr, pivotIndex + 1, high);
+		}
+	}
 
-            // Sort right sub-array
-            quickSort(arr, pivotIndex + 1, high);
-        }
-    }
+	// Hoare Partition
+	static int partition(int[] arr, int low, int high) {
+		// First element is the pivot
+		int pivot = arr[low];
 
-    // Hoare Partition
-    static int partition(int[] arr, int low, int high) {
+		int i = low - 1;
+		int j = high + 1;
 
-        // First element is the pivot
-        int pivot = arr[low];
+		while (true) {
 
-        int i = low - 1;
-        int j = high + 1;
+			// Move from left
+			do {
+				i++;
+			} while (arr[i] < pivot);
 
-        while (true) {
+			// Move from right
+			do {
+				j--;
+			} while (arr[j] > pivot);
 
-            // Move from left
-            do {
-                i++;
-            } while (arr[i] < pivot);
+			// Partition complete
+			if (i >= j) {
+				return j;
+			}
 
-            // Move from right
-            do {
-                j--;
-            } while (arr[j] > pivot);
+			// Swap elements
+			swap(arr, i, j);
+		}
+	}
 
-            // Partition complete
-            if (i >= j) {
-                return j;
-            }
+	// Swap two elements
+	static void swap(int[] arr, int i, int j) {
 
-            // Swap elements
-            swap(arr, i, j);
-        }
-    }
+		int temp = arr[i];
+		arr[i] = arr[j];
+		arr[j] = temp;
+	}
 
-    // Swap two elements
-    static void swap(int[] arr, int i, int j) {
+	// Print array
+	static void printArray(int[] arr) {
+		for (int num : arr) {
+			System.out.print(num + " ");
+		}
 
-        int temp = arr[i];
-        arr[i] = arr[j];
-        arr[j] = temp;
-    }
+		System.out.println();
+	}
 
-    // Print array
-    static void printArray(int[] arr) {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
 
-        for (int num : arr) {
-            System.out.print(num + " ");
-        }
+		int n = sc.nextInt();
 
-        System.out.println();
-    }
+		int[] arr = new int[n];
 
-    public static void main(String[] args) {
+		System.out.println("Enter array elements:");
 
-        Scanner sc = new Scanner(System.in);
+		for (int i = 0; i < n; i++) {
+			arr[i] = sc.nextInt();
+		}
 
-        System.out.print("Enter number of elements: ");
-        int n = sc.nextInt();
+		quickSort(arr, 0, n - 1);
 
-        int[] arr = new int[n];
+		System.out.println("Sorted Array:");
+		printArray(arr);
 
-        System.out.println("Enter array elements:");
-
-        for (int i = 0; i < n; i++) {
-            arr[i] = sc.nextInt();
-        }
-
-        quickSort(arr, 0, n - 1);
-
-        System.out.println("Sorted Array:");
-        printArray(arr);
-
-        sc.close();
-    }
+		sc.close();
+	}
 }
