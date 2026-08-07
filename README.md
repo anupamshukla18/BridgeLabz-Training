@@ -531,3 +531,101 @@ Successfully completed the **Sorting Algorithms II HackerRank Practice Set**, st
 ---
 
 ⭐ **Day 5 Completed Successfully!**
+
+# 📅 Day 6 – Searching Algorithms
+
+## 📚 Topics Covered
+
+Today's focus was on understanding Searching Algorithms, their implementations, prerequisites, complexity analysis, and solving HackerRank problems based on Binary Search and searching techniques.
+
+### ✅ Linear Search
+- Linear Search Concept
+- Sequential Search
+- Best, Average & Worst Case Analysis
+- Time Complexity
+- Space Complexity
+- Applications of Linear Search
+
+### ✅ Binary Search
+- Binary Search Concept
+- Precondition: Sorted Data
+- Iterative Binary Search
+- Recursive Binary Search
+- Mid Calculation
+- Time Complexity Analysis
+- Space Complexity Analysis
+
+### ✅ Binary Search Variants
+- First Occurrence of an Element
+- Last Occurrence of an Element
+- Search in Rotated Sorted Array
+- Lower Bound & Upper Bound Concepts
+- Search on Sorted Arrays
+
+### ✅ Searching Algorithms Comparison
+- Linear Search vs Binary Search
+- Searching on Sorted vs Unsorted Data
+- Best, Average & Worst Case Complexity
+- Consolidated Comparison of Sorting & Searching Algorithms
+
+---
+
+# 💻 HackerRank Problems Solved
+
+| # | Problem | Difficulty | Concepts |
+|---|---------|------------|----------|
+| ✅ 01 | Ice Cream Parlor | 🟢 Easy | Binary Search, Pair Search |
+| ✅ 02 | Missing Numbers | 🟢 Easy | Sorting, Frequency Comparison, Binary Search |
+| ✅ 03 | Pairs | 🟡 Medium | Binary Search, Pair Counting |
+
+---
+
+## 🎯 Key Learnings
+
+- Understood the differences between Linear Search and Binary Search.
+- Learned why Binary Search requires sorted data.
+- Implemented Binary Search using both iterative and recursive approaches.
+- Explored Binary Search variants such as first occurrence, last occurrence, and searching in rotated sorted arrays.
+- Applied Binary Search to efficiently solve searching and pair-finding problems.
+- Compared searching algorithms based on time complexity and practical use cases.
+- Consolidated the complexity analysis of all sorting and searching algorithms covered so far.
+
+---
+
+## 🛠️ Skills Practiced
+
+- Java
+- Linear Search
+- Binary Search
+- Recursive Algorithms
+- Iterative Algorithms
+- Searching Algorithms
+- Sorting + Searching
+- Pair Searching
+- Frequency Analysis
+- Time Complexity Analysis
+- Problem Solving
+
+---
+
+## 📈 Progress
+
+- ✅ Linear Search Fundamentals
+- ✅ Binary Search Fundamentals
+- ✅ Binary Search Variants
+- ✅ Searching on Sorted Arrays
+- ✅ Complexity Analysis
+- ✅ Easy Problems: **2 / 2**
+- ✅ Medium Problems: **1 / 1**
+
+### 🎉 Total Problems Solved: **3 / 3**
+
+---
+
+## 🚀 Outcome
+
+Successfully completed the **Searching Algorithms HackerRank Practice Set**, strengthening my understanding of Linear Search, Binary Search, recursive and iterative implementations, Binary Search variants, and efficient searching on sorted data. This day also reinforced the importance of algorithm analysis and consolidated the complexity comparison of the sorting and searching techniques covered throughout the training.
+
+---
+
+⭐ **Day 6 Completed Successfully!**
