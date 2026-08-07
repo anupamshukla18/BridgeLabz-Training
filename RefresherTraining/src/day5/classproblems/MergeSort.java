@@ -1,101 +1,97 @@
 package day5.classproblems;
+
 import java.util.Scanner;
 
 public class MergeSort {
+	// Recursive Merge Sort
+	static void mergeSort(int[] arr, int left, int right) {
+		// Base case
+		if (left < right) {
 
-    // Recursive Merge Sort
-    static void mergeSort(int[] arr, int left, int right) {
+			int mid = (left + right) / 2;
 
-        // Base case
-        if (left < right) {
+			// Sort left half
+			mergeSort(arr, left, mid);
 
-            int mid = (left + right) / 2;
+			// Sort right half
+			mergeSort(arr, mid + 1, right);
 
-            // Sort left half
-            mergeSort(arr, left, mid);
+			// Merge both halves
+			merge(arr, left, mid, right);
+		}
+	}
 
-            // Sort right half
-            mergeSort(arr, mid + 1, right);
+	// Merge two sorted halves
+	static void merge(int[] arr, int left, int mid, int right) {
+		int n1 = mid - left + 1;
+		int n2 = right - mid;
 
-            // Merge both halves
-            merge(arr, left, mid, right);
-        }
-    }
+		int[] leftArray = new int[n1];
+		int[] rightArray = new int[n2];
 
-    // Merge two sorted halves
-    static void merge(int[] arr, int left, int mid, int right) {
+		// Copy left half
+		for (int i = 0; i < n1; i++) {
+			leftArray[i] = arr[left + i];
+		}
 
-        int n1 = mid - left + 1;
-        int n2 = right - mid;
+		// Copy right half
+		for (int j = 0; j < n2; j++) {
+			rightArray[j] = arr[mid + 1 + j];
+		}
 
-        int[] leftArray = new int[n1];
-        int[] rightArray = new int[n2];
+		int i = 0;
+		int j = 0;
+		int k = left;
 
-        // Copy left half
-        for (int i = 0; i < n1; i++) {
-            leftArray[i] = arr[left + i];
-        }
+		// Merge both halves
+		while (i < n1 && j < n2) {
 
-        // Copy right half
-        for (int j = 0; j < n2; j++) {
-            rightArray[j] = arr[mid + 1 + j];
-        }
+			if (leftArray[i] <= rightArray[j]) {
+				arr[k++] = leftArray[i++];
+			} else {
+				arr[k++] = rightArray[j++];
+			}
+		}
 
-        int i = 0;
-        int j = 0;
-        int k = left;
+		// Copy remaining left elements
+		while (i < n1) {
+			arr[k++] = leftArray[i++];
+		}
 
-        // Merge both halves
-        while (i < n1 && j < n2) {
+		// Copy remaining right elements
+		while (j < n2) {
+			arr[k++] = rightArray[j++];
+		}
+	}
 
-            if (leftArray[i] <= rightArray[j]) {
-                arr[k++] = leftArray[i++];
-            } else {
-                arr[k++] = rightArray[j++];
-            }
-        }
+	// Print array
+	static void printArray(int[] arr) {
 
-        // Copy remaining left elements
-        while (i < n1) {
-            arr[k++] = leftArray[i++];
-        }
+		for (int num : arr) {
+			System.out.print(num + " ");
+		}
 
-        // Copy remaining right elements
-        while (j < n2) {
-            arr[k++] = rightArray[j++];
-        }
-    }
+		System.out.println();
+	}
 
-    // Print array
-    static void printArray(int[] arr) {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
 
-        for (int num : arr) {
-            System.out.print(num + " ");
-        }
+		int n = sc.nextInt();
 
-        System.out.println();
-    }
+		int[] arr = new int[n];
 
-    public static void main(String[] args) {
+		System.out.println("Enter array elements:");
 
-        Scanner sc = new Scanner(System.in);
+		for (int i = 0; i < n; i++) {
+			arr[i] = sc.nextInt();
+		}
 
-        System.out.print("Enter number of elements: ");
-        int n = sc.nextInt();
+		mergeSort(arr, 0, n - 1);
 
-        int[] arr = new int[n];
+		System.out.println("Sorted Array:");
+		printArray(arr);
 
-        System.out.println("Enter array elements:");
-
-        for (int i = 0; i < n; i++) {
-            arr[i] = sc.nextInt();
-        }
-
-        mergeSort(arr, 0, n - 1);
-
-        System.out.println("Sorted Array:");
-        printArray(arr);
-
-        sc.close();
-    }
+		sc.close();
+	}
 }
