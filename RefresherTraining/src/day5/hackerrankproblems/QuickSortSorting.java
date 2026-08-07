@@ -1,4 +1,5 @@
 package day5.hackerrankproblems;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -14,80 +15,78 @@ import java.util.Scanner;
  */
 
 public class QuickSortSorting {
+	// Recursive QuickSort
+	static void quickSort(List<Integer> arr) {
 
-    // Recursive QuickSort
-    static void quickSort(List<Integer> arr) {
+		// Base case
+		if (arr.size() <= 1) {
+			return;
+		}
 
-        // Base case
-        if (arr.size() <= 1) {
-            return;
-        }
+		// First element is chosen as pivot
+		int pivot = arr.get(0);
 
-        // First element is chosen as pivot
-        int pivot = arr.get(0);
+		// Left and right partitions
+		List<Integer> left = new ArrayList<>();
+		List<Integer> right = new ArrayList<>();
 
-        // Left and right partitions
-        List<Integer> left = new ArrayList<>();
-        List<Integer> right = new ArrayList<>();
+		// Partition the array
+		for (int i = 1; i < arr.size(); i++) {
 
-        // Partition the array
-        for (int i = 1; i < arr.size(); i++) {
+			if (arr.get(i) < pivot) {
+				left.add(arr.get(i));
+			} else {
+				right.add(arr.get(i));
+			}
+		}
 
-            if (arr.get(i) < pivot) {
-                left.add(arr.get(i));
-            } else {
-                right.add(arr.get(i));
-            }
-        }
+		// Sort left partition first
+		quickSort(left);
 
-        // Sort left partition first
-        quickSort(left);
+		// Sort right partition
+		quickSort(right);
 
-        // Sort right partition
-        quickSort(right);
+		// Merge: Left + Pivot + Right
+		arr.clear();
+		arr.addAll(left);
+		arr.add(pivot);
+		arr.addAll(right);
 
-        // Merge: Left + Pivot + Right
-        arr.clear();
-        arr.addAll(left);
-        arr.add(pivot);
-        arr.addAll(right);
+		// Print the current sorted sub-array
+		printArray(arr);
+	}
 
-        // Print the current sorted sub-array
-        printArray(arr);
-    }
+	// Prints a list
+	static void printArray(List<Integer> arr) {
 
-    // Prints a list
-    static void printArray(List<Integer> arr) {
+		for (int i = 0; i < arr.size(); i++) {
 
-        for (int i = 0; i < arr.size(); i++) {
+			System.out.print(arr.get(i));
 
-            System.out.print(arr.get(i));
+			if (i != arr.size() - 1) {
+				System.out.print(" ");
+			}
+		}
 
-            if (i != arr.size() - 1) {
-                System.out.print(" ");
-            }
-        }
+		System.out.println();
+	}
 
-        System.out.println();
-    }
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
 
-    public static void main(String[] args) {
+		// Size of array
+		int n = sc.nextInt();
 
-        Scanner sc = new Scanner(System.in);
+		List<Integer> arr = new ArrayList<>();
 
-        // Size of array
-        int n = sc.nextInt();
+		// Read array elements
+		for (int i = 0; i < n; i++) {
+			arr.add(sc.nextInt());
+		}
 
-        List<Integer> arr = new ArrayList<>();
+		// Perform QuickSort
+		quickSort(arr);
 
-        // Read array elements
-        for (int i = 0; i < n; i++) {
-            arr.add(sc.nextInt());
-        }
-
-        // Perform QuickSort
-        quickSort(arr);
-
-        sc.close();
-    }
+		sc.close();
+	}
 }
