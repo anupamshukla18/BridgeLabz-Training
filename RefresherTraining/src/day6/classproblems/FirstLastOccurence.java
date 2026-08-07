@@ -6,7 +6,7 @@ public class FirstLastOccurence {
 	public static int firstOccurence(int[] arr, int target) {
 		int low = 0;
 		int high = arr.length - 1;
-		int result = 0;
+		int result = -1;
 		
 		while (low <= high) {
 			int mid = low + (high - low) / 2;
@@ -26,7 +26,7 @@ public class FirstLastOccurence {
 	public static int lastOccurence(int[] arr, int target) {
 		int low = 0;
 		int high = arr.length - 1;
-		int result = 0;
+		int result = -1;
 		
 		while (low <= high) {
 			int mid = low + (high - low) / 2;
@@ -63,8 +63,13 @@ public class FirstLastOccurence {
 		int first = firstOccurence(arr, target);
 		int last = lastOccurence(arr, target);
 		
-		System.out.println("First Occurence: " + first);
-		System.out.println("Last Occurence: " + last);
+		if (first != -1 ) {
+			System.out.println("First Occurence: " + first);
+		}
+		
+		if (last != -1 ) {
+			System.out.println("Last Occurence: " + last);
+		}
 		
 		sc.close();
 	}
