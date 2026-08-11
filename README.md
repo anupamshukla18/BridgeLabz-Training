@@ -629,3 +629,112 @@ Successfully completed the **Searching Algorithms HackerRank Practice Set**, str
 ---
 
 ⭐ **Day 6 Completed Successfully!**
+
+# 📅 Day 7 – Recursion Fundamentals
+
+## 📚 Topics Covered
+
+Today's focus was on understanding the fundamentals of Recursion, how recursive calls work internally, and applying recursive thinking to common programming problems.
+
+### ✅ Recursive Thinking
+- Understanding Recursion
+- Base Case
+- Recursive Case
+- Breaking a problem into smaller subproblems
+- Ensuring recursive calls eventually reach the base case
+
+### ✅ Call Stack
+- Understanding the Call Stack
+- Visualizing recursive function calls
+- Function Call Frames
+- Stack Unwinding
+- Understanding how recursive calls return their results
+
+### ✅ Head vs Tail Recursion
+- Head Recursion
+- Tail Recursion
+- Difference between Head and Tail Recursion
+- Understanding when work is performed before or after the recursive call
+
+### ✅ Recursion Practice
+- Factorial using Recursion
+- Fibonacci using Recursion
+- Power Function using Recursion
+- Digit Sum using Recursion
+- String Reversal using Recursion
+
+---
+
+# 💻 HackerRank Problems Solved
+
+| # | Problem | Difficulty | Concepts |
+|---|---------|------------|----------|
+| ✅ 01 | Day 9: Recursion 3 (30 Days of Code) | 🟢 Easy | Factorial, Base Case, Recursive Case |
+| ✅ 02 | Recursion: Fibonacci Numbers | 🟢 Easy | Recursion, Multiple Recursive Calls, Recursion Tree |
+| ✅ 03 | Recursion: Davis' Staircase | 🟡 Medium | Recursion, Multiple Recursive Calls, Dynamic Programming |
+| ✅ 04 | Recursive Digit Sum | 🟡 Medium | Recursion, Digit Sum, Base Case |
+
+The Day 7 practice sheet lists these four HackerRank problems in the suggested Q1–Q4 order. :contentReference[oaicite:1]{index=1}
+
+---
+
+## 🎯 Key Learnings
+
+- Understood how to identify the base case and recursive case.
+- Learned how recursive calls are stored and managed using the Call Stack.
+- Visualized recursion using step-by-step call stack traces.
+- Differentiated between Head Recursion and Tail Recursion.
+- Implemented common mathematical problems using recursion.
+- Understood branching recursion through Fibonacci and Staircase problems.
+- Applied recursion to digit manipulation using Recursive Digit Sum.
+- Learned how recursive thinking can simplify problems by breaking them into smaller subproblems.
+
+---
+
+## 🛠️ Skills Practiced
+
+- Java
+- Recursion
+- Call Stack
+- Head Recursion
+- Tail Recursion
+- Factorial
+- Fibonacci
+- Digit Sum
+- String Manipulation
+- Recursive Problem Solving
+- Recursion Trees
+- Dynamic Programming Basics
+- Time Complexity Analysis
+
+---
+
+## 📈 Progress
+
+- ✅ Recursive Thinking
+- ✅ Base & Recursive Cases
+- ✅ Call Stack Visualization
+- ✅ Head Recursion
+- ✅ Tail Recursion
+- ✅ Factorial
+- ✅ Fibonacci
+- ✅ Recursive Staircase
+- ✅ Recursive Digit Sum
+- ✅ Power Function
+- ✅ String Reversal
+- ✅ Easy Problems: **2 / 2**
+- ✅ Medium Problems: **2 / 2**
+
+### 🎉 Total HackerRank Problems Solved: **4 / 4**
+
+---
+
+## 🚀 Outcome
+
+Successfully completed the **Recursion I HackerRank Practice Set**, strengthening my understanding of recursive thinking, base cases, recursive cases, call stack execution, and different recursion patterns.
+
+Applied recursion to problems involving **Factorial, Fibonacci, Staircase, Digit Sum, Power Calculation, and String Reversal**, building a strong foundation for more advanced recursive and backtracking problems.
+
+---
+
+⭐ **Day 7 Completed Successfully!**
