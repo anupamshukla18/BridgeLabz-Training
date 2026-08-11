@@ -738,3 +738,119 @@ Applied recursion to problems involving **Factorial, Fibonacci, Staircase, Digit
 ---
 
 ⭐ **Day 7 Completed Successfully!**
+
+# 📅 Day 8 – Recursion II & Backtracking
+
+## 📚 Topics Covered
+
+Today's focus was on advanced recursion techniques, including Tree Recursion, Mutual Recursion, recursion vs iteration, and the fundamentals of Backtracking.
+
+### ✅ Tree Recursion
+- Multiple Recursive Calls per Function Invocation
+- Understanding Recursion Trees
+- Branching Recursion
+- Subsets Generation
+- Permutations Generation
+- Include / Exclude Pattern
+
+### ✅ Indirect (Mutual) Recursion
+- Understanding Mutual Recursion
+- Two or More Functions Calling Each Other
+- Even-Odd Example
+- Controlling Recursive Calls Between Functions
+
+### ✅ Recursion vs Iteration
+- Recursive vs Iterative Solutions
+- Call Stack Overhead
+- Memory Usage
+- Readability & Code Simplicity
+- Time Complexity Comparison
+- Choosing Recursion vs Iteration
+
+### ✅ Backtracking
+- Backtracking Concept
+- Choose → Explore → Undo Pattern
+- State Space Exploration
+- Subset Sum
+- Permutations
+- N-Queens Introduction
+- Backtracking-Flavoured Problems
+
+---
+
+# 💻 HackerRank Problems Solved
+
+| # | Problem | Difficulty | Concepts |
+|---|---------|------------|----------|
+| ✅ 01 | Permutations of Strings | 🟡 Medium | Tree Recursion, Permutations, Backtracking |
+| ✅ 02 | The Coin Change Problem | 🟡 Medium | Recursion, Include/Exclude, Subset-Sum Pattern, Dynamic Programming |
+| ✅ 03 | Crossword Puzzle | 🟡 Medium | Backtracking, Recursion, Choose-Explore-Undo |
+| ✅ 04 | Subset Practice / Subset Sum | 🟡 Medium | Tree Recursion, Include/Exclude, Backtracking |
+
+The official Day 8 practice sheet lists **Permutations of Strings** and **The Coin Change Problem** as the primary HackerRank problems. It also identifies **Crossword Puzzle** as the closest HackerRank backtracking problem and recommends separate practice for subsets and N-Queens. :contentReference[oaicite:1]{index=1}
+
+---
+
+## 🎯 Key Learnings
+
+- Understood Tree Recursion and how one function call can generate multiple recursive calls.
+- Learned how recursion trees represent branching recursive problems.
+- Implemented permutations using the "try each remaining element" approach.
+- Applied the Include/Exclude pattern to subset and subset-sum style problems.
+- Understood Indirect (Mutual) Recursion between two functions.
+- Compared Recursion and Iteration based on memory, performance, and readability.
+- Learned the fundamental Backtracking pattern:
+  - Choose
+  - Explore
+  - Undo
+- Applied recursive backtracking concepts to problems such as Permutations, Subset Sum, and N-Queens.
+- Understood why a plain recursive solution to Coin Change becomes inefficient for larger inputs and leads naturally toward Dynamic Programming. :contentReference[oaicite:2]{index=2}
+
+---
+
+## 🛠️ Skills Practiced
+
+- Java
+- Recursion
+- Tree Recursion
+- Mutual Recursion
+- Recursion Trees
+- Backtracking
+- Permutations
+- Subsets
+- Subset Sum
+- Include / Exclude Pattern
+- Dynamic Programming Basics
+- State Space Search
+- Problem Solving
+- Time & Space Complexity Analysis
+
+---
+
+## 📈 Progress
+
+- ✅ Tree Recursion
+- ✅ Recursion Trees
+- ✅ Mutual Recursion
+- ✅ Recursion vs Iteration
+- ✅ Subsets
+- ✅ Permutations
+- ✅ Subset Sum
+- ✅ Backtracking
+- ✅ N-Queens Introduction
+- ✅ Include / Exclude Pattern
+- ✅ Medium Problems: **4 / 4**
+
+### 🎉 Total Problems Practiced: **4 / 4**
+
+---
+
+## 🚀 Outcome
+
+Successfully completed **Day 8 – Recursion II**, strengthening my understanding of Tree Recursion, Mutual Recursion, recursion trees, permutations, subsets, subset-sum style problems, and backtracking.
+
+Learned the fundamental **Choose → Explore → Undo** pattern and applied it to recursive problem-solving. This day also introduced the connection between recursive solutions and Dynamic Programming, providing a strong foundation for more advanced Backtracking and DP problems.
+
+---
+
+⭐ **Day 8 Completed Successfully!**
