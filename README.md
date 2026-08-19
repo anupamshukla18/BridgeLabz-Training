@@ -539,6 +539,7 @@ Successfully completed the **Sorting Algorithms II HackerRank Practice Set**, st
 Today's focus was on understanding Searching Algorithms, their implementations, prerequisites, complexity analysis, and solving HackerRank problems based on Binary Search and searching techniques.
 
 ### ✅ Linear Search
+
 - Linear Search Concept
 - Sequential Search
 - Best, Average & Worst Case Analysis
@@ -547,6 +548,7 @@ Today's focus was on understanding Searching Algorithms, their implementations, 
 - Applications of Linear Search
 
 ### ✅ Binary Search
+
 - Binary Search Concept
 - Precondition: Sorted Data
 - Iterative Binary Search
@@ -556,6 +558,7 @@ Today's focus was on understanding Searching Algorithms, their implementations, 
 - Space Complexity Analysis
 
 ### ✅ Binary Search Variants
+
 - First Occurrence of an Element
 - Last Occurrence of an Element
 - Search in Rotated Sorted Array
@@ -563,6 +566,7 @@ Today's focus was on understanding Searching Algorithms, their implementations, 
 - Search on Sorted Arrays
 
 ### ✅ Searching Algorithms Comparison
+
 - Linear Search vs Binary Search
 - Searching on Sorted vs Unsorted Data
 - Best, Average & Worst Case Complexity
@@ -572,11 +576,11 @@ Today's focus was on understanding Searching Algorithms, their implementations, 
 
 # 💻 HackerRank Problems Solved
 
-| # | Problem | Difficulty | Concepts |
-|---|---------|------------|----------|
-| ✅ 01 | Ice Cream Parlor | 🟢 Easy | Binary Search, Pair Search |
-| ✅ 02 | Missing Numbers | 🟢 Easy | Sorting, Frequency Comparison, Binary Search |
-| ✅ 03 | Pairs | 🟡 Medium | Binary Search, Pair Counting |
+| #     | Problem          | Difficulty | Concepts                                     |
+| ----- | ---------------- | ---------- | -------------------------------------------- |
+| ✅ 01 | Ice Cream Parlor | 🟢 Easy    | Binary Search, Pair Search                   |
+| ✅ 02 | Missing Numbers  | 🟢 Easy    | Sorting, Frequency Comparison, Binary Search |
+| ✅ 03 | Pairs            | 🟡 Medium  | Binary Search, Pair Counting                 |
 
 ---
 
@@ -637,6 +641,7 @@ Successfully completed the **Searching Algorithms HackerRank Practice Set**, str
 Today's focus was on understanding the fundamentals of Recursion, how recursive calls work internally, and applying recursive thinking to common programming problems.
 
 ### ✅ Recursive Thinking
+
 - Understanding Recursion
 - Base Case
 - Recursive Case
@@ -644,6 +649,7 @@ Today's focus was on understanding the fundamentals of Recursion, how recursive 
 - Ensuring recursive calls eventually reach the base case
 
 ### ✅ Call Stack
+
 - Understanding the Call Stack
 - Visualizing recursive function calls
 - Function Call Frames
@@ -651,12 +657,14 @@ Today's focus was on understanding the fundamentals of Recursion, how recursive 
 - Understanding how recursive calls return their results
 
 ### ✅ Head vs Tail Recursion
+
 - Head Recursion
 - Tail Recursion
 - Difference between Head and Tail Recursion
 - Understanding when work is performed before or after the recursive call
 
 ### ✅ Recursion Practice
+
 - Factorial using Recursion
 - Fibonacci using Recursion
 - Power Function using Recursion
@@ -667,12 +675,12 @@ Today's focus was on understanding the fundamentals of Recursion, how recursive 
 
 # 💻 HackerRank Problems Solved
 
-| # | Problem | Difficulty | Concepts |
-|---|---------|------------|----------|
-| ✅ 01 | Day 9: Recursion 3 (30 Days of Code) | 🟢 Easy | Factorial, Base Case, Recursive Case |
-| ✅ 02 | Recursion: Fibonacci Numbers | 🟢 Easy | Recursion, Multiple Recursive Calls, Recursion Tree |
-| ✅ 03 | Recursion: Davis' Staircase | 🟡 Medium | Recursion, Multiple Recursive Calls, Dynamic Programming |
-| ✅ 04 | Recursive Digit Sum | 🟡 Medium | Recursion, Digit Sum, Base Case |
+| #     | Problem                              | Difficulty | Concepts                                                 |
+| ----- | ------------------------------------ | ---------- | -------------------------------------------------------- |
+| ✅ 01 | Day 9: Recursion 3 (30 Days of Code) | 🟢 Easy    | Factorial, Base Case, Recursive Case                     |
+| ✅ 02 | Recursion: Fibonacci Numbers         | 🟢 Easy    | Recursion, Multiple Recursive Calls, Recursion Tree      |
+| ✅ 03 | Recursion: Davis' Staircase          | 🟡 Medium  | Recursion, Multiple Recursive Calls, Dynamic Programming |
+| ✅ 04 | Recursive Digit Sum                  | 🟡 Medium  | Recursion, Digit Sum, Base Case                          |
 
 The Day 7 practice sheet lists these four HackerRank problems in the suggested Q1–Q4 order. :contentReference[oaicite:1]{index=1}
 
@@ -746,6 +754,7 @@ Applied recursion to problems involving **Factorial, Fibonacci, Staircase, Digit
 Today's focus was on advanced recursion techniques, including Tree Recursion, Mutual Recursion, recursion vs iteration, and the fundamentals of Backtracking.
 
 ### ✅ Tree Recursion
+
 - Multiple Recursive Calls per Function Invocation
 - Understanding Recursion Trees
 - Branching Recursion
@@ -754,12 +763,14 @@ Today's focus was on advanced recursion techniques, including Tree Recursion, Mu
 - Include / Exclude Pattern
 
 ### ✅ Indirect (Mutual) Recursion
+
 - Understanding Mutual Recursion
 - Two or More Functions Calling Each Other
 - Even-Odd Example
 - Controlling Recursive Calls Between Functions
 
 ### ✅ Recursion vs Iteration
+
 - Recursive vs Iterative Solutions
 - Call Stack Overhead
 - Memory Usage
@@ -768,6 +779,7 @@ Today's focus was on advanced recursion techniques, including Tree Recursion, Mu
 - Choosing Recursion vs Iteration
 
 ### ✅ Backtracking
+
 - Backtracking Concept
 - Choose → Explore → Undo Pattern
 - State Space Exploration
@@ -780,12 +792,12 @@ Today's focus was on advanced recursion techniques, including Tree Recursion, Mu
 
 # 💻 HackerRank Problems Solved
 
-| # | Problem | Difficulty | Concepts |
-|---|---------|------------|----------|
-| ✅ 01 | Permutations of Strings | 🟡 Medium | Tree Recursion, Permutations, Backtracking |
-| ✅ 02 | The Coin Change Problem | 🟡 Medium | Recursion, Include/Exclude, Subset-Sum Pattern, Dynamic Programming |
-| ✅ 03 | Crossword Puzzle | 🟡 Medium | Backtracking, Recursion, Choose-Explore-Undo |
-| ✅ 04 | Subset Practice / Subset Sum | 🟡 Medium | Tree Recursion, Include/Exclude, Backtracking |
+| #     | Problem                      | Difficulty | Concepts                                                            |
+| ----- | ---------------------------- | ---------- | ------------------------------------------------------------------- |
+| ✅ 01 | Permutations of Strings      | 🟡 Medium  | Tree Recursion, Permutations, Backtracking                          |
+| ✅ 02 | The Coin Change Problem      | 🟡 Medium  | Recursion, Include/Exclude, Subset-Sum Pattern, Dynamic Programming |
+| ✅ 03 | Crossword Puzzle             | 🟡 Medium  | Backtracking, Recursion, Choose-Explore-Undo                        |
+| ✅ 04 | Subset Practice / Subset Sum | 🟡 Medium  | Tree Recursion, Include/Exclude, Backtracking                       |
 
 The official Day 8 practice sheet lists **Permutations of Strings** and **The Coin Change Problem** as the primary HackerRank problems. It also identifies **Crossword Puzzle** as the closest HackerRank backtracking problem and recommends separate practice for subsets and N-Queens. :contentReference[oaicite:1]{index=1}
 
@@ -862,6 +874,7 @@ Learned the fundamental **Choose → Explore → Undo** pattern and applied it t
 Today's focus was on improving problem-solving skills by learning how to identify the appropriate Data Structure or Algorithm from a problem's constraints and requirements.
 
 ### ✅ Pattern Recognition
+
 - Identifying patterns in problem statements
 - Understanding constraints before choosing an approach
 - Selecting the appropriate Data Structure
@@ -871,6 +884,7 @@ Today's focus was on improving problem-solving skills by learning how to identif
 - Understanding Time and Space Complexity before implementation
 
 ### ✅ Mixed Problem Solving
+
 - Arrays
 - Strings
 - Stacks
@@ -880,6 +894,7 @@ Today's focus was on improving problem-solving skills by learning how to identif
 - Recursion
 
 ### ✅ Unlabelled-Topic Practice
+
 - Solving problems without being told the underlying topic
 - Identifying the required Data Structure from the problem statement
 - Recognizing algorithmic patterns from examples and constraints
@@ -887,6 +902,7 @@ Today's focus was on improving problem-solving skills by learning how to identif
 - Choosing an approach independently before implementation
 
 ### ✅ 1:1 Doubt Resolution & Weak-Area Identification
+
 - 1:1 doubt resolution
 - Discussing incorrect approaches and common mistakes
 - Identifying individual weak areas
@@ -898,12 +914,12 @@ Today's focus was on improving problem-solving skills by learning how to identif
 
 # 💻 HackerRank Problems Solved
 
-| # | Problem | Difficulty | Concepts |
-|---|---------|------------|----------|
-| ✅ 01 | Mixed Problem 1 | — | Arrays / Strings |
-| ✅ 02 | Mixed Problem 2 | — | Stacks / Queues |
-| ✅ 03 | Mixed Problem 3 | — | Sorting / Searching |
-| ✅ 04 | Mixed Problem 4 | — | Recursion / Problem Solving |
+| #     | Problem         | Difficulty | Concepts                    |
+| ----- | --------------- | ---------- | --------------------------- |
+| ✅ 01 | Mixed Problem 1 | —          | Arrays / Strings            |
+| ✅ 02 | Mixed Problem 2 | —          | Stacks / Queues             |
+| ✅ 03 | Mixed Problem 3 | —          | Sorting / Searching         |
+| ✅ 04 | Mixed Problem 4 | —          | Recursion / Problem Solving |
 
 ---
 
@@ -996,6 +1012,7 @@ Revised the five major sorting algorithms covered in Module 1:
 - Quick Sort
 
 Focused on:
+
 - Working principles
 - Algorithm tracing
 - Best, Average & Worst Case Complexity
@@ -1012,6 +1029,7 @@ Revised the two searching algorithms covered:
 - Binary Search
 
 Focused on:
+
 - Working principles
 - Sorted-data requirement for Binary Search
 - Iterative implementation
@@ -1166,44 +1184,44 @@ Practiced commonly used Java String methods:
 
 The attached HackerRank practice sheet contains **36 String-related problems**, ranging from Easy to Expert difficulty. :contentReference[oaicite:0]{index=0}
 
-| # | Problem | Difficulty | Concepts |
-|---|---------|------------|----------|
-| ✅ 01 | Time Conversion | 🟢 Easy | String Manipulation, Parsing |
-| ✅ 02 | Counting Valleys | 🟢 Easy | String Traversal, Simulation |
-| ✅ 03 | Designer PDF Viewer | 🟢 Easy | String Manipulation, Arrays |
-| ✅ 04 | Beautiful Days at the Movies | 🟢 Easy | String/Number Manipulation |
-| ✅ 05 | Append and Delete | 🟢 Easy | String Manipulation |
-| ✅ 06 | Repeated String | 🟢 Easy | String Counting, Mathematical Optimization |
-| ✅ 07 | Encryption | 🟡 Medium | String Manipulation, Matrix |
-| ✅ 08 | Bigger is Greater | 🟡 Medium | Strings, Greedy, Permutations |
-| ✅ 09 | Modified Kaprekar Numbers | 🟢 Easy | Number/String Manipulation |
-| ✅ 10 | The Time in Words | 🟡 Medium | String Construction |
-| ✅ 11 | The Grid Search | 🟡 Medium | String/Matrix Pattern Matching |
-| ✅ 12 | Happy Ladybugs | 🟢 Easy | String Manipulation |
-| ✅ 13 | Super Reduced String | 🟢 Easy | String Manipulation, Stack Logic |
-| ✅ 14 | Strong Password | 🟢 Easy | String Validation |
-| ✅ 15 | Two Characters | 🟢 Easy | String Manipulation, Filtering |
-| ✅ 16 | Caesar Cipher | 🟢 Easy | Character Manipulation, String Traversal |
-| ✅ 17 | Mars Exploration | 🟢 Easy | String Comparison |
-| ✅ 18 | HackerRank in a String! | 🟢 Easy | String Traversal, Subsequence |
-| ✅ 19 | Pangrams | 🟢 Easy | Character Frequency, String Traversal |
-| ✅ 20 | Weighted Uniform Strings | 🟢 Easy | String Processing, Character Frequency |
-| ✅ 21 | Separate the Numbers | 🟢 Easy | String Parsing, Sequential Numbers |
-| ✅ 22 | Funny String | 🟢 Easy | String Comparison |
-| ✅ 23 | Gemstones | 🟢 Easy | Strings, Arrays, Character Frequency |
-| ✅ 24 | Alternating Characters | 🟢 Easy | String Traversal |
-| ✅ 25 | Beautiful Binary String | 🟢 Easy | String Manipulation |
-| ✅ 26 | The Love-Letter Mystery | 🟢 Easy | String Manipulation, Character Differences |
-| ✅ 27 | Circular Palindromes | 🔴 Advanced | Palindrome, String Processing |
-| ✅ 28 | Similar Strings | 🔴 Advanced | String Comparison |
-| ✅ 29 | Save Humanity | 🟣 Expert | Pattern Matching, Strings |
-| ✅ 30 | Find Strings | 🟣 Expert | Strings, Substrings |
-| ✅ 31 | Palindromic Border | 🟣 Expert | Palindromes, String Algorithms |
-| ✅ 32 | Two Two | 🔴 Advanced | String Matching, Number Patterns |
-| ✅ 33 | Two Strings Game | 🟣 Expert | String Algorithms |
-| ✅ 34 | Letter Islands | 🟣 Expert | String Processing |
-| ✅ 35 | Pseudo-Isomorphic Substrings | 🟣 Expert | Substrings, String Algorithms |
-| ✅ 36 | How Many Substrings? | 🟣 Expert | Substrings, String Algorithms |
+| #     | Problem                      | Difficulty  | Concepts                                   |
+| ----- | ---------------------------- | ----------- | ------------------------------------------ |
+| ✅ 01 | Time Conversion              | 🟢 Easy     | String Manipulation, Parsing               |
+| ✅ 02 | Counting Valleys             | 🟢 Easy     | String Traversal, Simulation               |
+| ✅ 03 | Designer PDF Viewer          | 🟢 Easy     | String Manipulation, Arrays                |
+| ✅ 04 | Beautiful Days at the Movies | 🟢 Easy     | String/Number Manipulation                 |
+| ✅ 05 | Append and Delete            | 🟢 Easy     | String Manipulation                        |
+| ✅ 06 | Repeated String              | 🟢 Easy     | String Counting, Mathematical Optimization |
+| ✅ 07 | Encryption                   | 🟡 Medium   | String Manipulation, Matrix                |
+| ✅ 08 | Bigger is Greater            | 🟡 Medium   | Strings, Greedy, Permutations              |
+| ✅ 09 | Modified Kaprekar Numbers    | 🟢 Easy     | Number/String Manipulation                 |
+| ✅ 10 | The Time in Words            | 🟡 Medium   | String Construction                        |
+| ✅ 11 | The Grid Search              | 🟡 Medium   | String/Matrix Pattern Matching             |
+| ✅ 12 | Happy Ladybugs               | 🟢 Easy     | String Manipulation                        |
+| ✅ 13 | Super Reduced String         | 🟢 Easy     | String Manipulation, Stack Logic           |
+| ✅ 14 | Strong Password              | 🟢 Easy     | String Validation                          |
+| ✅ 15 | Two Characters               | 🟢 Easy     | String Manipulation, Filtering             |
+| ✅ 16 | Caesar Cipher                | 🟢 Easy     | Character Manipulation, String Traversal   |
+| ✅ 17 | Mars Exploration             | 🟢 Easy     | String Comparison                          |
+| ✅ 18 | HackerRank in a String!      | 🟢 Easy     | String Traversal, Subsequence              |
+| ✅ 19 | Pangrams                     | 🟢 Easy     | Character Frequency, String Traversal      |
+| ✅ 20 | Weighted Uniform Strings     | 🟢 Easy     | String Processing, Character Frequency     |
+| ✅ 21 | Separate the Numbers         | 🟢 Easy     | String Parsing, Sequential Numbers         |
+| ✅ 22 | Funny String                 | 🟢 Easy     | String Comparison                          |
+| ✅ 23 | Gemstones                    | 🟢 Easy     | Strings, Arrays, Character Frequency       |
+| ✅ 24 | Alternating Characters       | 🟢 Easy     | String Traversal                           |
+| ✅ 25 | Beautiful Binary String      | 🟢 Easy     | String Manipulation                        |
+| ✅ 26 | The Love-Letter Mystery      | 🟢 Easy     | String Manipulation, Character Differences |
+| ✅ 27 | Circular Palindromes         | 🔴 Advanced | Palindrome, String Processing              |
+| ✅ 28 | Similar Strings              | 🔴 Advanced | String Comparison                          |
+| ✅ 29 | Save Humanity                | 🟣 Expert   | Pattern Matching, Strings                  |
+| ✅ 30 | Find Strings                 | 🟣 Expert   | Strings, Substrings                        |
+| ✅ 31 | Palindromic Border           | 🟣 Expert   | Palindromes, String Algorithms             |
+| ✅ 32 | Two Two                      | 🔴 Advanced | String Matching, Number Patterns           |
+| ✅ 33 | Two Strings Game             | 🟣 Expert   | String Algorithms                          |
+| ✅ 34 | Letter Islands               | 🟣 Expert   | String Processing                          |
+| ✅ 35 | Pseudo-Isomorphic Substrings | 🟣 Expert   | Substrings, String Algorithms              |
+| ✅ 36 | How Many Substrings?         | 🟣 Expert   | Substrings, String Algorithms              |
 
 The practice sheet lists problems 1–17 on page 1 and problems 18–36 on page 2, including their difficulty levels. :contentReference[oaicite:1]{index=1} :contentReference[oaicite:2]{index=2}
 
@@ -1281,3 +1299,143 @@ This day significantly improved my ability to analyze and solve String-based pro
 ---
 
 ⭐ **Day 11 Completed Successfully!**
+
+# 📅 Day 12 – OOP with Java I
+
+## 📚 Topics Covered
+
+Today's focus was on understanding the fundamentals of Object-Oriented Programming in Java, including Classes and Objects, variables, access modifiers, constructors, and Enums.
+
+### ✅ Classes & Objects
+
+- Classes and Objects
+- Creating Objects using `new`
+- Instance Variables
+- Instance Methods
+- Object State and Behaviour
+
+### ✅ Variables
+
+- Instance Variables
+- Class / Static Variables
+- Reference Variables
+- Difference between Instance and Static Variables
+- Reference Variable Assignment
+- Object Aliasing
+- Object Independence using `new`
+
+### ✅ Enums
+
+- Enums as Type-Safe Constants
+- Declaring and using Enums
+- Fixed sets of constants
+
+### ✅ Access Modifiers
+
+- `public`
+- `private`
+- `protected`
+- Default / Package-Private
+- Access within the same class
+- Access within the same package
+- Access from different packages
+- Encapsulation using `private`
+
+### ✅ Constructors
+
+- Default Constructors
+- Parameterized Constructors
+- Constructor Overloading
+- Constructor Chaining
+- `this()` Constructor
+- Copy Constructors
+- Deep Copy vs Reference Copy
+
+---
+
+# 💻 Practice Problems Completed
+
+The Day 12 practice set contains **6 custom Java OOP problems** specifically designed around today's topics. :contentReference[oaicite:0]{index=0}
+
+| #     | Problem                              | Difficulty | Concepts                                      |
+| ----- | ------------------------------------ | ---------- | --------------------------------------------- |
+| ✅ 01 | Library Book Tracker                 | 🟡 Medium  | Classes, Objects, Instance & Static Variables |
+| ✅ 02 | Reference Variable Trap              | 🟡 Medium  | Reference Variables, Object Aliasing, `new`   |
+| ✅ 03 | Secure Bank Account                  | 🟡 Medium  | Access Modifiers, Encapsulation               |
+| ✅ 04 | Employee ID Generator                | 🔴 Hard    | Static Variables, Private Members             |
+| ✅ 05 | Overloaded Pizza Order Builder       | 🔴 Hard    | Constructor Overloading, `this()` Chaining    |
+| ✅ 06 | Copy Constructor for a Nested Object | 🔴 Hard    | Copy Constructor, Deep Copy                   |
+
+The six problems cover Static vs Instance Variables, Reference Variables, Access Modifiers, Constructors, Constructor Overloading, `this()` chaining, and Deep Copy. :contentReference[oaicite:1]{index=1}
+
+---
+
+## 🎯 Key Learnings
+
+- Understood the relationship between Classes and Objects.
+- Learned the difference between Instance and Static Variables.
+- Understood how Reference Variables work.
+- Learned the difference between reference assignment and creating an independent object using `new`.
+- Understood the four Java Access Modifiers.
+- Applied Encapsulation using `private` fields.
+- Learned how Static Variables are shared across objects.
+- Implemented automatic ID generation using a static counter.
+- Understood Constructor Overloading.
+- Learned Constructor Chaining using `this()`.
+- Practiced Copy Constructors.
+- Understood Shallow Copy vs Deep Copy.
+- Learned how Enums provide type-safe constants.
+
+---
+
+## 🛠️ Skills Practiced
+
+- Java
+- Object-Oriented Programming
+- Classes
+- Objects
+- Instance Variables
+- Static Variables
+- Reference Variables
+- Enums
+- Access Modifiers
+- Encapsulation
+- Constructors
+- Constructor Overloading
+- Constructor Chaining
+- `this()`
+- Copy Constructors
+- Deep Copy
+- Object Relationships
+- Problem Solving
+
+---
+
+## 📈 Progress
+
+- ✅ Classes & Objects
+- ✅ Instance Variables
+- ✅ Static Variables
+- ✅ Reference Variables
+- ✅ Enums
+- ✅ Access Modifiers
+- ✅ Encapsulation
+- ✅ Default Constructors
+- ✅ Constructor Overloading
+- ✅ `this()` Constructor Chaining
+- ✅ Copy Constructors
+- ✅ Deep Copy
+
+### 🎉 Total Practice Problems: **6 / 6**
+
+---
+
+## 🚀 Outcome
+
+Successfully completed **Day 12 – OOP with Java I**, strengthening my understanding of **Classes, Objects, Instance and Static Variables, Reference Variables, Enums, Access Modifiers, Encapsulation, Constructors, Constructor Overloading, `this()` Chaining, Copy Constructors, and Deep Copy**.
+
+The six custom practice problems provided hands-on experience with Java class design and helped reinforce how objects, variables, access control, and constructors work together in Object-Oriented Programming.
+
+---
+
+⭐ **Day 12 Completed Successfully!**
