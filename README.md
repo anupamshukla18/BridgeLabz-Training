@@ -1593,3 +1593,135 @@ The coding exercises provided hands-on experience with practical class hierarchi
 ---
 
 ⭐ **Day 13 Completed Successfully!**
+
+# 📅 Day 14 – Encapsulation, Abstraction & Anonymous Inner Classes
+
+## 📚 Topics Covered
+
+Today's focus was on understanding Encapsulation and Abstraction in Java, along with Abstract Classes, Abstract Methods, and Anonymous Types / Anonymous Inner Classes.
+
+### ✅ Encapsulation
+
+- Understanding Encapsulation
+- Data Hiding
+- Getters and Setters
+- Access Control
+- Using `private` fields
+- Controlled access to class data
+- Validation through Setter Methods
+- Protecting object state
+
+### ✅ Abstraction
+
+- Understanding Abstraction
+- Hiding Implementation Details
+- Showing only essential functionality
+- Difference between Abstraction and Encapsulation
+- Real-world applications of Abstraction
+
+### ✅ Abstract Classes
+
+- Abstract Classes
+- Abstract Methods
+- Concrete Methods inside Abstract Classes
+- Variables and Constructors in Abstract Classes
+- Extending Abstract Classes
+- Implementing Abstract Methods
+- Partial Abstraction using Abstract Classes
+
+### ✅ Anonymous Types / Anonymous Inner Classes
+
+- Understanding Anonymous Classes
+- Creating Objects without explicitly creating a named subclass
+- Implementing Interfaces using Anonymous Classes
+- Overriding Methods using Anonymous Classes
+- Anonymous Inner Classes
+- Use cases of Anonymous Classes
+
+---
+
+# 💻 HackerRank Problems Practiced
+
+The same HackerRank practice set shared for Day 13 was continued for the related OOP concepts. The attached practice set includes the following problems. :contentReference[oaicite:0]{index=0}
+
+| #     | Problem                                  | Difficulty | Concepts                              |
+| ----- | ---------------------------------------- | ---------- | ------------------------------------- |
+| ✅ 01 | Java Inheritance I                       | 🟢 Easy    | Inheritance, Classes, Methods         |
+| ✅ 02 | Java Inheritance II                      | 🟢 Easy    | Inheritance, Method Reuse             |
+| ✅ 03 | Day 12: Inheritance                      | 🟢 Easy    | Inheritance, Constructors             |
+| ✅ 04 | Java Method Overriding                   | 🟢 Easy    | Method Overriding, Polymorphism       |
+| ✅ 05 | Java Method Overriding 2 (Super Keyword) | 🟢 Easy    | Overriding, `super`                   |
+| ✅ 06 | Java Abstract Class                      | 🟢 Easy    | Abstract Classes, Abstract Methods    |
+| ✅ 07 | Java Interface                           | 🟢 Easy    | Interfaces, Abstraction               |
+| ✅ 08 | Java Polymorphism                        | 🟡 Medium  | Polymorphism, Overloading, Overriding |
+| ✅ 09 | Java Visibility                          | 🟢 Easy    | Access Modifiers, Encapsulation       |
+
+---
+
+## 🎯 Key Learnings
+
+- Understood the purpose of Encapsulation in Object-Oriented Programming.
+- Learned how Getters and Setters provide controlled access to private data.
+- Understood how access control helps protect an object's internal state.
+- Learned how Abstraction hides unnecessary implementation details.
+- Understood the role of Abstract Classes in designing common functionality.
+- Learned how Abstract Methods force child classes to provide their own implementation.
+- Differentiated between Abstract Classes and concrete classes.
+- Practiced implementing abstract methods through inheritance.
+- Understood how Interfaces can be used to achieve abstraction.
+- Learned how Anonymous Classes allow implementation or method overriding without creating a separate named class.
+- Understood the basic use cases of Anonymous Inner Classes.
+
+---
+
+## 🛠️ Skills Practiced
+
+- Java
+- Object-Oriented Programming
+- Encapsulation
+- Data Hiding
+- Getters
+- Setters
+- Access Control
+- Abstraction
+- Abstract Classes
+- Abstract Methods
+- Interfaces
+- Anonymous Classes
+- Anonymous Inner Classes
+- Method Overriding
+- Polymorphism
+- Inheritance
+- Problem Solving
+
+---
+
+## 📈 Progress
+
+- ✅ Encapsulation
+- ✅ Getters & Setters
+- ✅ Access Control
+- ✅ Data Hiding
+- ✅ Abstraction
+- ✅ Abstract Classes
+- ✅ Abstract Methods
+- ✅ Interfaces
+- ✅ Anonymous Types
+- ✅ Anonymous Inner Classes
+- ✅ Method Overriding
+- ✅ Polymorphism
+- ✅ **9 / 9 HackerRank Problems Completed**
+
+### 🎉 Total HackerRank Problems: **9 / 9**
+
+---
+
+## 🚀 Outcome
+
+Successfully completed **Day 14 – Encapsulation, Abstraction & Anonymous Inner Classes**, strengthening my understanding of how Java protects data and hides implementation details.
+
+The session covered **Encapsulation, Getters and Setters, Access Control, Abstraction, Abstract Classes, Abstract Methods, Interfaces, and Anonymous Inner Classes**. The HackerRank practice reinforced these concepts through problems involving **Visibility, Abstract Classes, Interfaces, Inheritance, Method Overriding, and Polymorphism**.
+
+---
+
+⭐ **Day 14 Completed Successfully!**
