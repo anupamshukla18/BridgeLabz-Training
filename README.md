@@ -854,3 +854,116 @@ Learned the fundamental **Choose → Explore → Undo** pattern and applied it t
 ---
 
 ⭐ **Day 8 Completed Successfully!**
+
+# 📅 Day 9 – Problem Solving & Pattern Recognition
+
+## 📚 Topics Covered
+
+Today's focus was on improving problem-solving skills by learning how to identify the appropriate Data Structure or Algorithm from a problem's constraints and requirements.
+
+### ✅ Pattern Recognition
+- Identifying patterns in problem statements
+- Understanding constraints before choosing an approach
+- Selecting the appropriate Data Structure
+- Selecting the appropriate Algorithm
+- Recognizing when optimization is required
+- Comparing brute-force and optimized approaches
+- Understanding Time and Space Complexity before implementation
+
+### ✅ Mixed Problem Solving
+- Arrays
+- Strings
+- Stacks
+- Queues
+- Sorting
+- Searching
+- Recursion
+
+### ✅ Unlabelled-Topic Practice
+- Solving problems without being told the underlying topic
+- Identifying the required Data Structure from the problem statement
+- Recognizing algorithmic patterns from examples and constraints
+- Simulating real coding assessments where the topic is not provided
+- Choosing an approach independently before implementation
+
+### ✅ 1:1 Doubt Resolution & Weak-Area Identification
+- 1:1 doubt resolution
+- Discussing incorrect approaches and common mistakes
+- Identifying individual weak areas
+- Reviewing difficult concepts
+- Improving problem-solving strategies
+- Focusing on areas requiring additional practice
+
+---
+
+# 💻 HackerRank Problems Solved
+
+| # | Problem | Difficulty | Concepts |
+|---|---------|------------|----------|
+| ✅ 01 | Mixed Problem 1 | — | Arrays / Strings |
+| ✅ 02 | Mixed Problem 2 | — | Stacks / Queues |
+| ✅ 03 | Mixed Problem 3 | — | Sorting / Searching |
+| ✅ 04 | Mixed Problem 4 | — | Recursion / Problem Solving |
+
+---
+
+## 🎯 Key Learnings
+
+- Learned to analyze constraints before deciding on an algorithm.
+- Improved the ability to recognize common problem-solving patterns.
+- Practiced selecting Data Structures based on the requirements of a problem.
+- Strengthened problem-solving skills by working across multiple DSA topics.
+- Learned to approach problems without relying on topic labels or hints.
+- Improved the ability to distinguish between brute-force and optimized solutions.
+- Identified individual weak areas through 1:1 doubt resolution.
+- Developed a more assessment-oriented approach to solving DSA problems.
+
+---
+
+## 🛠️ Skills Practiced
+
+- Java
+- Problem Solving
+- Pattern Recognition
+- Arrays
+- Strings
+- Stacks
+- Queues
+- Sorting
+- Searching
+- Recursion
+- Algorithm Selection
+- Data Structure Selection
+- Time Complexity Analysis
+- Space Complexity Analysis
+- Optimization
+
+---
+
+## 📈 Progress
+
+- ✅ Pattern Recognition
+- ✅ Constraint Analysis
+- ✅ Data Structure Selection
+- ✅ Algorithm Selection
+- ✅ Mixed DSA Practice
+- ✅ Unlabelled-Topic Practice
+- ✅ Brute Force vs Optimization
+- ✅ Doubt Resolution
+- ✅ Weak-Area Identification
+
+### 🎉 Day 9 Problem-Solving Practice Completed
+
+---
+
+## 🚀 Outcome
+
+Successfully completed **Day 9 – Problem Solving & Pattern Recognition**, focusing on solving DSA problems without relying on predefined topic labels.
+
+The session strengthened my ability to analyze constraints, identify patterns, select appropriate Data Structures and Algorithms, and optimize solutions. Mixed practice across **Arrays, Strings, Stacks, Queues, Sorting, Searching, and Recursion** provided an assessment-like problem-solving experience.
+
+The 1:1 doubt-resolution session also helped identify individual weak areas and provided direction for further improvement.
+
+---
+
+⭐ **Day 9 Completed Successfully!**
