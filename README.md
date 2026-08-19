@@ -1439,3 +1439,157 @@ The six custom practice problems provided hands-on experience with Java class de
 ---
 
 ⭐ **Day 12 Completed Successfully!**
+
+# 📅 Day 13 – Inheritance & Polymorphism
+
+## 📚 Topics Covered
+
+Today's focus was on understanding Inheritance and Polymorphism in Java, including class hierarchies, the `extends` and `super` keywords, method overloading, method overriding, method hiding, and access modifiers in inheritance.
+
+### ✅ Inheritance
+
+- Inheritance using `extends`
+- Parent Class and Child Class
+- Single-Level Inheritance
+- Multi-Level Inheritance
+- Code Reusability
+- `super` Keyword
+- `super()` Constructor Call
+- `super.method()` for calling parent methods
+- Constructor Chaining in Inheritance
+
+### ✅ Polymorphism
+
+- Understanding Polymorphism
+- Compile-Time Polymorphism
+- Run-Time Polymorphism
+- Method Overloading
+- Method Overriding
+- Dynamic Method Dispatch
+- Parent Reference with Child Object
+
+### ✅ Method Overloading vs Overriding vs Hiding
+
+- Method Overloading
+  - Same method name
+  - Different parameter list
+  - Compile-time polymorphism
+
+- Method Overriding
+  - Same method signature
+  - Child provides its own implementation
+  - Run-time polymorphism
+
+- Method Hiding
+  - Static methods with the same signature
+  - Resolved based on reference/class type
+  - Does not support run-time polymorphism
+
+### ✅ Access Modifiers in Inheritance
+
+- `public`
+- `private`
+- `protected`
+- Default / Package-Private
+- Access from Parent and Child Classes
+- Protected members in inheritance
+- Private members and inheritance
+- Package-level access
+- Access control across packages
+
+---
+
+# 💻 Coding Exercises Completed
+
+The attached practice set contains **10 coding exercises** covering Inheritance, Constructor Chaining, Method Overloading, Method Overriding, Access Modifiers, Static Method Hiding, Enums, and Multi-Level Inheritance. :contentReference[oaicite:0]{index=0}
+
+| #     | Coding Exercise                                   | Difficulty | Concepts                                                 |
+| ----- | ------------------------------------------------- | ---------- | -------------------------------------------------------- |
+| ✅ 01 | Shape Hierarchy                                   | 🟡 Medium  | Inheritance, Method Overriding, Run-Time Polymorphism    |
+| ✅ 02 | Bank Account with Constructor Chaining            | 🟡 Medium  | Inheritance, `super()`, Constructor Chaining             |
+| ✅ 03 | Employee Salary System                            | 🟡 Medium  | Method Overloading, Compile-Time Polymorphism            |
+| ✅ 04 | Employee vs Manager                               | 🟡 Medium  | Method Overriding, `super.method()`                      |
+| ✅ 05 | Access Modifier Practice                          | 🟡 Medium  | `private`, `protected`, Access Modifiers                 |
+| ✅ 06 | Static Method Hiding Demo                         | 🟡 Medium  | Static Methods, Method Hiding                            |
+| ✅ 07 | Enum with Fields and Methods                      | 🟡 Medium  | Enums, Constructors, Methods                             |
+| ✅ 08 | Multi-Level Inheritance with Constructor Chaining | 🔴 Hard    | Multi-Level Inheritance, `super()`, Constructor Chaining |
+| ✅ 09 | Method Overloading vs Overriding Combined         | 🔴 Hard    | Overloading, Overriding, Polymorphism                    |
+| ✅ 10 | Real-World Enum – Order Status                    | 🟡 Medium  | Enums, Methods, Object-Oriented Design                   |
+
+---
+
+## 🎯 Key Learnings
+
+- Understood how inheritance enables code reusability in Java.
+- Learned how `extends` is used to create a parent-child relationship.
+- Practiced Single-Level and Multi-Level Inheritance.
+- Understood how `super()` is used to call parent constructors.
+- Learned how `super.method()` can invoke the parent class implementation.
+- Differentiated Compile-Time and Run-Time Polymorphism.
+- Understood the difference between Method Overloading and Method Overriding.
+- Learned how Static Method Hiding differs from Method Overriding.
+- Understood Dynamic Method Dispatch using parent references and child objects.
+- Revised Access Modifiers in the context of inheritance.
+- Practiced how `private`, `protected`, `public`, and default members behave across classes.
+- Strengthened understanding of how inheritance, abstraction, interfaces, and polymorphism work together.
+
+---
+
+## 🛠️ Skills Practiced
+
+- Java
+- Object-Oriented Programming
+- Inheritance
+- Single-Level Inheritance
+- Multi-Level Inheritance
+- `extends`
+- `super`
+- `super()`
+- `super.method()`
+- Polymorphism
+- Compile-Time Polymorphism
+- Run-Time Polymorphism
+- Method Overloading
+- Method Overriding
+- Method Hiding
+- Dynamic Method Dispatch
+- Access Modifiers
+- Encapsulation
+- Constructor Chaining
+- Enums
+- Problem Solving
+
+---
+
+## 📈 Progress
+
+- ✅ Inheritance Fundamentals
+- ✅ Single-Level Inheritance
+- ✅ Multi-Level Inheritance
+- ✅ `extends` Keyword
+- ✅ `super` Keyword
+- ✅ Constructor Chaining
+- ✅ Compile-Time Polymorphism
+- ✅ Run-Time Polymorphism
+- ✅ Method Overloading
+- ✅ Method Overriding
+- ✅ Method Hiding
+- ✅ Dynamic Method Dispatch
+- ✅ Access Modifiers in Inheritance
+- ✅ **10 / 10 Coding Exercises Completed**
+
+### 🎉 Total Coding Exercises: **10 / 10**
+
+---
+
+## 🚀 Outcome
+
+Successfully completed **Day 13 – Inheritance & Polymorphism**, strengthening my understanding of Java's Object-Oriented Programming concepts.
+
+The session covered **Inheritance, Single-Level and Multi-Level Inheritance, `extends`, `super`, Compile-Time and Run-Time Polymorphism, Method Overloading, Method Overriding, Method Hiding, Dynamic Method Dispatch, and Access Modifiers**.
+
+The coding exercises provided hands-on experience with practical class hierarchies, constructor chaining, polymorphism, access control, static method hiding, and multi-level inheritance.
+
+---
+
+⭐ **Day 13 Completed Successfully!**
