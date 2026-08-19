@@ -1,5 +1,5 @@
 package day14.classproblems;
-
+ 
 abstract class Vehicle {
 	abstract void start();
 	
