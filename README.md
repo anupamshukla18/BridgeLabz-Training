@@ -1106,3 +1106,178 @@ The revision strengthened my understanding of **Data Structures, five sorting al
 ---
 
 ⭐ **Day 10 Completed Successfully!**
+
+# 📅 Day 11 – Strings & String Manipulation
+
+## 📚 Topics Covered
+
+Today's focus was on understanding Java's String handling classes, String manipulation techniques, commonly used String methods, and solving a wide range of HackerRank String problems.
+
+### ✅ String vs StringBuilder vs StringBuffer
+
+- String Immutability
+- StringBuilder Mutability
+- StringBuffer Mutability
+- Thread-Safety
+- Performance Comparison
+- Understanding when to use String, StringBuilder, and StringBuffer
+
+### ✅ String Manipulation Techniques
+
+- String Traversal
+- Character Manipulation
+- String Comparison
+- String Searching
+- String Modification
+- String Splitting
+- String Joining
+- String Formatting
+- Efficient String Construction
+
+### ✅ String Class Methods
+
+Practiced commonly used Java String methods:
+
+- `equals()`
+- `compareTo()`
+- `trim()`
+- `replace()`
+- `format()`
+- `split()`
+- `join()`
+- `indexOf()`
+- `substring()`
+- `charAt()`
+
+### ✅ String Problem-Solving Practice
+
+- Palindrome Check
+- Anagram Check
+- Word-Frequency Counter
+- String Compression
+- Character Frequency
+- String Comparison
+- Pattern Matching
+- String Transformation
+
+---
+
+# 💻 HackerRank Problems Practiced
+
+The attached HackerRank practice sheet contains **36 String-related problems**, ranging from Easy to Expert difficulty. :contentReference[oaicite:0]{index=0}
+
+| # | Problem | Difficulty | Concepts |
+|---|---------|------------|----------|
+| ✅ 01 | Time Conversion | 🟢 Easy | String Manipulation, Parsing |
+| ✅ 02 | Counting Valleys | 🟢 Easy | String Traversal, Simulation |
+| ✅ 03 | Designer PDF Viewer | 🟢 Easy | String Manipulation, Arrays |
+| ✅ 04 | Beautiful Days at the Movies | 🟢 Easy | String/Number Manipulation |
+| ✅ 05 | Append and Delete | 🟢 Easy | String Manipulation |
+| ✅ 06 | Repeated String | 🟢 Easy | String Counting, Mathematical Optimization |
+| ✅ 07 | Encryption | 🟡 Medium | String Manipulation, Matrix |
+| ✅ 08 | Bigger is Greater | 🟡 Medium | Strings, Greedy, Permutations |
+| ✅ 09 | Modified Kaprekar Numbers | 🟢 Easy | Number/String Manipulation |
+| ✅ 10 | The Time in Words | 🟡 Medium | String Construction |
+| ✅ 11 | The Grid Search | 🟡 Medium | String/Matrix Pattern Matching |
+| ✅ 12 | Happy Ladybugs | 🟢 Easy | String Manipulation |
+| ✅ 13 | Super Reduced String | 🟢 Easy | String Manipulation, Stack Logic |
+| ✅ 14 | Strong Password | 🟢 Easy | String Validation |
+| ✅ 15 | Two Characters | 🟢 Easy | String Manipulation, Filtering |
+| ✅ 16 | Caesar Cipher | 🟢 Easy | Character Manipulation, String Traversal |
+| ✅ 17 | Mars Exploration | 🟢 Easy | String Comparison |
+| ✅ 18 | HackerRank in a String! | 🟢 Easy | String Traversal, Subsequence |
+| ✅ 19 | Pangrams | 🟢 Easy | Character Frequency, String Traversal |
+| ✅ 20 | Weighted Uniform Strings | 🟢 Easy | String Processing, Character Frequency |
+| ✅ 21 | Separate the Numbers | 🟢 Easy | String Parsing, Sequential Numbers |
+| ✅ 22 | Funny String | 🟢 Easy | String Comparison |
+| ✅ 23 | Gemstones | 🟢 Easy | Strings, Arrays, Character Frequency |
+| ✅ 24 | Alternating Characters | 🟢 Easy | String Traversal |
+| ✅ 25 | Beautiful Binary String | 🟢 Easy | String Manipulation |
+| ✅ 26 | The Love-Letter Mystery | 🟢 Easy | String Manipulation, Character Differences |
+| ✅ 27 | Circular Palindromes | 🔴 Advanced | Palindrome, String Processing |
+| ✅ 28 | Similar Strings | 🔴 Advanced | String Comparison |
+| ✅ 29 | Save Humanity | 🟣 Expert | Pattern Matching, Strings |
+| ✅ 30 | Find Strings | 🟣 Expert | Strings, Substrings |
+| ✅ 31 | Palindromic Border | 🟣 Expert | Palindromes, String Algorithms |
+| ✅ 32 | Two Two | 🔴 Advanced | String Matching, Number Patterns |
+| ✅ 33 | Two Strings Game | 🟣 Expert | String Algorithms |
+| ✅ 34 | Letter Islands | 🟣 Expert | String Processing |
+| ✅ 35 | Pseudo-Isomorphic Substrings | 🟣 Expert | Substrings, String Algorithms |
+| ✅ 36 | How Many Substrings? | 🟣 Expert | Substrings, String Algorithms |
+
+The practice sheet lists problems 1–17 on page 1 and problems 18–36 on page 2, including their difficulty levels. :contentReference[oaicite:1]{index=1} :contentReference[oaicite:2]{index=2}
+
+---
+
+## 🎯 Key Learnings
+
+- Understood the difference between immutable `String` and mutable `StringBuilder` and `StringBuffer`.
+- Learned how mutability affects performance and memory usage.
+- Understood the thread-safety difference between `StringBuilder` and `StringBuffer`.
+- Practiced important Java String methods used frequently in coding problems.
+- Improved String traversal and character manipulation techniques.
+- Learned different approaches for palindrome and anagram checking.
+- Practiced character-frequency based problem solving.
+- Implemented word-frequency counting and string compression techniques.
+- Improved understanding of pattern matching and substring-based problems.
+- Practiced handling String problems ranging from simple manipulation to advanced String algorithms.
+
+---
+
+## 🛠️ Skills Practiced
+
+- Java
+- String
+- StringBuilder
+- StringBuffer
+- String Manipulation
+- Character Frequency
+- Palindrome
+- Anagram
+- String Compression
+- Pattern Matching
+- Substrings
+- String Traversal
+- Arrays
+- HashMap
+- Stack
+- Greedy Algorithms
+- Simulation
+- Problem Solving
+- Time Complexity Analysis
+
+---
+
+## 📈 Progress
+
+- ✅ String Fundamentals
+- ✅ String vs StringBuilder vs StringBuffer
+- ✅ Immutability & Mutability
+- ✅ Thread-Safety
+- ✅ String Performance
+- ✅ String Class Methods
+- ✅ String Manipulation
+- ✅ Palindrome Check
+- ✅ Anagram Check
+- ✅ Word-Frequency Counter
+- ✅ String Compression
+- ✅ Easy String Problems
+- ✅ Medium String Problems
+- ✅ Advanced String Problems
+- ✅ Expert String Problems
+
+### 🎉 Total HackerRank Problems: **36**
+
+---
+
+## 🚀 Outcome
+
+Successfully completed **Day 11 – Strings & String Manipulation**, strengthening my understanding of Java's String classes and their performance characteristics.
+
+The session covered **String, StringBuilder, and StringBuffer**, along with important String methods and practical manipulation techniques. Extensive HackerRank practice provided exposure to problems involving **palindromes, anagrams, character frequencies, pattern matching, substrings, simulations, greedy approaches, and advanced String algorithms**.
+
+This day significantly improved my ability to analyze and solve String-based programming problems efficiently.
+
+---
+
+⭐ **Day 11 Completed Successfully!**
