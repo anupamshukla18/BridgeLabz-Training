@@ -1,9 +1,9 @@
 package day13.classproblems;
 
-class Parent {
+class Parents_01 {
 	int number = 100;
 
-	Parent() {
+	Parents_01() {
 		System.out.println("Parent constructor called");
 	}
 
@@ -12,7 +12,7 @@ class Parent {
 	}
 }
 
-public class SuperTutorial extends Parent {
+public class SuperTutorial extends Parents_01 {
 	int number = 200;
 
 	SuperTutorial() {
