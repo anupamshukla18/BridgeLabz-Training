@@ -1725,3 +1725,139 @@ The session covered **Encapsulation, Getters and Setters, Access Control, Abstra
 ---
 
 ⭐ **Day 14 Completed Successfully!**
+
+# 📅 Day 15 – Interfaces & Generics
+
+## 📚 Topics Covered
+
+Today's focus was on understanding Interfaces and Generics in Java, including interface implementation, interface inheritance, interface properties, and the fundamentals of Generic Classes.
+
+### ✅ Interfaces
+
+- Creating Interfaces
+- Declaring Abstract Methods inside Interfaces
+- Implementing Interfaces using `implements`
+- Providing implementations for Interface Methods
+- Multiple Interface Implementation
+- Interface-based Polymorphism
+- Using Interfaces for Abstraction
+
+### ✅ Interface Inheritance
+
+- Interface extending another Interface
+- Using `extends` with Interfaces
+- Inheriting Methods from Parent Interfaces
+- Implementing Child Interfaces
+- Understanding Interface Hierarchies
+
+### ✅ Properties in Interfaces
+
+- Declaring Constants inside Interfaces
+- Interface Fields
+- `public`, `static`, and `final` nature of Interface Properties
+- Accessing Interface Constants
+- Using Interface Properties in Implementing Classes
+
+### ✅ Generics
+
+- Introduction to Generics
+- Generic Classes
+- Type Parameters
+- Reusable and Type-Safe Code
+- Creating Objects of Generic Classes
+- Working with Different Data Types
+- Generic Methods
+- Avoiding Unnecessary Type Casting
+
+### ✅ Weekly HackerRank Challenge #3
+
+- Timed problem-solving challenge
+- Java Strings + Full OOP
+- Applying previously learned concepts under time constraints
+- Problem identification and algorithm selection
+- Combining multiple Java concepts in a single assessment
+
+---
+
+# 💻 HackerRank Problems Solved
+
+The attached practice set contains **3 verified HackerRank problems** covering Interfaces, the Comparator Interface, and Generics. :contentReference[oaicite:0]{index=0}
+
+| #     | Problem         | Difficulty | Concepts                                         |
+| ----- | --------------- | ---------- | ------------------------------------------------ |
+| ✅ 01 | Java Interface  | 🟢 Easy    | Interfaces, Abstract Methods, Implementation     |
+| ✅ 02 | Java Comparator | 🟡 Medium  | Interfaces, Generics, Comparator, Custom Sorting |
+| ✅ 03 | Java Generics   | 🟢 Easy    | Generics, Generic Methods, Type Safety           |
+
+The practice set specifically identifies `Java Comparator` as a bridge between Interfaces and Generics because it requires implementing the generic `Comparator<T>` interface. :contentReference[oaicite:1]{index=1}
+
+---
+
+## 🎯 Key Learnings
+
+- Learned how to create and implement Interfaces in Java.
+- Understood how Interfaces provide abstraction and support polymorphism.
+- Learned how one Interface can extend another Interface.
+- Understood how properties declared inside Interfaces work.
+- Learned the purpose of Generics in creating reusable and type-safe code.
+- Practiced creating Generic Classes and Generic Methods.
+- Understood how `Comparator<T>` combines Interfaces and Generics.
+- Applied custom sorting logic using the Comparator Interface.
+- Improved the ability to work with different data types using Generics.
+- Practiced combining previously learned Java concepts during a timed challenge.
+
+---
+
+## 🛠️ Skills Practiced
+
+- Java
+- Interfaces
+- Interface Implementation
+- Interface Inheritance
+- Interface Properties
+- Abstraction
+- Polymorphism
+- Generics
+- Generic Classes
+- Generic Methods
+- Type Safety
+- Comparator
+- Custom Sorting
+- Object-Oriented Programming
+- Problem Solving
+- Time Complexity Analysis
+
+---
+
+## 📈 Progress
+
+- ✅ Interfaces
+- ✅ Interface Implementation
+- ✅ Interface Inheritance
+- ✅ Interface Properties
+- ✅ Abstraction
+- ✅ Polymorphism
+- ✅ Generic Classes
+- ✅ Generic Methods
+- ✅ Comparator Interface
+- ✅ Custom Sorting
+- ✅ Java Strings Revision
+- ✅ Full OOP Revision
+- ✅ Weekly HackerRank Challenge #3
+- ✅ **3 / 3 HackerRank Problems Completed**
+
+### 🎉 Total HackerRank Problems: **3 / 3**
+
+---
+
+## 🚀 Outcome
+
+Successfully completed **Day 15 – Interfaces & Generics**, strengthening my understanding of Java Interfaces, Interface Inheritance, Interface Properties, and Generic Classes.
+
+The HackerRank practice provided hands-on experience with **Java Interface, Java Comparator, and Java Generics**, while the timed weekly challenge helped reinforce Java Strings and the complete set of OOP concepts covered so far.
+
+This day strengthened my ability to write **reusable, type-safe, and flexible Java code** while applying Object-Oriented Programming concepts in practical problems.
+
+---
+
+⭐ **Day 15 Completed Successfully!**
