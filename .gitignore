@@ -4,6 +4,7 @@
 .classpath
 .project
 .idea
+out
 
 # Java build output
 bin/
