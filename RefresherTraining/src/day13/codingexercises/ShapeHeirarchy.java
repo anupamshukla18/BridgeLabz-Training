@@ -1,12 +1,12 @@
 package day13.codingexercises;
 
-class Shape {
+class Shapes {
 	public double area() {
 		return 0;
 	}
 }
 
-class Circle extends Shape {
+class Circle extends Shapes {
 	double radius;
 
 	Circle(double radius) {
@@ -19,7 +19,7 @@ class Circle extends Shape {
 	}
 }
 
-class Rectangle extends Shape {
+class Rectangle extends Shapes {
 	double length;
 	double width;
 
@@ -34,7 +34,7 @@ class Rectangle extends Shape {
 	}
 }
 
-class Triangle extends Shape {
+class Triangle extends Shapes {
 	double base;
 	double height;
 
@@ -52,9 +52,9 @@ class Triangle extends Shape {
 public class ShapeHeirarchy {
 	public static void main(String[] args) {
 
-		Shape[] shapes = { new Circle(5), new Rectangle(10, 5), new Triangle(8, 6) };
+		Shapes[] shapes = { new Circle(5), new Rectangle(10, 5), new Triangle(8, 6) };
 
-		for (Shape shape : shapes) {
+		for (Shapes shape : shapes) {
 			System.out.println("Area: " + shape.area());
 		}
 	}

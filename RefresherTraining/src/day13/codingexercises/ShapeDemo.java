@@ -6,9 +6,7 @@ class Shape {
     }
 }
 
-class Shape2D extends Shape {
-
-    @Override
+class Shape2D extends Shapes {
     void draw() {
         System.out.println("Drawing a 2D shape");
     }
