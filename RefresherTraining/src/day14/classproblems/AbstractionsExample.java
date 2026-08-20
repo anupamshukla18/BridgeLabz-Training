@@ -28,7 +28,7 @@ public class AbstractionsExample {
 		c.start();
 		c.engine();
 		
-		Vehicle b = new Bike(); 
+		Vehicle b = new Bike();
 		b.start();
 	}
 }

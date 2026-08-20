@@ -1,12 +1,12 @@
 package day14.classproblems;
 
-interface Vehicle {
+interface Vehicles {
 	void start();
 }
  
 public class AnonymousInnerClass {
 	public static void main(String[] args) {
-		Vehicle v = new Vehicle() {
+		Vehicles v = new Vehicles() {
 			@Override
 			public void start() {
 				System.out.println("Vehicle is Starting!!");
