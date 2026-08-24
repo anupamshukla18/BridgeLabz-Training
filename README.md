@@ -1861,3 +1861,173 @@ This day strengthened my ability to write **reusable, type-safe, and flexible Ja
 ---
 
 ⭐ **Day 15 Completed Successfully!**
+
+# 📅 Day 16 – Advanced Generics & Static Members
+
+## 📚 Topics Covered
+
+Today's focus was on advancing Java Generics with Generic Methods, Generic Interfaces, Bounded Type Parameters, and Wildcards, along with understanding Static Members, Static Blocks, and their lifecycle in Java.
+
+### ✅ Generic Methods
+
+- Creating Generic Methods
+- Declaring Type Parameters using `<T>`
+- Passing different data types to the same method
+- Type Safety with Generic Methods
+- Reusable Method Design
+- Generic Methods vs Generic Classes
+- Type Inference in Generic Method Calls
+
+### ✅ Generic Interfaces
+
+- Creating Generic Interfaces
+- Declaring Type Parameters in Interfaces
+- Implementing Generic Interfaces
+- Providing a specific type while implementing an Interface
+- Using Generic Interfaces with multiple data types
+- Understanding `Comparator<T>`
+- Combining Interfaces and Generics
+
+### ✅ Bounded Type Parameters
+
+- Understanding Bounded Generics
+- Restricting Generic Types
+- Upper-Bounded Type Parameters
+- Using `<T extends Type>`
+- Working with the `Number` class
+- Restricting Generics to Number and its subclasses
+- Using methods available from the upper bound
+- Creating type-safe Generic Methods and Classes
+
+### ✅ Wildcards
+
+- Introduction to Wildcards
+- Understanding `<?>`
+- Unbounded Wildcards
+- Upper-Bounded Wildcards using `<? extends T>`
+- Lower-Bounded Wildcards using `<? super T>`
+- Difference between Generic Type Parameters and Wildcards
+- Using Wildcards with Collections
+
+### ✅ Static Members
+
+- Static Variables
+- Static Methods
+- Static Members vs Instance Members
+- Class-level vs Object-level Members
+- Accessing Static Members using the Class Name
+- Shared Static Data across Objects
+- Restrictions of Static Methods
+- Understanding why `main()` is Static
+
+### ✅ Static Classes
+
+- Static Nested Classes
+- Difference between Inner Classes and Static Nested Classes
+- Creating Objects of Static Nested Classes
+- Accessing Static Members from Static Nested Classes
+- Understanding that top-level classes cannot be declared `static`
+
+### ✅ Static Blocks & Member Lifecycle
+
+- Static Initialization Blocks
+- Execution when the Class is Loaded
+- Initializing Static Variables
+- Order of Static Initialization
+- Static Block vs Constructor
+- Static Block execution before Object Creation
+- Understanding Class Loading and Object Creation Lifecycle
+
+---
+
+# 💻 HackerRank Problems Solved
+
+Today's HackerRank practice focused on Interfaces, Generics, Generic Methods, and Static Initialization.
+
+| #     | Problem                       | Difficulty | Concepts                                                  |
+| ----- | ----------------------------- | ---------- | --------------------------------------------------------- |
+| ✅ 01 | Java Interface                | 🟢 Easy    | Interface, Implementation, Abstract Methods, Polymorphism |
+| ✅ 02 | Day 21: Generics              | 🟢 Easy    | Generic Methods, Type Parameters, Type Safety             |
+| ✅ 03 | Java Static Initializer Block | 🟢 Easy    | Static Variables, Static Blocks, Class Initialization     |
+
+---
+
+## 🎯 Key Learnings
+
+- Learned how to create Generic Methods that work with multiple data types.
+- Understood how Generic Interfaces provide reusable and type-safe abstractions.
+- Practiced implementing Interfaces and providing implementations for abstract methods.
+- Understood how Bounded Type Parameters restrict the types accepted by Generics.
+- Learned how `<T extends Number>` can restrict a Generic Type to `Number` and its subclasses.
+- Understood the basics of unbounded, upper-bounded, and lower-bounded Wildcards.
+- Differentiated Generic Type Parameters from Wildcards.
+- Learned how Static Members belong to the class rather than individual objects.
+- Understood the difference between Static and Instance Members.
+- Learned how Static Nested Classes differ from regular Inner Classes.
+- Understood how Static Initialization Blocks execute when a class is loaded.
+- Learned the execution relationship between Static Blocks, Instance Members, and Constructors.
+- Strengthened understanding of the Java class and object lifecycle.
+
+---
+
+## 🛠️ Skills Practiced
+
+- Java
+- Generics
+- Generic Methods
+- Generic Interfaces
+- Type Parameters
+- Bounded Type Parameters
+- Wildcards
+- `<?>`
+- `<? extends T>`
+- `<? super T>`
+- Interfaces
+- Polymorphism
+- Static Variables
+- Static Methods
+- Static Nested Classes
+- Static Blocks
+- Instance Members
+- Class Loading
+- Object Lifecycle
+- Type Safety
+- Reusable Code
+- Problem Solving
+
+---
+
+## 📈 Progress
+
+- ✅ Generic Methods
+- ✅ Generic Interfaces
+- ✅ Bounded Type Parameters
+- ✅ Wildcard Basics
+- ✅ Upper-Bounded Wildcards
+- ✅ Lower-Bounded Wildcards
+- ✅ Static Variables
+- ✅ Static Methods
+- ✅ Static vs Instance Members
+- ✅ Static Nested Classes
+- ✅ Static Initialization Blocks
+- ✅ Member Lifecycle
+- ✅ Class Loading Basics
+- ✅ **3 / 3 HackerRank Problems Completed**
+
+### 🎉 Total HackerRank Problems: **3 / 3**
+
+---
+
+## 🚀 Outcome
+
+Successfully completed **Day 16 – Advanced Generics & Static Members**, strengthening my understanding of Java Generics and class-level members.
+
+The session covered **Generic Methods, Generic Interfaces, Bounded Type Parameters, Wildcards, Static Variables, Static Methods, Static Nested Classes, Static Blocks, and Member Lifecycle**.
+
+The HackerRank problems provided hands-on practice with **Interface Implementation, Generic Methods, and Static Initialization Blocks**, reinforcing how these concepts are applied in practical Java programs.
+
+This day further strengthened my ability to write **reusable, type-safe, and well-structured Java code** while developing a better understanding of how Java manages class-level and object-level members.
+
+---
+
+⭐ **Day 16 Completed Successfully!**
