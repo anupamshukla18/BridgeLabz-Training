@@ -2031,3 +2031,143 @@ This day further strengthened my ability to write **reusable, type-safe, and wel
 ---
 
 ⭐ **Day 16 Completed Successfully!**
+
+# 📅 Day 17 – Regular Expressions in Java
+
+## 📚 Topics Covered
+
+Today's focus was on understanding Regular Expressions in Java, including pattern formation, character classes, quantifiers, anchors, groups, and Java's `Pattern` and `Matcher` classes.
+
+### ✅ Forming Regular Expressions
+
+- Character Classes
+- Predefined Character Classes
+- Quantifiers
+- Anchors
+- Groups
+- Capturing Groups
+- Alternation using `|`
+- Combining Character Classes and Quantifiers
+- Building Regular Expressions for Validation
+
+### ✅ Regular Expression Classes
+
+- `Pattern` Class
+- `Matcher` Class
+- `Pattern.compile()`
+- `Matcher.find()`
+- Matching and Searching within Strings
+- Capturing Groups
+- Extracting Matched Groups
+
+### ✅ String Regex Methods
+
+- `matches()`
+- `replaceAll()`
+- `split()`
+- Difference between `matches()` and `find()`
+- Using Regular Expressions directly with String methods
+
+### ✅ Regex Validation Practice
+
+- Email Validation
+- Phone Number Validation
+- Password Strength Validation
+- Username Validation
+- IP Address Validation
+- Domain Name Detection
+
+---
+
+# 💻 HackerRank Problems Solved
+
+The attached Day 17 practice set contains **3 HackerRank problems** covering Character Classes, Quantifiers, Groups, and the `Pattern` / `Matcher` classes. :contentReference[oaicite:0]{index=0}
+
+| #     | Problem                           | Difficulty | Concepts                                               |
+| ----- | --------------------------------- | ---------- | ------------------------------------------------------ |
+| ✅ 01 | Valid Username Regular Expression | 🟢 Easy    | Character Classes, Anchors, Quantifiers                |
+| ✅ 02 | Java Regex                        | 🟡 Medium  | Character Classes, Quantifiers, Groups, Alternation    |
+| ✅ 03 | Detect the Domain Name            | 🔴 Hard    | `Pattern`, `Matcher.find()`, Groups, String Extraction |
+
+The practice set recommends solving the three problems sequentially, with the third problem focusing specifically on scanning larger text using `Matcher.find()` and extracting captured groups. :contentReference[oaicite:1]{index=1}
+
+---
+
+## 🎯 Key Learnings
+
+- Learned how to construct Regular Expressions using Character Classes, Quantifiers, Anchors, and Groups.
+- Understood how quantifiers control the number of characters matched.
+- Learned how anchors such as `^` and `$` control the beginning and end of a pattern.
+- Practiced grouping and alternation using `()` and `|`.
+- Learned how `Pattern.compile()` converts a Regular Expression into a reusable Pattern.
+- Understood how `Matcher` is used to search and process matches.
+- Learned the difference between `matches()` and `find()`.
+- Practiced extracting specific information using Capturing Groups.
+- Applied Regular Expressions to validation problems such as usernames, emails, phone numbers, passwords, and IP addresses.
+- Used Regular Expressions to detect and extract domain names from larger blocks of text.
+
+---
+
+## 🛠️ Skills Practiced
+
+- Java
+- Regular Expressions
+- Regex Pattern Building
+- Character Classes
+- Quantifiers
+- Anchors
+- Groups
+- Capturing Groups
+- Alternation
+- `Pattern`
+- `Matcher`
+- `Pattern.compile()`
+- `Matcher.find()`
+- `matches()`
+- `replaceAll()`
+- `split()`
+- String Validation
+- String Searching
+- Pattern Matching
+- Problem Solving
+
+---
+
+## 📈 Progress
+
+- ✅ Regular Expression Fundamentals
+- ✅ Character Classes
+- ✅ Quantifiers
+- ✅ Anchors
+- ✅ Groups
+- ✅ Capturing Groups
+- ✅ Alternation
+- ✅ `Pattern` Class
+- ✅ `Matcher` Class
+- ✅ `Matcher.find()`
+- ✅ `matches()`
+- ✅ `replaceAll()`
+- ✅ `split()`
+- ✅ Email Validation
+- ✅ Phone Number Validation
+- ✅ Password Strength Validation
+- ✅ Username Validation
+- ✅ IP Address Validation
+- ✅ Domain Name Detection
+- ✅ **3 / 3 HackerRank Problems Completed**
+
+### 🎉 Total HackerRank Problems: **3 / 3**
+
+---
+
+## 🚀 Outcome
+
+Successfully completed **Day 17 – Regular Expressions in Java**, strengthening my understanding of Regular Expression syntax and Java's Regex API.
+
+The session covered **Character Classes, Quantifiers, Anchors, Groups, `Pattern`, `Matcher`, `matches()`, `replaceAll()`, and `split()`**, along with practical validation patterns for emails, phone numbers, passwords, usernames, and IP addresses.
+
+The HackerRank practice provided hands-on experience with **Regex validation, complex IP address patterns, capturing groups, and `Matcher.find()` for extracting domain names from larger text blocks**.
+
+---
+
+⭐ **Day 17 Completed Successfully!**
